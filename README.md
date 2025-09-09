@@ -17,6 +17,7 @@
 | Nombre                            | Código     |
 | --------------------------------- | ---------- |
 | Gamarra Vega, Anderson Jose       | u202016154 |
+| Nanfuñay Liza, Pedro Jesús        | u202215462 |
 
 <p align="center"><strong>Ciclo 2025-02</strong></p>
 
@@ -70,6 +71,15 @@ Descripción:
 Mi nombre es Anderson Jose Gamarra Vega, tengo 25 años , estudiante de Ingeniería de Software. Desde siempre he sentido una gran pasión por la tecnología, pero me decanto especialmente por el desarrollo de software, pues me fascina aprender nuevos lenguajes de programación, diseñar soluciones digitales y afrontar retos mediante código. Esta inclinación hacia el software fue lo que me motivó a elegir esta carrera, y actualmente estoy profundizando en áreas como backend, arquitectura de software, metodologías agile.
 
 <img src="imgIntegrantes/anderson.jpg" alt="Anderson" title="Foto de Anderson" width="110"/>
+
+<br>
+
+- **Pedro Jesús Nanfuñay Liza:**
+
+**Descripción:** <br>
+Mi nombre es Pedro Jesús Nanfuñay Liza, tengo 20 años y soy estudiante de la carrera de Ingeniería de Software. Me considero una persona creativa, responsable, perseverante y siempre dispuesto a trabajar en equipo. Tengo conocimientos en varios lenguajes de programación como C++, Java y Python; en el desarrollo web con frameworks Angular y Primevue, y en base de datos relacionales y no relacionales como SQL y MongoDB. Espero aportar de manera positiva al equipo y cumplir con los objetivos establecidos.
+
+![PedroNanfuñay-Image-Profile](imgs/PedroNanfuñay-Image-Profile.jpg)
 
 ## 1.2. Solution Profile
 
