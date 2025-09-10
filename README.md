@@ -68,7 +68,9 @@
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-Descripción:
+- **Anderson Jose Gamarra Vega:**
+
+**Descripción:** <br>
 Mi nombre es Anderson Jose Gamarra Vega, tengo 25 años , estudiante de Ingeniería de Software. Desde siempre he sentido una gran pasión por la tecnología, pero me decanto especialmente por el desarrollo de software, pues me fascina aprender nuevos lenguajes de programación, diseñar soluciones digitales y afrontar retos mediante código. Esta inclinación hacia el software fue lo que me motivó a elegir esta carrera, y actualmente estoy profundizando en áreas como backend, arquitectura de software, metodologías agile.
 
 <img src="imgIntegrantes/anderson.jpg" alt="Anderson" title="Foto de Anderson" width="110"/>
