@@ -96,6 +96,12 @@ Tengo conocimientos en lenguajes de programación como Java y Python; en el desa
 
 ## 1.2. Solution Profile
 
+En esta sección se detallan los segmentos de descripición de nuestra solución de software, sus características de valor y las estrategias de monetización.
+
+**Product Name:**
+
+Optamos por el nombre Ñango porque proviene de la palabra quechua “ñan”, que significa camino, y “go”, que remite a la acción de ir o avanzar. Esta combinación transmite la esencia de la aplicación: facilitar el desplazamiento de los estudiantes de manera segura, práctica y colaborativa. El nombre refleja cercanía con la cultura peruana y, al mismo tiempo, proyecta modernidad y dinamismo, valores que nuestra plataforma busca ofrecer a sus usuarios.
+
 ### 1.2.1 Antecedentes y problemática
 
 ### 1.2.2 Lean UX Process.
