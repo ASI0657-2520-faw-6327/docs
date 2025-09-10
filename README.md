@@ -84,6 +84,16 @@ Mi nombre es Pedro Jesús Nanfuñay Liza, tengo 20 años y soy estudiante de la 
 
 ![PedroNanfuñay-Image-Profile](imgs/PedroNanfuñay-Image-Profile.jpg)
 
+<br>
+
+- **Vicente Quijandria Araneda:**
+
+**Descripción:** <br>
+Mi nombre es Vicente Quijandria Araneda, estudio la carrera de Ingeniería de Software en la UPC. Me gusta el fútbol, surf, buceo y la tecnología.
+Tengo conocimientos en lenguajes de programación como Java y Python; en el desarrollo web con frameworks React y Angular, y en base de datos relacionales y no relacionales como SQL y MongoDB. Soy una persona que siempre busca aprender nuevos conocimientos que me lleven a convertirme en un gran profesional y así poder cumplir mis metas cada día.
+
+![PedroNanfuñay-Image-Profile](imgs/vicente-quijandria.png)
+
 ## 1.2. Solution Profile
 
 ### 1.2.1 Antecedentes y problemática
