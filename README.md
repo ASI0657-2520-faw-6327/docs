@@ -64,11 +64,11 @@
 
 ## 1.1. Startup Profile
 
-### 1.1.1. Descripción de la Startup
-
 En esta sección se describen los detalles del problema que buscamos resolver.  
 Se detalla el perfil de la startup, el mercado objetivo, y se presentan la misión y visión.  
 Asimismo, se expone una visión atractiva del equipo, resaltando su potencial en función de las habilidades y capacidades de cada integrante.
+
+### 1.1.1. Descripción de la Startup
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
