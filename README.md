@@ -118,6 +118,37 @@ Actualmente, muchos estudiantes optan por alternativas riesgosas o costosas, lo 
 
 ## 1.3. Segmentos Objetivo
 
+### **Segmento 1: Estudiantes Conductores**
+
+Este segmento está compuesto por estudiantes universitarios que poseen un vehículo y buscan optimizar sus gastos de transporte.
+
+- **Características Demográficas:**
+  - **Edad:** 18 años a más.
+  - **Ubicación:** Zonas urbanas de Perú, principalmente Lima.
+  - **Nivel Educativo:** Estudiantes universitarios.
+
+---
+
+### **Segmento 2: Estudiantes Pasajeros**
+
+Son estudiantes que no tienen un vehículo propio y necesitan una alternativa de transporte segura y económica para sus traslados a la universidad.
+
+- **Características Demográficas:**
+  - **Edad:** 16 años a más.
+  - **Ubicación:** Zonas urbanas de Perú.
+  - **Nivel Educativo:** Estudiantes universitarios y de institutos superiores.
+
+---
+
+### **Segmento 3: Familiares de Estudiantes**
+
+Este segmento incluye a padres y apoderados de los estudiantes, quienes están preocupados por la seguridad y bienestar de sus hijos durante sus desplazamientos.
+
+- **Características Demográficas:**
+  - **Edad:** 35 - 60 años.
+  - **Ubicación:** Zonas urbanas.
+  - **Rol:** Padres o tutores de estudiantes universitarios.
+
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
