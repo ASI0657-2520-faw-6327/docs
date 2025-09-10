@@ -112,6 +112,72 @@ Actualmente, muchos estudiantes optan por alternativas riesgosas o costosas, lo 
 
 #### 1.2.2.2. Lean UX Assumptions
 
+**Business Assumptions:**
+
+1. Creemos que nuestros clientes necesitan una aplicación que les permita movilizarse de forma segura, confiable y económica, compartiendo viajes con otros estudiantes verificados.
+
+2. Estas necesidades pueden cubrirse mediante una aplicación que integre validación de usuarios, rutas seguras, y un sistema de reparto de gastos entre pasajeros.
+
+3. Nuestros clientes iniciales serán estudiantes universitarios que cuenten o no con vehículo propio, y que necesiten transportarse de manera segura.
+
+4. El valor más importante que se espera de nuestro servicio es la seguridad durante los traslados, seguida de la accesibilidad económica y confianza entre usuarios.
+
+5. Nuestros clientes también pueden obtener beneficios adicionales como la reducción de costos al compartir viajes, y mayor confianza y tranquilidad al trasladarse con compañeros verificados y seguimiento de su trayecto en tiempo real.
+
+6. Planeamos adquirir la mayoría de nuestros usuarios mediante campañas en redes sociales y eventos académicos.
+
+7. Nuestra competencia directa son los servicios de taxi tradicionales y aplicaciones de movilidad, pero estas no garantizan seguridad ni conexión exclusiva entre estudiantes.
+
+8. Superaremos a la competencia ofreciendo una comunidad cerrada de usuarios verificados, opciones de viaje compartido y evaluación de rutas seguras.
+
+9. El mayor riesgo de nuestro producto es la desconfianza inicial en el uso compartido del transporte con desconocidos.
+
+10. Este riesgo será mitigado mediante perfiles verificados, calificaciones por viaje y soporte de emergencia en la aplicación.
+
+11. La confianza en la plataforma aumentará con el tiempo gracias a la validación de usuarios y experiencias positivas.
+
+12. La satisfacción del cliente también se podrá mejorar mediante la integración de un sistema de soporte.
+
+
+**User Assumptions:**
+
+1. **¿Quién es el usuario?** <br>
+Estudiantes universitarios (como pasajeros o conductores) que necesitan trasladarse hacia sus instituciones educativas de forma segura y económica.
+
+2. **¿Dónde encaja nuestro producto en su vida?** <br>
+En su rutina diaria, cuando deben movilizarse a las clases universitarias, especialmente en horarios de alto riesgo.
+
+3. **¿Qué problemas tiene nuestro producto y cómo se pueden resolver?** <br>
+Al tratarse de un nuevo sistema, los usuarios podrían tener dudas sobre la seguridad y confiabilidad del servicio. Para resolverlo, se harán campañas informativas, se promoverán testimonios, y se establecerán protocolos de seguridad visibles desde el primer uso.
+
+4. **¿Cuándo y cómo es usado nuestro producto?** <br>
+ÑanGo será utilizado antes de clases para coordinar viajes, compartir rutas y gastos. La plataforma permitirá programar viajes con antelación y coordinar trayectos similares con compañeros.
+
+5. **¿Qué características son importantes?** <br>
+Verificación de identidad, calificación de usuarios, sistema de pago compartido, coordinar horarios de viajes y rutas seguras, y registro de detalle del trayecto.
+
+6. **¿Cómo debe verse nuestro producto y cómo debe comportarse?** <br>
+Debe tener una interfaz juvenil, amigable y confiable, con diseño intuitivo y botones de acción rápida. Debe responder con fluidez y ofrecer información clara sobre seguridad y confiabilidad del viaje.
+
+
+**Features:**
+
+- Visualización de rutas y horarios disponibles para facilitar la planificación de los viajes.
+
+- Notificaciones instantáneas sobre llegada, cancelaciones o cambios.
+
+- Sistema de verificación.
+
+- Administración eficiente de vehículos.
+
+- Chat interno entre usuarios verificados para coordinar viajes.
+
+- Calificaciones y comentarios entre pasajeros y conductores.
+
+- Historial de viajes y registro de gastos compartidos.
+
+- Soporte técnico constante y actualizaciones de sistema para mejorar el rendimiento y la seguridad.
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 #### 1.2.2.4. Lean UX Canvas
