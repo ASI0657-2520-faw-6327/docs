@@ -18,6 +18,7 @@
 | --------------------------------- | ---------- |
 | Gamarra Vega, Anderson Jose       | u202016154 |
 | Nanfuñay Liza, Pedro Jesús        | u202215462 |
+| Quijandria Araneda Vicente        | U201822697 |
 
 <p align="center"><strong>Ciclo 2025-02</strong></p>
 
