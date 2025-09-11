@@ -25,6 +25,10 @@
 
 # Registro de versiones del informe
 
+| Versión | Fecha | Autor | Descripción de Modificación |
+| ------- | ----- | ----- | --------------------------- |
+| TB1 | 06/09/2025 | TinkuyTech | Redación de los capítulos: <br> Capítulo I: Introducción <br> Capítulo II: Requirements  & Analysis <br> Capítulo III: Requirements Specification |
+
 # Student Outcomes
 
 ### [Capítulo I: Introducción](#capítulo-i-introducción)
