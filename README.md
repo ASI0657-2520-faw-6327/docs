@@ -133,6 +133,32 @@ Optamos por el nombre Ñango porque proviene de la palabra quechua “ñan”, q
 
 ### 1.2.1 Antecedentes y problemática
 
+En los últimos años, la situación del transporte en el Perú se ha visto marcada por altos niveles de inseguridad que afectan tanto a pasajeros como a conductores. Este contexto resulta especialmente delicado para los estudiantes universitarios, quienes suelen ser víctimas de robos y asaltos en los alrededores de sus centros de estudio. Asimismo, la presencia de transporte informal y la práctica de cobro de “cupos” a choferes limitan la disponibilidad de servicios confiables, generando incertidumbre y restringiendo la movilidad diaria.
+
+Frente a esta realidad, surge la necesidad de una alternativa tecnológica que garantice un traslado más seguro y accesible para los estudiantes. Es en este escenario que se plantea ÑanGo, una plataforma de movilidad compartida enfocada en la comunidad universitaria, la cual busca conectar a estudiantes con vehículo propio con aquellos que requieren transporte. Con esta solución, se busca optimizar costos, reducir riesgos asociados a la inseguridad y generar confianza a través de perfiles verificados y medidas de protección.
+
+Para analizar la problemática, se empleó la técnica de las 5 “W” y 2 “H”:
+
+**WHAT – ¿Cuál es el problema?**
+Los servicios de transporte actuales presentan deficiencias en términos de seguridad y confianza. Los estudiantes se enfrentan a delitos frecuentes como robos, asaltos y acoso, lo que genera un ambiente de vulnerabilidad. Existe una carencia de opciones que combinen economía y seguridad en los traslados hacia las universidades.
+
+**WHEN – ¿Cuándo ocurre el problema?**
+La problemática se presenta de forma cotidiana, sobre todo en horas punta, coincidiendo con los horarios de ingreso y salida de las universidades. Estos momentos de congestión son aprovechados por delincuentes en zonas cercanas a los centros educativos.
+
+**WHERE – ¿Dónde surge el problema y dónde se usa el producto?**
+El problema es más visible en las calles de Lima Metropolitana y otras ciudades universitarias donde predominan los taxis informales y la inseguridad. Los estudiantes podrán usar ÑanGo desde sus casas, universidades u otros espacios con conexión a internet, para coordinar viajes hacia sus centros de estudio y compartir rutas con compañeros de confianza.
+
+**WHO – ¿Quiénes están involucrados?**
+Los principales afectados son los estudiantes universitarios, aunque también se incluye a familiares que pueden actuar como choferes de confianza. Los usuarios de la plataforma serán tanto pasajeros que buscan un transporte seguro, como estudiantes que ofrecen sus vehículos para compartir gastos y mejorar la movilidad.
+
+**WHY – ¿Por qué ocurre el problema?**
+Las causas principales son la informalidad en el servicio de transporte, la falta de regulación eficiente y la limitada presencia de sistemas tecnológicos que garanticen la seguridad de los pasajeros. Además, los altos costos del transporte privado llevan a los estudiantes a optar por alternativas más riesgosas.
+
+**HOW – ¿Cómo se utiliza la solución?**
+ÑanGo será utilizada en situaciones de alta demanda de transporte, especialmente en horas punta. Los estudiantes coordinarán viajes compartidos, reducirán gastos al dividir costos y contarán con perfiles verificados que les brinden mayor confianza y seguridad en el servicio.
+
+**HOW MUCH – Sustento estadístico**
+De acuerdo con datos de la Policía Nacional del Perú y reportes del Ministerio del Interior, Lima Metropolitana registra elevados índices de robos y asaltos en el transporte público e informal. Estas cifras evidencian la urgencia de implementar soluciones seguras e innovadoras para la comunidad estudiantil, reforzando la necesidad de una plataforma como ÑanGo.
 ### 1.2.2 Lean UX Process.
 
 #### 1.2.2.1. Lean UX Problem Statements
