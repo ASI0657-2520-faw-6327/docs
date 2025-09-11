@@ -74,6 +74,20 @@ Asimismo, se expone una visión atractiva del equipo, resaltando su potencial en
 
 ### 1.1.1. Descripción de la Startup
 
+TinkuyTech es una startup peruana dedicada a fortalecer la seguridad en el transporte de los estudiantes. Nuestro producto principal, ÑanGo, es una aplicación web diseñada específicamente para la comunidad universitaria. A través de esta plataforma, los estudiantes que cuentan con movilidad propia pueden conectarse con quienes necesitan transporte hacia la universidad, facilitando la coordinación de rutas, el reparto de gastos y la optimización del tiempo de viaje. De esta forma, promovemos una alternativa más segura, accesible y eficiente para la vida estudiantil.
+
+La aplicación ofrece herramientas interactivas que permiten visualizar rutas compartidas, coordinar horarios, gestionar costos y acceder a los perfiles de conductores y pasajeros, generando confianza y transparencia. Al integrar estas funciones, ÑanGo se convierte en una solución práctica y confiable para estudiantes y familiares que priorizan seguridad y comodidad en sus traslados diarios.
+
+--- 
+Misión
+
+Nuestra misión es transformar la movilidad estudiantil en el Perú mediante una solución tecnológica que facilite el acceso a un transporte compartido, seguro, económico y solidario. Queremos impulsar la seguridad de los estudiantes y contribuir a un futuro más sostenible, conectado y confiable.
+
+--- 
+Visión
+
+Nuestra visión es consolidarnos como la startup referente en seguridad de transporte universitario en el Perú. Aspiramos a construir una comunidad donde los estudiantes puedan acceder de manera sencilla a un sistema de movilidad eficiente, confiable y colaborativo.
+
 ### 1.1.2. Perfiles de integrantes del equipo
 
 - **Anderson Jose Gamarra Vega:**
@@ -330,3 +344,5 @@ El User Task Matrix identifica las tareas que cada arquetipo debe realizar para 
 ### 3.3 Impact Map
 
 ### 3.4. Product Backlog
+
+
