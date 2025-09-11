@@ -225,6 +225,104 @@ Debe tener una interfaz juvenil, amigable y confiable, con diseño intuitivo y b
 
 ## 2.2. Entrevistas
 
+### 2.2.1 Diseño de Entrevistas
+
+#### Objetivos
+
+Recoger informacion sobre las necesidades , expectativas y posibles preocupaciones de los estudiantes y familiares que estarian interesados de ofrecer servicios de tranporte (como un taxi compartido).
+
+#### Preguntas
+
+#### Estudiante con vehiculo
+
+##### Datos basicos
+
+- ¿Nombre,Edad y carrera?
+- ¿Conduces a la universidad? ¿Con qué frecuencia?
+
+##### Transporte compartido
+
+- ¿Has pensado en llevar a otros estudiantes?
+- ¿Te incomodaría compartir tu auto? ¿Por qué?
+
+##### Sobre la app
+
+- ¿Qué funciones te parecen esenciales?
+- ¿Qué medidas de seguridad te darían confianza?
+- ¿Aceptarías compartir tu ruta o horario?
+- ¿Preferirías elegir a los pasajeros o que sea automático?
+- ¿Qué tipo de pago prefieres?
+
+##### Cierre
+
+- ¿Probarías la app cuando este disponible?
+- ¿Te gustaría participar en futuras pruebas?
+
+#### Estudiante sin vehiculo
+
+##### Datos básicos
+
+- ¿Edad y carrera?
+- ¿Cómo llegas a la universidad normalmente?
+- ¿Cuánto te toma el trayecto?
+
+##### Interés en el servicio
+
+- ¿Te interesaría usar un servicio de transporte compartido con otros estudiantes?
+- ¿Qué te haría sentir más seguro al usarlo?
+
+##### Sobre la app
+
+- ¿Qué funciones te gustaría que tenga?
+- ¿Qué tipo de pago preferirías?
+- ¿Preferirías elegir al conductor o que sea automático?
+
+##### Cierre
+
+- ¿Probarías la app cuando este disponible?
+- ¿Te gustaría participar en futuras encuestas o pruebas?
+
+### 2.2.2 Registro de Entrevistas
+
+**Entrevistas para el Segmento Objetivo 2 - Estudiante sin vehículo:**
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>1</td>
+    <th>Nombre</th>
+    <td>Álvaro Urbina</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>21</td>
+    <th>Distrito</th>
+    <td>Comas</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="imgs/Entrevista1-SegmentoObjetivo2.PNG" alt="Captura de la entrevista 1 - Segmento Objetivo 2" width="500"></th>
+    <td colspan="3">
+        Álvaro Urbina es un estudiante universitario de 21 años que estudia la carrera de Ingeniería Ambiental en la Universidad Nacional Tecnológica del Sur. ÉL nos comenta su proceso de transporte hacia su centro de estudios conformado por transportes informales y formales con un tiempo aproximado de 3 horas. Considera que una aplicación con servicio de transporte compartido con otros estudiantes es conveniente para él para llegar más rápido a su centro de estudios y conocer a más estudiantes. Además, sugiere la implementación de funciones de seguridad para poder compartir su ubicación y ruta de viaje asignado con algún familiar o apoderado para sentirse más tranquilo. Así mismo, prefiere realizar los pagos por servicios como Yape por su practicidad; y prefiere que el sistema eliga a los conductores automáticamente para conocer nuevas personas. En conclusión, Alvaro considera que le resulta interesante el servicio de transporte compartido que ofrece Ñango para transportarse a su centro de estudios y está dispuesto a colaborar en futuras pruebas y encuestas de la misma.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215462_upc_edu_pe/EYC-VVwDoY9Orw2tatR9QxQB11ebyRm_vkseBp2bTElU-w?e=X5KQgN&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+        https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215462_upc_edu_pe/EYC-VVwDoY9Orw2tatR9QxQB11ebyRm_vkseBp2bTElU-w?e=X5KQgN&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+        00:00 - 3:55
+    </td>
+  </tr>
+</table>
+
+### 2.2.3. Análisis de entrevistas
+
 ## 2.3. Needfinding
 
 ### 2.3.1. User Persons
