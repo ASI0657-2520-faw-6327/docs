@@ -209,6 +209,16 @@ Debe tener una interfaz juvenil, amigable y confiable, con diseño intuitivo y b
 
 ### 2.3.5. As-is Scenario Mapping
 
+### Estudiante pasajero
+![Estudiante pasajero](imgs/as-is-estudiante.png)
+
+### Estudiante conductor
+![Estudiante conductor](imgs/as-is-estudiante-conductor.png)
+
+### Familiar de estudiante
+![Familiar de estudiante](imgs/as-is-familiar.png)
+
+
 # Capítulo III: Requirements Specification
 
 ### 3.1. To-be Scenario Mapping
