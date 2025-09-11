@@ -201,6 +201,8 @@ Debe tener una interfaz juvenil, amigable y confiable, con diseño intuitivo y b
 
 #### 1.2.2.4. Lean UX Canvas
 
+![lean-ux-canvas](/imgs/lean-ux-canvas.jpg)
+
 ## 1.3. Segmentos Objetivo
 
 # Capítulo II: Requirements Elicitation & Analysis
