@@ -213,6 +213,15 @@ Debe tener una interfaz juvenil, amigable y confiable, con diseño intuitivo y b
 
 ### 3.1. To-be Scenario Mapping
 
+### Estudiante pasajero
+![Estudiante pasajero](imgs/to-be-estudiante.png)
+
+### Estudiante conductor
+![Estudiante conductor](imgs/to-be-estudiante-conductor.png)
+
+### Familiar de estudiante
+![Familiar de estudiante](imgs/to-be-familiar.png)
+
 ### 3.2 User Stories
 
 ### 3.3 Impact Map
