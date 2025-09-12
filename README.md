@@ -138,17 +138,6 @@ Son estudiantes que no tienen un vehículo propio y necesitan una alternativa de
   - **Ubicación:** Zonas urbanas de Perú.
   - **Nivel Educativo:** Estudiantes universitarios y de institutos superiores.
 
----
-
-### **Segmento 3: Familiares de Estudiantes**
-
-Este segmento incluye a padres y apoderados de los estudiantes, quienes están preocupados por la seguridad y bienestar de sus hijos durante sus desplazamientos.
-
-- **Características Demográficas:**
-  - **Edad:** 35 - 60 años.
-  - **Ubicación:** Zonas urbanas.
-  - **Rol:** Padres o tutores de estudiantes universitarios.
-
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
