@@ -284,6 +284,49 @@ Recoger informacion sobre las necesidades , expectativas y posibles preocupacion
 
 ### 2.2.2 Registro de Entrevistas
 
+**Entrevistas para el Segmento Objetivo 1 - Estudiante con vehículo:**
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>2</td>
+    <th>Nombre</th>
+    <td>Ariana Martinez</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>24</td>
+    <th>Distrito</th>
+    <td>Santiago de Surco, Lima</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista:
+      <img src="imgs/interviewimage.samuelconvehiculo.png"
+           alt="Captura de la entrevista 2 - Ariana Martinez"
+           width="500">
+    </th>
+    <td colspan="3">
+      Ariana es una estudiante universitaria de la UPC, propietaria de un vehículo privado,
+      que se desplaza frecuentemente desde su casa hasta la universidad.  
+      Ella considera que compartir su vehículo con otros estudiantes es una buena idea para reducir los costos de transporte y hacer nuevas amistades.
+      Sin embargo, tiene preocupaciones sobre la seguridad personal y la verificación de identidad,
+      por lo que considera importante que una plataforma como la nuestra presente medidas de seguridad estrictas que verifiquen la identidad de cada pasajero y conductor.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111952_upc_edu_pe/EZd3GcGkxvNDl_7tiJOaSZEBrANwpg_4jDmEdm1lr_EfXA?e=IZMgVf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+        Link a la entrevista
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <th>Timing</th>
+    <td colspan="3">00:00 – fin</td>
+  </tr>
+</table>
+
 **Entrevistas para el Segmento Objetivo 2 - Estudiante sin vehículo:**
 
 <table border="1">
