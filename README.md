@@ -74,20 +74,6 @@ Asimismo, se expone una visión atractiva del equipo, resaltando su potencial en
 
 ### 1.1.1. Descripción de la Startup
 
-TinkuyTech es una startup peruana dedicada a fortalecer la seguridad en el transporte de los estudiantes. Nuestro producto principal, ÑanGo, es una aplicación web diseñada específicamente para la comunidad universitaria. A través de esta plataforma, los estudiantes que cuentan con movilidad propia pueden conectarse con quienes necesitan transporte hacia la universidad, facilitando la coordinación de rutas, el reparto de gastos y la optimización del tiempo de viaje. De esta forma, promovemos una alternativa más segura, accesible y eficiente para la vida estudiantil.
-
-La aplicación ofrece herramientas interactivas que permiten visualizar rutas compartidas, coordinar horarios, gestionar costos y acceder a los perfiles de conductores y pasajeros, generando confianza y transparencia. Al integrar estas funciones, ÑanGo se convierte en una solución práctica y confiable para estudiantes y familiares que priorizan seguridad y comodidad en sus traslados diarios.
-
---- 
-Misión
-
-Nuestra misión es transformar la movilidad estudiantil en el Perú mediante una solución tecnológica que facilite el acceso a un transporte compartido, seguro, económico y solidario. Queremos impulsar la seguridad de los estudiantes y contribuir a un futuro más sostenible, conectado y confiable.
-
---- 
-Visión
-
-Nuestra visión es consolidarnos como la startup referente en seguridad de transporte universitario en el Perú. Aspiramos a construir una comunidad donde los estudiantes puedan acceder de manera sencilla a un sistema de movilidad eficiente, confiable y colaborativo.
-
 ### 1.1.2. Perfiles de integrantes del equipo
 
 - **Anderson Jose Gamarra Vega:**
@@ -114,6 +100,15 @@ Mi nombre es Vicente Quijandria Araneda, estudio la carrera de Ingeniería de So
 Tengo conocimientos en lenguajes de programación como Java y Python; en el desarrollo web con frameworks React y Angular, y en base de datos relacionales y no relacionales como SQL y MongoDB. Soy una persona que siempre busca aprender nuevos conocimientos que me lleven a convertirme en un gran profesional y así poder cumplir mis metas cada día.
 
 ![PedroNanfuñay-Image-Profile](imgs/vicente-quijandria.png)
+
+- **Samuel Ignacio Valera Garces:**
+
+**Descripción:** <br>
+Hola, mi nombre es Samuel, estudiante de la carrera de Ingeniería de software. Me considero una persona responsable, empática y con adaptación rápida al trabajo en equipo. Cuento con conocimiento en diversos lenguajes de programación. Mi objetivo a futuro es utilizar la tecnología para el desarrollo de aplicaciones que necesite la sociedad en el día a día. En mis tiempos libres, me gusta practicar guitarra y leer.
+
+![ValeraSamuel-Image-Profile](imgs/Valera_Samuel (1).png)
+git clean -n
+<br>
 
 ## 1.2. Solution Profile
 
@@ -201,21 +196,7 @@ Debe tener una interfaz juvenil, amigable y confiable, con diseño intuitivo y b
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-- Creemos que los estudiantes podrán optimizar su tiempo y reducir costos de transporte si se implementa una funcionalidad que les permita coordinar viajes en grupo hacia la universidad a través de una plataforma que les conecte con otros estudiantes de su misma universidad. Sabremos que hemos tenido éxito cuando el 30% de los estudiantes utilicen regularmente la plataforma para coordinar viajes y que el 25% reporte una disminución en sus gastos de transporte mensual.
-
-- Creemos que los estudiantes reducirán su huella de carbono y contribuirán a la sostenibilidad si proporcionamos una opción fácil de coordinar viajes en vehículos compartidos, disminuyendo el número de autos individuales en las rutas comunes hacia las universidades. Sabremos que hemos tenido éxito cuando el 20% de los estudiantes reporten que han preferido la opción de compartir vehículo por encima de usar transporte público o privado.
-
-- Creemos que los estudiantes podrán mejorar la accesibilidad y seguridad en sus traslados si ofrecemos un sistema de calificación y seguimiento de viajes compartidos, lo que proporcionará mayor confianza y control. Sabremos que hemos tenido éxito cuando al menos el 15% de los usuarios reporten mayor confianza y comodidad al utilizar la plataforma, y que el 20% mencionen que el sistema de calificación ha mejorado su experiencia de viaje.
-
-- Creemos que los estudiantes estarán más dispuestos a utilizar la plataforma si esta ofrece perfiles verificados y filtros de coincidencia por universidad o facultad. Sabremos que hemos tenido éxito cuando al menos el 60 % de los usuarios activen la verificación de identidad y el 70 % prefiera viajar con contactos verificados de su misma institución.
-
-- Creemos que la adopción aumentará si se integra un sistema de notificaciones para viajes programados. Sabremos que hemos tenido éxito cuando el 80 % de los trayectos se confirmen con más de 6 horas de anticipación y se reduzca en un 30 % la tasa de cancelaciones de último minuto.
-
-- Creemos que la plataforma será más atractiva si permite compartir gastos automáticamente mediante pagos digitales entre los pasajeros. Sabremos que hemos tenido éxito cuando al menos el 50 % de los viajes registrados utilicen el sistema de pago integrado y el 85 % de los usuarios lo califiquen como fácil y seguro.
-
 #### 1.2.2.4. Lean UX Canvas
-
-![lean-ux-canvas](/imgs/lean-ux-canvas.jpg)
 
 ## 1.3. Segmentos Objetivo
 
@@ -225,90 +206,153 @@ Debe tener una interfaz juvenil, amigable y confiable, con diseño intuitivo y b
 
 ## 2.2. Entrevistas
 
+### 2.2.1 Diseño de Entrevistas
+
+#### Objetivos
+
+Recoger informacion sobre las necesidades , expectativas y posibles preocupaciones de los estudiantes y familiares que estarian interesados de ofrecer servicios de tranporte (como un taxi compartido).
+
+#### Preguntas
+
+#### Estudiante con vehiculo
+
+##### Datos basicos
+
+- ¿Nombre,Edad y carrera?
+- ¿Conduces a la universidad? ¿Con qué frecuencia?
+
+##### Transporte compartido
+
+- ¿Has pensado en llevar a otros estudiantes?
+- ¿Te incomodaría compartir tu auto? ¿Por qué?
+
+##### Sobre la app
+
+- ¿Qué funciones te parecen esenciales?
+- ¿Qué medidas de seguridad te darían confianza?
+- ¿Aceptarías compartir tu ruta o horario?
+- ¿Preferirías elegir a los pasajeros o que sea automático?
+- ¿Qué tipo de pago prefieres?
+
+##### Cierre
+
+- ¿Probarías la app cuando este disponible?
+- ¿Te gustaría participar en futuras pruebas?
+
+#### Estudiante sin vehiculo
+
+##### Datos básicos
+
+- ¿Edad y carrera?
+- ¿Cómo llegas a la universidad normalmente?
+- ¿Cuánto te toma el trayecto?
+
+##### Interés en el servicio
+
+- ¿Te interesaría usar un servicio de transporte compartido con otros estudiantes?
+- ¿Qué te haría sentir más seguro al usarlo?
+
+##### Sobre la app
+
+- ¿Qué funciones te gustaría que tenga?
+- ¿Qué tipo de pago preferirías?
+- ¿Preferirías elegir al conductor o que sea automático?
+
+##### Cierre
+
+- ¿Probarías la app cuando este disponible?
+- ¿Te gustaría participar en futuras encuestas o pruebas?
+
+### 2.2.2 Registro de Entrevistas
+
+**Entrevistas para el Segmento Objetivo 1 - Estudiante con vehículo:**
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>2</td>
+    <th>Nombre</th>
+    <td>Ariana Martinez</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>24</td>
+    <th>Distrito</th>
+    <td>Santiago de Surco, Lima</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista:
+      <img src="imgs/interviewimage.samuelconvehiculo.png"
+           alt="Captura de la entrevista 2 - Ariana Martinez"
+           width="500">
+    </th>
+    <td colspan="3">
+      Ariana es una estudiante universitaria de la UPC, propietaria de un vehículo privado,
+      que se desplaza frecuentemente desde su casa hasta la universidad.  
+      Ella considera que compartir su vehículo con otros estudiantes es una buena idea para reducir los costos de transporte y hacer nuevas amistades.
+      Sin embargo, tiene preocupaciones sobre la seguridad personal y la verificación de identidad,
+      por lo que considera importante que una plataforma como la nuestra presente medidas de seguridad estrictas que verifiquen la identidad de cada pasajero y conductor.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111952_upc_edu_pe/EZd3GcGkxvNDl_7tiJOaSZEBrANwpg_4jDmEdm1lr_EfXA?e=IZMgVf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+        Link a la entrevista
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <th>Timing</th>
+    <td colspan="3">00:00 – fin</td>
+  </tr>
+</table>
+
+
+**Entrevistas para el Segmento Objetivo 2 - Estudiante sin vehículo:**
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>1</td>
+    <th>Nombre</th>
+    <td>Álvaro Urbina</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>21</td>
+    <th>Distrito</th>
+    <td>Comas</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="imgs/Entrevista1-SegmentoObjetivo2.PNG" alt="Captura de la entrevista 1 - Segmento Objetivo 2" width="500"></th>
+    <td colspan="3">
+        Álvaro Urbina es un estudiante universitario de 21 años que estudia la carrera de Ingeniería Ambiental en la Universidad Nacional Tecnológica del Sur. ÉL nos comenta su proceso de transporte hacia su centro de estudios conformado por transportes informales y formales con un tiempo aproximado de 3 horas. Considera que una aplicación con servicio de transporte compartido con otros estudiantes es conveniente para él para llegar más rápido a su centro de estudios y conocer a más estudiantes. Además, sugiere la implementación de funciones de seguridad para poder compartir su ubicación y ruta de viaje asignado con algún familiar o apoderado para sentirse más tranquilo. Así mismo, prefiere realizar los pagos por servicios como Yape por su practicidad; y prefiere que el sistema eliga a los conductores automáticamente para conocer nuevas personas. En conclusión, Alvaro considera que le resulta interesante el servicio de transporte compartido que ofrece Ñango para transportarse a su centro de estudios y está dispuesto a colaborar en futuras pruebas y encuestas de la misma.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215462_upc_edu_pe/EYC-VVwDoY9Orw2tatR9QxQB11ebyRm_vkseBp2bTElU-w?e=X5KQgN&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+        https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215462_upc_edu_pe/EYC-VVwDoY9Orw2tatR9QxQB11ebyRm_vkseBp2bTElU-w?e=X5KQgN&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+        00:00 - 3:55
+    </td>
+  </tr>
+</table>
+
+### 2.2.3. Análisis de entrevistas
+
 ## 2.3. Needfinding
 
 ### 2.3.1. User Persons
 
 ### 2.3.2. User Task Matrix
-
-El User Task Matrix identifica las tareas que cada arquetipo debe realizar para alcanzar sus objetivos, sin confundir actividades o funcionalidades específicas de la aplicación. Se consideran la frecuencia y la importancia de cada tarea para cada User Persona.
-
-#### Table
-
-<table border="1" cellspacing="0" cellpadding="5">
-<thead>
-<tr>
-<th rowspan="2">Tarea / Actividad</th>
-<th colspan="2">Estudiante-Conductor</th>
-<th colspan="2">Estudiante-Pasajero</th>
-<th colspan="2">Familiar-Conductor</th>
-</tr>
-<tr>
-<th>Frec.</th>
-<th>Importancia</th>
-<th>Frec.</th>
-<th>Importancia</th>
-<th>Frec.</th>
-<th>Importancia</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Buscar rutas disponibles</td>
-<td>Alta</td>
-<td>Alta</td>
-<td>Alta</td>
-<td>Alta</td>
-<td>Media</td>
-<td>Media</td>
-</tr>
-<tr>
-<td>Publicar disponibilidad de viaje</td>
-<td>Alta</td>
-<td>Alta</td>
-<td>-</td>
-<td>-</td>
-<td>Alta</td>
-<td>Alta</td>
-</tr>
-<tr>
-<td>Coordinar horarios y puntos de encuentro</td>
-<td>Alta</td>
-<td>Alta</td>
-<td>Alta</td>
-<td>Alta</td>
-<td>Alta</td>
-<td>Alta</td>
-</tr>
-<tr>
-<td>Confirmar reserva o viaje</td>
-<td>Media</td>
-<td>Alta</td>
-<td>Alta</td>
-<td>Alta</td>
-<td>Media</td>
-<td>Media</td>
-</tr>
-<tr>
-<td>Revisar y gestionar perfiles/rese&ntilde;as</td>
-<td>Media</td>
-<td>Alta</td>
-<td>Alta</td>
-<td>Alta</td>
-<td>Alta</td>
-<td>Alta</td>
-</tr>
-<tr>
-<td>Compartir detalles del trayecto</td>
-<td>Alta</td>
-<td>Media</td>
-<td>Media</td>
-<td>Alta</td>
-<td>Media</td>
-<td>Meida</td>
-</tr>
-</tbody>
-</table>
 
 ### 2.3.3 User Journey Mapping
 
@@ -344,5 +388,3 @@ El User Task Matrix identifica las tareas que cada arquetipo debe realizar para 
 ### 3.3 Impact Map
 
 ### 3.4. Product Backlog
-
-
