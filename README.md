@@ -229,6 +229,16 @@ Debe tener una interfaz juvenil, amigable y confiable, con diseño intuitivo y b
 
 ### 2.3.1. User Persons
 
+![Estudiante](./imgs/ana-guevara-estudiante.png)
+
+#### Estudiante conductor
+
+![Estudiante conductor](./imgs/carlos-estudiante-conductor.png)
+
+#### Familiar de estudiante
+
+![Familiar de estudiante](./imgs/javier-familiar-conductor.png)
+
 ### 2.3.2. User Task Matrix
 
 El User Task Matrix identifica las tareas que cada arquetipo debe realizar para alcanzar sus objetivos, sin confundir actividades o funcionalidades específicas de la aplicación. Se consideran la frecuencia y la importancia de cada tarea para cada User Persona.
