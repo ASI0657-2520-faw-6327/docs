@@ -314,6 +314,14 @@ El User Task Matrix identifica las tareas que cada arquetipo debe realizar para 
 
 ### 2.3.4. Empathy Mapping
 
+**Estudiante Conductor:** <br>
+![EmpathyMapping-Segmento1](imgs/EmpathyMapping-Segmento1.png)
+
+<br>
+
+**Estudiante Pasajero:** <br>
+![EmpathyMapping-Segmento2](imgs/EmpathyMapping-Segmento2.png)
+
 ### 2.3.5. As-is Scenario Mapping
 
 ### Estudiante pasajero
