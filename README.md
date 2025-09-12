@@ -265,6 +265,67 @@ Debe tener una interfaz juvenil, amigable y confiable, con diseño intuitivo y b
 | US24 | Notificaciones de demanda | Como conductor, quiero recibir alertas sobre zonas y horarios con alta demanda de transporte, para poder ajustar mis viajes y atender la necesidad de los estudiantes. | Scenario 1: Recibir alerta de alta demanda <br> Dado que el conductor ha indicado disponibilidad en ciertos horarios, Cuando hay alta demanda en esa zona y horario, Entonces el sistema envía una notificación al conductor. <br> <br> Scenario 2: No recibir alerta sin disponibilidad <br> Dado que el conductor no tiene viajes programados, Cuando hay alta demanda en una zona, Entonces el sistema no envía ninguna alerta. | EP17 |
 | US25 | Reporte de incidentes | Como estudiante, quiero reportar incidentes relacionados con conductores o pasajeros, para contribuir a la seguridad del sistema. | Scenario 1: Reportar un incidente <br> Dado que el familiar ha tenido una experiencia negativa, Cuando accede a la opción de reporte, Entonces puede seleccionar el motivo del incidente, describirlo y enviarlo al sistema. <br> <br> Scenario 2: Confirmación de envío <br> Dado que el familiar ha completado el reporte, Cuando lo envía, Entonces el sistema confirma que el incidente ha sido registrado correctamente. | EP06 |
 
+## Technical Stories
+
+### Endpoint de Registro de Usuario
+
+| Campo | Detalle |
+|-------|---------|
+| **Épica** | Microservicio – Autenticación |
+| **ID-TS** | TS01 |
+| **Título TS** | Endpoint para registro de usuario |
+| **Descripción TS** | Como Developer, necesito implementar un endpoint que permita a los estudiantes registrarse con datos institucionales, almacenando la información de forma segura en la base de datos. |
+| **Criterios de Aceptación (Gherkin)** | **Scenario 1: Registro exitoso**<br>Dado que se recibe una request POST a `/api/auth/register` con datos válidos,<br>Cuando el correo es institucional, la contraseña cumple con las políticas de seguridad y el nombre está completo,<br>Entonces el sistema responde con código **201** y confirma el registro.<br><br>**Scenario 2: Registro inválido**<br>Dado que se recibe una request POST a `/api/auth/register`,<br>Cuando falta algún campo obligatorio o el correo no es institucional,<br>Entonces el sistema responde con código **400** y un mensaje de error. |
+
+---
+
+### Endpoint de Login
+
+| Campo | Detalle |
+|-------|---------|
+| **Épica** | Microservicio – Autenticación |
+| **ID-TS** | TS02 |
+| **Título TS** | Endpoint para inicio de sesión |
+| **Descripción TS** | Como Developer, necesito habilitar un endpoint de login que permita a los usuarios autenticarse y recibir un token JWT para acceder a los demás servicios. |
+| **Criterios de Aceptación (Gherkin)** | **Scenario 1: Login válido**<br>Dado que se recibe una request POST a `/api/auth/login` con credenciales correctas,<br>Cuando las credenciales corresponden a un usuario registrado,<br>Entonces el sistema responde con código **200** y un token JWT válido.<br><br>**Scenario 2: Login inválido**<br>Dado que se recibe una request POST a `/api/auth/login`,<br>Cuando el correo o la contraseña no coinciden,<br>Entonces el sistema responde con código **401** y un mensaje de error. |
+
+---
+
+### Endpoint para publicar viaje
+
+| Campo | Detalle |
+|-------|---------|
+| **Épica** | Microservicio – Gestión de Viajes |
+| **ID-TS** | TS03 |
+| **Título TS** | Endpoint para publicar un viaje |
+| **Descripción TS** | Como Developer, necesito crear un endpoint que permita a los conductores publicar un viaje indicando ruta, hora, cupos y costo. |
+| **Criterios de Aceptación (Gherkin)** | **Scenario 1: Publicación exitosa**<br>Dado que el conductor está autenticado,<br>Cuando envía una request POST a `/api/trips` con información válida,<br>Entonces el sistema almacena el viaje y responde con código **201**.<br><br>**Scenario 2: Publicación inválida**<br>Dado que se recibe una request POST a `/api/trips`,<br>Cuando falta algún campo obligatorio (ej. ruta, fecha, cupos),<br>Entonces el sistema responde con código **400**. |
+
+---
+
+### Endpoint para solicitar unirse a un viaje
+
+| Campo | Detalle |
+|-------|---------|
+| **Épica** | Microservicio – Gestión de Viajes |
+| **ID-TS** | TS04 |
+| **Título TS** | Endpoint para solicitar unirse a un viaje |
+| **Descripción TS** | Como Developer, necesito permitir que los pasajeros envíen solicitudes para unirse a un viaje previamente publicado. |
+| **Criterios de Aceptación (Gherkin)** | **Scenario 1: Solicitud enviada con éxito**<br>Dado que el pasajero está autenticado,<br>Cuando envía una request POST a `/api/trips/{trip_id}/join`,<br>Entonces el sistema registra la solicitud y responde con código **200**.<br><br>**Scenario 2: Solicitud duplicada**<br>Dado que el pasajero ya solicitó unirse a ese viaje,<br>Entonces el sistema responde con código **409** y un mensaje de error. |
+
+---
+
+### Endpoint de Validación de Identidad Estudiantil
+
+| Campo | Detalle |
+|-------|---------|
+| **Épica** | Microservicio – Validación de Identidad |
+| **ID-TS** | TS05 |
+| **Título TS** | Validación de ID universitario |
+| **Descripción TS** | Como Developer, necesito implementar la integración con un servicio externo que valide la autenticidad del carné universitario para garantizar que los usuarios pertenecen a una institución educativa. |
+| **Criterios de Aceptación (Gherkin)** | **Scenario 1: Validación exitosa**<br>Dado que se recibe una request POST a `/api/identity/validate` con la imagen del carné,<br>Cuando el servicio externo confirma que el documento es válido,<br>Entonces el sistema responde con código **200** y `{ "valid": true, "institution": "Universidad X" }`.<br><br>**Scenario 2: Validación fallida**<br>Dado que el documento es ilegible o no válido,<br>Entonces el sistema responde con código **400** y `{ "valid": false, "error": "Documento no válido" }`. |
+
+
 ### 3.3 Impact Map
 
 ### 3.4. Product Backlog
