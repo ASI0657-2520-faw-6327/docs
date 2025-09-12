@@ -343,6 +343,8 @@ El User Task Matrix identifica las tareas que cada arquetipo debe realizar para 
 
 ### 3.3 Impact Map
 
+![Impact Map](imgs/Impact_map.png)
+
 ### 3.4. Product Backlog
 
 
