@@ -106,7 +106,7 @@ Tengo conocimientos en lenguajes de programación como Java y Python; en el desa
 **Descripción:** <br>
 Hola, mi nombre es Samuel, estudiante de la carrera de Ingeniería de software. Me considero una persona responsable, empática y con adaptación rápida al trabajo en equipo. Cuento con conocimiento en diversos lenguajes de programación. Mi objetivo a futuro es utilizar la tecnología para el desarrollo de aplicaciones que necesite la sociedad en el día a día. En mis tiempos libres, me gusta practicar guitarra y leer.
 
-![ValeraSamuel-Image-Profile](imgs/Valera_Samuel (1).png)
+![ValeraSamuel-Image-Profile](imgs/valera-samuel.png)
 
 ## 1.2. Solution Profile
 
