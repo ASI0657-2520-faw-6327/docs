@@ -19,6 +19,7 @@
 | Gamarra Vega, Anderson Jose       | u202016154 |
 | Nanfuñay Liza, Pedro Jesús        | u202215462 |
 | Quijandria Araneda Vicente        | U201822697 |
+| Hallasi Saravia, Miguel Angel     | U202312391 |
 
 <p align="center"><strong>Ciclo 2025-02</strong></p>
 
@@ -122,6 +123,13 @@ Tengo conocimientos en lenguajes de programación como Java y Python; en el desa
 Hola, mi nombre es Samuel, estudiante de la carrera de Ingeniería de software. Me considero una persona responsable, empática y con adaptación rápida al trabajo en equipo. Cuento con conocimiento en diversos lenguajes de programación. Mi objetivo a futuro es utilizar la tecnología para el desarrollo de aplicaciones que necesite la sociedad en el día a día. En mis tiempos libres, me gusta practicar guitarra y leer.
 
 ![ValeraSamuel-Image-Profile](imgs/valera-samuel.png)
+
+- **Miguel Hallasi Saravia:**
+
+**Descripción:** <br>
+Soy Miguel Hallasi, estudiante del sexto ciclo de la carrera de Ingeniería de Software. Me gusta el aprendizaje continuo y adquirir nuevas experiencias.
+
+<img src="imgs/m-hallasi.png" alt="MiguelHallasi-Image-Profile" width="200">
 
 ## 1.2. Solution Profile
 
