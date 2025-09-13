@@ -20,6 +20,7 @@
 | Nanfuñay Liza, Pedro Jesús        | u202215462 |
 | Quijandria Araneda Vicente        | U201822697 |
 | Hallasi Saravia, Miguel Angel     | U202312391 |
+| Valera Garcés, Samuel Ignacio     | U202111952 |
 
 <p align="center"><strong>Ciclo 2025-02</strong></p>
 
