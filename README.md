@@ -702,4 +702,38 @@ El User Task Matrix identifica las tareas que cada arquetipo debe realizar para 
 
 ### 3.4. Product Backlog
 
+| #Orden | User Story ID | Título                                      | Descripción                                                                | Story Points |
+| -----: | ------------- | ------------------------------------------- | -------------------------------------------------------------------------- | -----------: |
+|      1 | TS01          | Endpoint para registro de usuario           | POST /api/auth/register para crear cuentas con validación institucional.   |            3 |
+|      2 | TS02          | Endpoint para inicio de sesión              | POST /api/auth/login para autenticar y devolver JWT.                       |            2 |
+|      3 | US01          | Registro de nueva cuenta                    | Crear cuenta con datos válidos y envío de verificación.                    |            5 |
+|      4 | US03          | Inicio de sesión                            | Autenticación y redirección a la pantalla principal (recordarme opcional). |            3 |
+|      5 | US04          | Cierre de sesión                            | Cerrar sesión y volver a inicio; manejo de error por red.                  |            2 |
+|      6 | US02          | Recuperación de contraseña                  | Enviar enlace y restablecer contraseña; validar correos registrados.       |            3 |
+|      7 | US07          | Cambiar contraseña                          | Actualizar contraseña autenticado; validar contraseña actual.              |            3 |
+|      8 | US05          | Edición de perfil                           | Editar nombre, email, celular, plan y foto con validaciones.               |            5 |
+|      9 | US08          | Verificación con DNI y Carnet               | Subir y validar documentos para acceso completo.                           |            8 |
+|     10 | TS05          | Validación de ID universitario              | Integración externa para validar carné; responde {valid, institution}.     |            8 |
+|     11 | US17          | Registro como conductor                     | Alta de conductor con datos personales, vehículo y licencia.               |            5 |
+|     12 | US18          | Verificación de licencia y vehículo         | Validar legalidad para publicar viajes.                                    |            8 |
+|     13 | US19          | Publicación de viajes                       | Crear viaje con ruta, horario, cupos y costo.                              |            5 |
+|     14 | TS03          | Endpoint publicar viaje                     | POST /api/trips para crear viajes.                                         |            3 |
+|     15 | US09          | Búsqueda de viajes disponibles              | Filtrar por fecha, origen y destino; mensajes sin resultados.              |            5 |
+|     16 | US10          | Solicitud de unirse a un viaje              | Enviar solicitud, reservar y manejar viajes llenos.                        |            3 |
+|     17 | TS04          | Endpoint solicitar unirse a un viaje        | POST /api/trips/{trip\_id}/join; manejar duplicados.                       |            3 |
+|     18 | US11          | Notificaciones en tiempo real               | Avisos de aceptación/rechazo de solicitudes.                               |            8 |
+|     19 | US13          | Chat interno con Grupo (pasajero)           | Chat con conductor y grupo tras aceptación; bloqueo previo.                |            5 |
+|     20 | US22          | Chat interno con pasajeros (conductor)      | Coordinar puntos y cambios; bloqueo antes de aceptación.                   |            5 |
+|     21 | US14          | Ruta de mi viaje                            | Visualizar ruta y ubicación; manejo sin señal.                             |            5 |
+|     22 | US16          | Planificación de viajes recurrentes         | Programar recorrencias y validar fechas.                                   |            8 |
+|     23 | US15          | Historial de viajes y gastos (estudiante)   | Ver historial completo y con filtros.                                      |            5 |
+|     24 | US23          | Historial de viajes y ganancias (conductor) | Listar viajes realizados y ganancias; vacío sin registros.                 |            5 |
+|     25 | US21          | Visualización de calificación (conductor)   | Ver promedio y comentarios de pasajeros.                                   |            3 |
+|     26 | US24          | Notificaciones de demanda                   | Alertas por zonas/horarios con alta demanda según disponibilidad.          |            8 |
+|     27 | US12          | Calificación post-viaje                     | Guardar calificación y comentarios; validar incompletos.                   |            3 |
+|     28 | US20          | Gestión de solicitudes (conductor)          | Aceptar/rechazar; bloquear perfiles no verificados.                        |            5 |
+|     29 | US25          | Reporte de incidentes                       | Reportar motivo y descripción; confirmar recepción.                        |            3 |
+|     30 | EP11/Infra    | Rutas de viaje en el mapa (infra y SDK)     | Preparar SDK/mapa, claves y capas para rutas óptimas.                      |            5 |
+
+
 
