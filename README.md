@@ -459,6 +459,20 @@ Recoger informacion sobre las necesidades , expectativas y posibles preocupacion
 
 ### 2.2.3. Análisis de entrevistas
 
+## 2.2.3. Análisis de entrevistas
+
+### Segmento objetivo: estudiante con vehículo
+
+Los estudiantes con auto propio consideraron que una plataforma para compartir su vehículo con otros compañeros sería beneficiosa tanto para **reducir costos de transporte** como para **aprovechar mejor el tiempo** y conocer nuevas personas.  
+Destacaron que la **seguridad** es un aspecto clave, valorando funciones como la **geolocalización en tiempo real** y la **validación de perfiles**, ya que brindan confianza al ofrecer cupos a otros usuarios.  
+También mencionaron que una **compensación justa por viaje** y una **interfaz sencilla** serían elementos importantes para motivar su participación como conductores.
+
+### Segmento objetivo: estudiante sin vehículo
+
+Los estudiantes sin vehículo propio resaltaron la importancia de contar con una aplicación que permita **seguir la ubicación del vehículo en tiempo real** y **conocer la calificación de los conductores**, lo que les genera mayor confianza y sensación de seguridad.  
+Prefieren **métodos de pago digitales** como **Yape o Plin** por su facilidad y rapidez, y ven el servicio como una buena alternativa para **acortar sus largos tiempos de traslado** y **socializar con otros estudiantes**.  
+En general, mostraron interés en la propuesta y disposición para participar en **pruebas piloto**, aportando así a la mejora del sistema.
+
 ## 2.3. Needfinding
 
 ### 2.3.1. User Persons
