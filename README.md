@@ -574,10 +574,6 @@ El User Task Matrix identifica las tareas que cada arquetipo debe realizar para 
 ### Estudiante conductor
 ![Estudiante conductor](imgs/as-is-estudiante-conductor.png)
 
-### Familiar de estudiante
-![Familiar de estudiante](imgs/as-is-familiar.png)
-
-
 # Capítulo III: Requirements Specification
 
 ### 3.1. To-be Scenario Mapping
@@ -587,9 +583,6 @@ El User Task Matrix identifica las tareas que cada arquetipo debe realizar para 
 
 ### Estudiante conductor
 ![Estudiante conductor](imgs/to-be-estudiante-conductor.png)
-
-### Familiar de estudiante
-![Familiar de estudiante](imgs/to-be-familiar.png)
 
 ### 3.2 User Stories
 
