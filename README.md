@@ -115,6 +115,7 @@ Tengo conocimientos en lenguajes de programación como Java y Python; en el desa
 
 ![PedroNanfuñay-Image-Profile](imgs/vicente-quijandria.png)
 
+
 - **Samuel Ignacio Valera Garces:**
 
 **Descripción:** <br>
