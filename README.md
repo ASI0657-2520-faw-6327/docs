@@ -74,6 +74,20 @@ Asimismo, se expone una visión atractiva del equipo, resaltando su potencial en
 
 ### 1.1.1. Descripción de la Startup
 
+TinkuyTech es una startup peruana dedicada a fortalecer la seguridad en el transporte de los estudiantes. Nuestro producto principal, ÑanGo, es una aplicación web diseñada específicamente para la comunidad universitaria. A través de esta plataforma, los estudiantes que cuentan con movilidad propia pueden conectarse con quienes necesitan transporte hacia la universidad, facilitando la coordinación de rutas, el reparto de gastos y la optimización del tiempo de viaje. De esta forma, promovemos una alternativa más segura, accesible y eficiente para la vida estudiantil.
+
+La aplicación ofrece herramientas interactivas que permiten visualizar rutas compartidas, coordinar horarios, gestionar costos y acceder a los perfiles de conductores y pasajeros, generando confianza y transparencia. Al integrar estas funciones, ÑanGo se convierte en una solución práctica y confiable para estudiantes y familiares que priorizan seguridad y comodidad en sus traslados diarios.
+
+--- 
+Misión
+
+Nuestra misión es transformar la movilidad estudiantil en el Perú mediante una solución tecnológica que facilite el acceso a un transporte compartido, seguro, económico y solidario. Queremos impulsar la seguridad de los estudiantes y contribuir a un futuro más sostenible, conectado y confiable.
+
+--- 
+Visión
+
+Nuestra visión es consolidarnos como la startup referente en seguridad de transporte universitario en el Perú. Aspiramos a construir una comunidad donde los estudiantes puedan acceder de manera sencilla a un sistema de movilidad eficiente, confiable y colaborativo.
+
 ### 1.1.2. Perfiles de integrantes del equipo
 
 - **Anderson Jose Gamarra Vega:**
@@ -194,7 +208,21 @@ Debe tener una interfaz juvenil, amigable y confiable, con diseño intuitivo y b
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
+- Creemos que los estudiantes podrán optimizar su tiempo y reducir costos de transporte si se implementa una funcionalidad que les permita coordinar viajes en grupo hacia la universidad a través de una plataforma que les conecte con otros estudiantes de su misma universidad. Sabremos que hemos tenido éxito cuando el 30% de los estudiantes utilicen regularmente la plataforma para coordinar viajes y que el 25% reporte una disminución en sus gastos de transporte mensual.
+
+- Creemos que los estudiantes reducirán su huella de carbono y contribuirán a la sostenibilidad si proporcionamos una opción fácil de coordinar viajes en vehículos compartidos, disminuyendo el número de autos individuales en las rutas comunes hacia las universidades. Sabremos que hemos tenido éxito cuando el 20% de los estudiantes reporten que han preferido la opción de compartir vehículo por encima de usar transporte público o privado.
+
+- Creemos que los estudiantes podrán mejorar la accesibilidad y seguridad en sus traslados si ofrecemos un sistema de calificación y seguimiento de viajes compartidos, lo que proporcionará mayor confianza y control. Sabremos que hemos tenido éxito cuando al menos el 15% de los usuarios reporten mayor confianza y comodidad al utilizar la plataforma, y que el 20% mencionen que el sistema de calificación ha mejorado su experiencia de viaje.
+
+- Creemos que los estudiantes estarán más dispuestos a utilizar la plataforma si esta ofrece perfiles verificados y filtros de coincidencia por universidad o facultad. Sabremos que hemos tenido éxito cuando al menos el 60 % de los usuarios activen la verificación de identidad y el 70 % prefiera viajar con contactos verificados de su misma institución.
+
+- Creemos que la adopción aumentará si se integra un sistema de notificaciones para viajes programados. Sabremos que hemos tenido éxito cuando el 80 % de los trayectos se confirmen con más de 6 horas de anticipación y se reduzca en un 30 % la tasa de cancelaciones de último minuto.
+
+- Creemos que la plataforma será más atractiva si permite compartir gastos automáticamente mediante pagos digitales entre los pasajeros. Sabremos que hemos tenido éxito cuando al menos el 50 % de los viajes registrados utilicen el sistema de pago integrado y el 85 % de los usuarios lo califiquen como fácil y seguro.
+
 #### 1.2.2.4. Lean UX Canvas
+
+![lean-ux-canvas](/imgs/lean-ux-canvas.jpg)
 
 ## 1.3. Segmentos Objetivo
 
@@ -343,7 +371,6 @@ Recoger informacion sobre las necesidades , expectativas y posibles preocupacion
   </tr>
 </table>
 
-
 **Entrevistas para el Segmento Objetivo 2 - Estudiante sin vehículo:**
 
 <table border="1">
@@ -389,6 +416,85 @@ Recoger informacion sobre las necesidades , expectativas y posibles preocupacion
 
 ### 2.3.2. User Task Matrix
 
+El User Task Matrix identifica las tareas que cada arquetipo debe realizar para alcanzar sus objetivos, sin confundir actividades o funcionalidades específicas de la aplicación. Se consideran la frecuencia y la importancia de cada tarea para cada User Persona.
+
+#### Table
+
+<table border="1" cellspacing="0" cellpadding="5">
+<thead>
+<tr>
+<th rowspan="2">Tarea / Actividad</th>
+<th colspan="2">Estudiante-Conductor</th>
+<th colspan="2">Estudiante-Pasajero</th>
+<th colspan="2">Familiar-Conductor</th>
+</tr>
+<tr>
+<th>Frec.</th>
+<th>Importancia</th>
+<th>Frec.</th>
+<th>Importancia</th>
+<th>Frec.</th>
+<th>Importancia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Buscar rutas disponibles</td>
+<td>Alta</td>
+<td>Alta</td>
+<td>Alta</td>
+<td>Alta</td>
+<td>Media</td>
+<td>Media</td>
+</tr>
+<tr>
+<td>Publicar disponibilidad de viaje</td>
+<td>Alta</td>
+<td>Alta</td>
+<td>-</td>
+<td>-</td>
+<td>Alta</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>Coordinar horarios y puntos de encuentro</td>
+<td>Alta</td>
+<td>Alta</td>
+<td>Alta</td>
+<td>Alta</td>
+<td>Alta</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>Confirmar reserva o viaje</td>
+<td>Media</td>
+<td>Alta</td>
+<td>Alta</td>
+<td>Alta</td>
+<td>Media</td>
+<td>Media</td>
+</tr>
+<tr>
+<td>Revisar y gestionar perfiles/rese&ntilde;as</td>
+<td>Media</td>
+<td>Alta</td>
+<td>Alta</td>
+<td>Alta</td>
+<td>Alta</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>Compartir detalles del trayecto</td>
+<td>Alta</td>
+<td>Media</td>
+<td>Media</td>
+<td>Alta</td>
+<td>Media</td>
+<td>Meida</td>
+</tr>
+</tbody>
+</table>
+
 ### 2.3.3 User Journey Mapping
 
 ### 2.3.4. Empathy Mapping
@@ -433,3 +539,5 @@ Recoger informacion sobre las necesidades , expectativas y posibles preocupacion
 ![Impact Map](imgs/Impact_map.png)
 
 ### 3.4. Product Backlog
+
+
