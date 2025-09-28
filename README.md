@@ -751,6 +751,29 @@ El User Task Matrix identifica las tareas que cada arquetipo debe realizar para 
 |     30 | EP11/Infra    | Rutas de viaje en el mapa (infra y SDK)     | Preparar SDK/mapa, claves y capas para rutas óptimas.                      |            5 |
 
 ## 4.1 Design Concepts, ViewPoints & ER Diagrams
+
+### 4.1.1	Principles Statements
+
+- **Desacoplamiento de componentes:** Diseñar el sistema como un conjunto de módulos independientes con responsabilidades claras e interfaces bien definidas. Esto permite escalar funcionalidades de manera eficiente, facilitar el mantenimiento y realizar pruebas más precisas.
+
+- **Seguridad por diseño:** Incorporar medidas de seguridad en todas las capas del sistema para garantizar la seguridad de los datos de los estudiantes y conductores, así como la verificación de estos, incluyendo validación estricta en el dominio, autenticación y autorización robusta, cifrado de datos sensibles, y protección contra vulnerabilidades.
+
+- **Resiliencia a fallos:** Diseñar el sistema para que pueda recuperarse ante errores y continuar operando con mínima interrupción. Esto implica implementar mecanismos como reintentos automáticos, circuit breakers, timeouts configurables, monitoreo activo y trazabilidad distribuida para detectar y resolver problemas rápidamente.
+
+- **Consistencia de interfaz:** Ofrecer una experiencia de usuario coherente, intuitiva y accesible en todas las vistas de la aplicación. Respetando las interfaces y una estética uniforme centradas en la facilidad de uso para los usuarios.
+
+- **Escalabilidad internacional:** Preparar el sistema para crecer en funcionalidades y cobertura internacional. Esto incluye soporte multitenant para distintas universidades, configuración dinámica de reglas de negocio, y capacidades de internacionalización (i18n) para adaptarse a distintos contextos culturales y lingüísticos.
+
+- **Interacciones asincrónicas sobre dependicas sincrónicas:** La comunicación entre módulos y servicios debe favorecer la asincronía (notificaciones, coordinación de viajes, etc.) para mejorar escalabilidad y resiliencia.
+
+- **Capacidad de integración con APIs externas:** Permitir que el sistema evolucione con integraciones externas (pasarelas de pago, mapas de terceros, servicios de autenticación).
+
+- **Uso de bibliotecas y frameworks con soporte comercial:** Para garantizar continuidad, seguridad y soporte, optar por librerías consolidadas y con respaldo de comunidad o proveedor.
+
+- **Experiencia de usuario centrada en la confianza:** Todas las decisiones tecnológicas deben estar alineadas a la confianza de los usuarios, la transparencia en costos y la facilidad de uso.
+
+- **Observabilidad y Trazabilidad:** Facilitar el monitoreo, diagnóstico y mejora continua del sistema mediante métricas clave y registros estructurados, facilitando la toma de decisiones informada y dar un correcto mantenimiento a la aplicación.
+
 ### 4.1.7 Tactics
 
 * **Seguridad**
@@ -789,31 +812,6 @@ El User Task Matrix identifica las tareas que cada arquetipo debe realizar para 
   * Organización del acceso a datos bajo patrones de diseño.
   * Documentación de servicios mediante especificación estandarizada de APIs.
   * Convenciones de control de versiones y buenas prácticas de colaboración en repositorios de código.
-
-
-## 4.1 Desing Concepts, ViewPoints & ER Diagrams
-
-### 4.1.1	Principles Statements
-
-- **Desacoplamiento de componentes:** Diseñar el sistema como un conjunto de módulos independientes con responsabilidades claras e interfaces bien definidas. Esto permite escalar funcionalidades de manera eficiente, facilitar el mantenimiento y realizar pruebas más precisas.
-
-- **Seguridad por diseño:** Incorporar medidas de seguridad en todas las capas del sistema para garantizar la seguridad de los datos de los estudiantes y conductores, así como la verificación de estos, incluyendo validación estricta en el dominio, autenticación y autorización robusta, cifrado de datos sensibles, y protección contra vulnerabilidades.
-
-- **Resiliencia a fallos:** Diseñar el sistema para que pueda recuperarse ante errores y continuar operando con mínima interrupción. Esto implica implementar mecanismos como reintentos automáticos, circuit breakers, timeouts configurables, monitoreo activo y trazabilidad distribuida para detectar y resolver problemas rápidamente.
-
-- **Consistencia de interfaz:** Ofrecer una experiencia de usuario coherente, intuitiva y accesible en todas las vistas de la aplicación. Respetando las interfaces y una estética uniforme centradas en la facilidad de uso para los usuarios.
-
-- **Escalabilidad internacional:** Preparar el sistema para crecer en funcionalidades y cobertura internacional. Esto incluye soporte multitenant para distintas universidades, configuración dinámica de reglas de negocio, y capacidades de internacionalización (i18n) para adaptarse a distintos contextos culturales y lingüísticos.
-
-- **Interacciones asincrónicas sobre dependicas sincrónicas:** La comunicación entre módulos y servicios debe favorecer la asincronía (notificaciones, coordinación de viajes, etc.) para mejorar escalabilidad y resiliencia.
-
-- **Capacidad de integración con APIs externas:** Permitir que el sistema evolucione con integraciones externas (pasarelas de pago, mapas de terceros, servicios de autenticación).
-
-- **Uso de bibliotecas y frameworks con soporte comercial:** Para garantizar continuidad, seguridad y soporte, optar por librerías consolidadas y con respaldo de comunidad o proveedor.
-
-- **Experiencia de usuario centrada en la confianza:** Todas las decisiones tecnológicas deben estar alineadas a la confianza de los usuarios, la transparencia en costos y la facilidad de uso.
-
-- **Observabilidad y Trazabilidad:** Facilitar el monitoreo, diagnóstico y mejora continua del sistema mediante métricas clave y registros estructurados, facilitando la toma de decisiones informada y dar un correcto mantenimiento a la aplicación.
 
 
 ## 4.2 Architectural Drivers
