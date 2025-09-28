@@ -774,6 +774,22 @@ El User Task Matrix identifica las tareas que cada arquetipo debe realizar para 
 
 - **Observabilidad y Trazabilidad:** Facilitar el monitoreo, diagnóstico y mejora continua del sistema mediante métricas clave y registros estructurados, facilitando la toma de decisiones informada y dar un correcto mantenimiento a la aplicación.
 
+### 4.1.2	Approaches Statements Architectural Styles & Patterns
+
+1. **Domain Driven Design (DDD):** Modelar el sistema enfocándose en el dominio universitario y de transporte. Esto permite construir una arquitectura centrada en conceptos clave como agreggates, entities, value objects, commands y events, asegurando que las decisiones técnicas reflejen las reglas del negocio y evolucionen junto con él.
+
+2. **Attribute-Driven Design:** Se empleará para tomar decisiones arquitectónicas basadas en atributos de calidad como rendimiento, seguridad, escalabilidad, mantenibilidad y disponibilidad. Este enfoque asegura que el sistema cumpla con sus requisitos no funcionales desde el diseño, priorizando los escenarios críticos para los usuarios y stakeholders.
+
+3. **Archiquectural Styles and Pattern:**
+
+    - **Estilos Arquitectónicos:**
+      - **Cliente-Servidor:** Se Dividirá la aplicación en dos componentes principales: cliente (front-end web) y servidor (back-end). Este estilo se ajusta al esquema operativo de ÑanGo, permitiendo una clara separación de responsabilidades, una comunicación estructurada y una implementación eficiente de la lógica de presentación y negocio.
+      
+      - **Microservicios:** La aplicación se dividirá en servicios pequeños e independientes, cada uno responsable de una funcionalidad específica (gestión de usuarios, rutas, pagos, notificaciones) y comunicándose por medio de APIs, lo que permitirá escalabilidad y despliegues independientes.
+
+    - **Patrones de Diseño:**
+      - **Modelo-Vista-Controlador (MVC):** Se aplicará principalmente en la capa del cliente, separa la lógica de presentación (Vista), la lógica de interacción (Controlador) y el modelo de datos (Modelo). Esto mejora la organización del código, facilita el mantenimiento y permite una experiencia de usuario más coherente y dinámica.
+      - **API Gateway:** Actúa como punto único de entrada de las solicitudes del cliente, gestionando el enrutamiento hacia los microservicios correspondientes, además de ofrecer beneficios en seguridad y monitoreo. Simplifica la interacción entre el cliente y el backend distribuido.
 
 ### 4.1.5 Design Patterns
 
@@ -803,7 +819,6 @@ El User Task Matrix identifica las tareas que cada arquetipo debe realizar para 
 - **Problema:** Crear objetos de notificación (Push, Email, SMS) sin acoplar el código a clases concretas.
 - **Aplicación:** `NotificationFactory` devolverá el tipo de notificación adecuado según configuración.
 - **Beneficios:** Centraliza la creación y facilita la extensión.
-
 
 ### 4.1.7 Tactics
 
