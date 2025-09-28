@@ -751,6 +751,37 @@ El User Task Matrix identifica las tareas que cada arquetipo debe realizar para 
 |     30 | EP11/Infra    | Rutas de viaje en el mapa (infra y SDK)     | Preparar SDK/mapa, claves y capas para rutas óptimas.                      |            5 |
 
 ## 4.1 Design Concepts, ViewPoints & ER Diagrams
+
+### 4.1.5 Design Patterns
+
+## Patrones seleccionados
+
+### 1. Singleton (Creacional)
+- **Problema:** Se requiere una sola instancia para manejar la configuración y la conexión a la base de datos.
+- **Aplicación:** Clase `DatabaseConnection` asegurará una única conexión compartida por todos los módulos.
+- **Beneficios:** Evita múltiples conexiones, centraliza la configuración.
+
+### 2. Repository (Estructural)
+- **Problema:** Separar la lógica de negocio de la persistencia de datos.
+- **Aplicación:** Repositorios `UsuarioRepository`, `ViajeRepository`, etc., que encapsulan consultas y operaciones de la base de datos.
+- **Beneficios:** Facilita pruebas unitarias, cambio de motor de BD sin alterar la lógica de dominio.
+
+### 3. Observer / Publisher–Subscriber (Comportamiento)
+- **Problema:** Enviar notificaciones en tiempo real cuando se actualiza un viaje o se acepta una solicitud.
+- **Aplicación:** El módulo de notificaciones se suscribe a eventos del módulo de viajes y emite mensajes a los usuarios.
+- **Beneficios:** Desacopla el emisor de los receptores, facilita añadir nuevos canales de notificación.
+
+### 4. Strategy (Comportamiento)
+- **Problema:** Permitir distintos cálculos de tarifas o métodos de pago.
+- **Aplicación:** Una interfaz `PaymentStrategy` con implementaciones para tarjeta, efectivo, billetera digital.
+- **Beneficios:** Permite añadir nuevos métodos sin cambiar la lógica central.
+
+### 5. Factory Method (Creacional)
+- **Problema:** Crear objetos de notificación (Push, Email, SMS) sin acoplar el código a clases concretas.
+- **Aplicación:** `NotificationFactory` devolverá el tipo de notificación adecuado según configuración.
+- **Beneficios:** Centraliza la creación y facilita la extensión.
+
+
 ### 4.1.7 Tactics
 
 * **Seguridad**
