@@ -790,4 +790,13 @@ El User Task Matrix identifica las tareas que cada arquetipo debe realizar para 
   * Documentación de servicios mediante especificación estandarizada de APIs.
   * Convenciones de control de versiones y buenas prácticas de colaboración en repositorios de código.
 
+## 4.2 Architectural Drivers
+### 4.2.8 Design Purpose
+
+El diseño arquitectónico de ÑanGo tiene como propósito asegurar que la plataforma de movilidad estudiantil sea **segura, confiable y escalable**, ofreciendo una experiencia fluida a conductores y pasajeros dentro de la comunidad universitaria. La arquitectura basada en microservicios y desplegada en la nube permite que cada módulo —como autenticación, gestión de viajes, solicitudes, notificaciones y chat— evolucione de manera independiente, facilitando la incorporación de nuevas funcionalidades sin afectar al sistema completo.
+
+El uso de **sesiones para autenticación** refuerza la seguridad y la confianza de los usuarios, mientras que la verificación estudiantil con **Student Beans** garantiza que la comunidad se mantenga cerrada y validada. Además, la integración de **Firebase Cloud Messaging** y **Socket.IO** respalda la comunicación en tiempo real, un aspecto clave para notificaciones instantáneas y coordinación entre estudiantes.
+
+En conjunto, este diseño busca cumplir con los **atributos de calidad** más relevantes para el producto: seguridad, disponibilidad, escalabilidad, usabilidad y mantenibilidad. Al mismo tiempo, responde a los objetivos de negocio de la startup, centrados en ofrecer una solución tecnológica que aumente la seguridad en el transporte universitario y genere confianza en la comunidad académica.
+
 
