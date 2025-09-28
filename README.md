@@ -750,5 +750,44 @@ El User Task Matrix identifica las tareas que cada arquetipo debe realizar para 
 |     29 | US25          | Reporte de incidentes                       | Reportar motivo y descripción; confirmar recepción.                        |            3 |
 |     30 | EP11/Infra    | Rutas de viaje en el mapa (infra y SDK)     | Preparar SDK/mapa, claves y capas para rutas óptimas.                      |            5 |
 
+## 4.1 Design Concepts, ViewPoints & ER Diagrams
+### 4.1.7 Tactics
+
+* **Seguridad**
+
+  * Autenticación basada en **sesiones**, garantizando persistencia segura de las credenciales de usuario.
+  * Encriptación de contraseñas para proteger datos sensibles.
+  * Verificación de identidad estudiantil mediante **Student Beans**, con respaldo de validación manual por correo institucional y carné universitario.
+  * Uso de canales cifrados bajo **HTTPS/TLS** en todas las comunicaciones.
+
+* **Disponibilidad**
+
+  * Balanceo de carga a través de un **API Gateway** para distribuir tráfico.
+  * Replicación de base de datos en entornos relacionales y no relacionales para tolerancia a fallos.
+  * Estrategias de reintentos automáticos en colas de mensajes para operaciones críticas.
+
+* **Escalabilidad**
+
+  * Arquitectura de **microservicios cloud-native** desplegada en contenedores.
+  * Escalado automático en entornos de nube según demanda.
+  * Desacoplamiento de componentes a través de colas de mensajería y almacenamiento en caché distribuido.
+
+* **Usabilidad**
+
+  * Notificaciones en tiempo real mediante **Firebase Cloud Messaging (FCM)**.
+  * Chat interno soportado por **Socket.IO** para comunicación en tiempo real.
+  * Interfaces simples y accesibles con diseño responsivo.
+
+* **Rendimiento**
+
+  * Cacheo de datos de uso frecuente para reducir tiempos de respuesta.
+  * Indexación de consultas en base de datos.
+  * Aplicación de **CQRS** en la gestión de viajes para separar operaciones de lectura y escritura.
+
+* **Mantenibilidad**
+
+  * Organización del acceso a datos bajo patrones de diseño.
+  * Documentación de servicios mediante especificación estandarizada de APIs.
+  * Convenciones de control de versiones y buenas prácticas de colaboración en repositorios de código.
 
 
