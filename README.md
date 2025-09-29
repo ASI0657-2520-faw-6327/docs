@@ -1039,11 +1039,10 @@ En conjunto, este diseño busca cumplir con los **atributos de calidad** más re
 | US11 | Notificaciones en tiempo real | Como estudiante, quiero recibir notificaciones en tiempo real sobre el estado de mi solicitud de viaje, para estar informado de cualquier cambio. |
 | US14 | Ruta de mi viaje | Como estudiante, quiero poder ver la ruta del viaje, para saber dónde se encuentra el conductor. |
 
-# 4.3 ADD Iterarions
-## 4.2.1 Iteration N: <iteration Name>
-### 4.3.1.1 Architectural Design Backlog N
+## 4.3 ADD Iterarions
+### 4.3.1 Iteration N: **Autenticación y Gestión de Usuario**
 
-### 4.2.X.1 Architectural Design Backlog – Iteración: **Autenticación y Gestión de Usuario**
+#### 4.3.1.1 Architectural Design Backlog – Iteración: **Autenticación y Gestión de Usuario**
 
 | ID    | Tipo                        | Driver (Descripción)                                                                                                                                               | Prioridad | Historias / TS relacionadas          | Componentes afectados                                                  | Criterios de aceptación                                                                                                                                                                                                                                                                                                                           | Notas / Riesgos                                                                                                       |
 |-------|------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------:|--------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
@@ -1055,6 +1054,59 @@ En conjunto, este diseño busca cumplir con los **atributos de calidad** más re
 | ADB-06 | Restricción (Despliegue)    | **Contenerización y Cloud**: empaquetar Auth y User Service en Docker; despliegue en AWS ECS/EKS (o equivalente).                                                   | Alta      | —                                    | Docker, Orquestador (ECS/EKS), CI/CD                                     | - Imágenes Docker construidas y almacenadas en registry. <br>- Despliegue a entorno staging reproducible.                                                                                                                                                                                                                                           | Definir infraestructura como código (Terraform/CloudFormation).                                                        |
 | ADB-07 | Riesgo / Dependencia externa| **Integraciones externas**: proveedor de correo (para verificación y recuperación).                                                                                | Alta      | TS02                                  | Email Provider, Auth Service                                             | - Integración con proveedor de correo con fallback. <br>- Manejo de errores y límites de cuota.                                                                                                                                                                                                                                                     | Riesgo: dependencia de SLA de terceros; plan de degradación si falla envío de emails.                                  |
 
+#### 4.3.1.2. Establish Iteration Goal by Selecting Drivers
+
+* **Objetivo de la iteración:** habilitar un onboarding seguro y confiable de usuarios (estudiantes conductores/pasajeros) con autenticación basada en **sesiones** y verificación de condición de **estudiante** antes de permitir funcionalidades núcleo.
+* **Drivers funcionales (prioritarios):**
+
+  * Registro de cuenta y acceso (sign-up / sign-in / sign-out).
+  * Gestión básica de perfil de usuario.
+  * Verificación de estatus de estudiante (Student Beans) con fallback manual (correo institucional + carné).
+* **Atributos de calidad (QA) que guían el diseño:**
+
+  * **Seguridad:** sesiones seguras (cookies HttpOnly/Secure), políticas de bloqueo ante fuerza bruta.
+  * **Disponibilidad:** servicio de autenticación estable en horas pico de ingreso/salida.
+  * **Usabilidad:** flujo de registro/inicio sencillo y claro; mensajes de error comprensibles.
+  * **Mantenibilidad:** separación de responsabilidades (auth, perfiles, verificación), contratos claros.
+
+* **Restricciones:**
+
+  * Autenticación **por sesiones** (no tokens).
+  * Verificación de estudiante con **Student Beans**.
+  * Persistencia relacional para usuarios; caché/almacén de sesión centralizado.
+  
+* **Criterios de aceptación de la iteración:**
+
+  * Usuario puede registrarse, iniciar/cerrar sesión y actualizar datos básicos.
+  * Estado “estudiante verificado” se refleja en el perfil tras validación (o flujo manual).
+  * Cookies de sesión con banderas seguras; protección CSRF activa.
+  * Logs/auditoría mínimos para accesos y cambios de perfil.
+
+
+#### 4.3.1.3 Choose One or More Elements of the System to Refine
+
+* **Contenedores / servicios a refinar:**
+
+  * **Auth Service (Sesiones):** creación/validación/invalidación de sesión; políticas de duración y renovación.
+  * **User/Profile Service:** alta de usuario, lectura/edición de perfil, estado de verificación.
+  * **Verification Adapter (Student Beans):** integración API, manejo de callbacks/estados y fallback manual.
+  * **API Gateway / Edge:** rutas públicas/privadas, redirecciones post-login, rate-limiting para intentos de login.
+
+* **Integraciones externas:**
+
+  * **Student Beans** (verificación), **correo institucional** (fallback), **servicio de email** para confirmaciones/recuperación.
+
+* **Políticas transversales a definir:**
+
+  * **Cookies de sesión:** HttpOnly, Secure.
+  * **CSRF:** token por sesión/form.
+  * **Password policy:** complejidad, hashing, rotación/recuperación.
+  * **Account lockout / throttling:** ante intentos fallidos consecutivos.
+  * **Auditoría y logging:** altas, accesos, cambios de perfil.
+
+* **Alcance explícitamente fuera de esta iteración (para próximas):**
+
+  * Publicación/búsqueda de viajes, chat y notificaciones; se habilitan solo para cuentas con sesión válida y estado verificado.
 
 # Conclusiones
 
