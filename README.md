@@ -1114,7 +1114,7 @@ En conjunto, este diseño busca cumplir con los **atributos de calidad** más re
   * Publicación/búsqueda de viajes, chat y notificaciones; se habilitan solo para cuentas con sesión válida y estado verificado.
 
 
-## 4.3.1.4: Choose One or More Design Concepts That Satisfy the Selected Drivers
+#### 4.3.1.4: Choose One or More Design Concepts That Satisfy the Selected Drivers
 
 | Driver Seleccionado | Concepto de Diseño | Justificación | Historias Relacionadas | 
 | ------------------- | ------------------ | ------------- | ---------------------- |
@@ -1125,13 +1125,21 @@ En conjunto, este diseño busca cumplir con los **atributos de calidad** más re
 | Usabilidad | Modelo-Vista-Controlador (MVC) en el cliente | Separa presentación, interacción y datos en la interfaz. | US01, US03, US05, US06, US09, US13, US14 |
 
 
-## 4.3.1.5	Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
+#### 4.3.1.5	Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
 
 | Elemento Arquitectónico | Responsabilidades | Interfaces |
 | ----------------------- | ----------------- | ---------- |
 | API Gateway | - Punto único de entrada para clientes <br> - Gestión de autenticación, autorización y balanceo <br> - Enrutamiento hacia microservicios | `POST /auth/login` <br> `POST /auth/register` <br> `GET /routes` <br> `POST /payments` |
 | Microservicio de Gestión de Usuarios | - Registro, autenticación y manejo de perfiles <br> - Validación de identidades con MFA | `GET /users/{id}` <br> `PUT /users/{id}` <br> `POST /users/verify` |
 | Front-End MVC | - Interfaz para estudiantes y conductores <br> - Visualización de rutas, pagos y perfiles <br> - Comunicación con API Gateway | Pantallas: Login/Register, Mis Rutas, Mis Viajes, Pagos, Perfil <br> Comunicación vía REST |
+
+#### 4.3.1.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)
+
+En esta iteración se utilizó un tablero Kanban para organizar y dar seguimiento a las tareas asociadas al backlog de diseño de autenticación y gestión de usuarios. El tablero permitió visualizar el estado de cada issue en columnas de To Do, In Progress, In Review y Done, facilitando la coordinación del equipo y la trazabilidad del avance.
+
+A continuación, se muestra una captura del Kanban en GitHub Projects, donde se incluyen issues relacionadas con la creación del flujo de registro e inicio de sesión por sesiones, integración con Student Beans para verificación de estudiantes, configuración de cookies seguras y pruebas básicas de flujo de usuario.
+
+![iteration-1-kanban](./imgs/add-iteration-1-kanban.png)
 
 # Conclusiones
 
