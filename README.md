@@ -874,6 +874,47 @@ El User Task Matrix identifica las tareas que cada arquetipo debe realizar para 
 
 ## 4.2 Architectural Drivers
 
+### 4.2.1 Design Purpose
+
+El diseño arquitectónico de ÑanGo tiene como propósito asegurar que la plataforma de movilidad estudiantil sea **segura, confiable y escalable**, ofreciendo una experiencia fluida a conductores y pasajeros dentro de la comunidad universitaria. La arquitectura basada en microservicios y desplegada en la nube permite que cada módulo —como autenticación, gestión de viajes, solicitudes, notificaciones y chat— evolucione de manera independiente, facilitando la incorporación de nuevas funcionalidades sin afectar al sistema completo.
+
+El uso de **sesiones para autenticación** refuerza la seguridad y la confianza de los usuarios, mientras que la verificación estudiantil con **Student Beans** garantiza que la comunidad se mantenga cerrada y validada. Además, la integración de **Firebase Cloud Messaging** y **Socket.IO** respalda la comunicación en tiempo real, un aspecto clave para notificaciones instantáneas y coordinación entre estudiantes.
+
+En conjunto, este diseño busca cumplir con los **atributos de calidad** más relevantes para el producto: seguridad, disponibilidad, escalabilidad, usabilidad y mantenibilidad. Al mismo tiempo, responde a los objetivos de negocio de la startup, centrados en ofrecer una solución tecnológica que aumente la seguridad en el transporte universitario y genere confianza en la comunidad académica.
+
+
+
+### 4.2.2 Primary Functionality (Primary User Stories)
+
+**Registro y Verificación de Identidad (Núcleo de Seguridad)**
+
+| User Story ID | Título | Descripción |
+| ------------- | ------ | ----------- |
+| US01 | Registro de nueva cuenta | Como usuario nuevo no registrado, deseo poder crear una cuenta en la aplicación, para acceder a las funcionalidades exclusivas de ÑanGo. |
+| US17 | Registro como conductor | Como estudiante con vehículo, quiero registrarme como conductor para poder ofrecer viajes a otros estudiantes. |
+| US08 | Verificación con correo institucional | Como estudiante, quiero verificar mi cuenta utilizando mi "DNI" y "Carnet Universitario", para tener acceso a las funcionalidades de la aplicación. |
+
+**Gestión del Ciclo de Vida de los Viajes (Funcionalidad Central)**
+
+| User Story ID | Título | Descripción |
+| ------------- | ------ | ----------- |
+| US19 | Publicación de viajes | Como conductor, quiero poder publicar mis viajes disponibles indicando la ruta, horarios, asientos disponibles y costo por pasajero, para que los estudiantes puedan unirse a ellos. |
+| US09 | Búsqueda de viajes disponibles | Como estudiante sin vehículo, quiero buscar viajes disponibles, para poder unirme a ellos. |
+| US10 | Solicitud de unirse a un viaje | Como estudiante, quiero solicitar unirme a un viaje disponible, para poder participar en el transporte compartido. |
+| US20 | Gestión de solicitudes | Como conductor, quiero poder aceptar o rechazar solicitudes de pasajeros con perfiles verificados, para asegurarme de que los pasajeros sean confiables. |
+
+**Comunicación y Seguimiento en Tiempo Real**
+
+| User Story ID | Título | Descripción |
+| ------------- | ------ | ----------- |
+| US06 | Chat de comunicación | Como usuario, quiero comunicarme con otros mediante chat, para coordinar viajes y resolver dudas. |
+| US13 | Chat interno con Grupo | Como estudiante, quiero poder comunicarme con el conductor a través del chat interno una vez que mi solicitud de viaje haya sido aceptada. |
+| US22 | Chat interno con pasajeros | Como conductor, quiero comunicarme con los pasajeros a través del chat, para coordinar puntos de encuentro y cambios de última hora. |
+| US11 | Notificaciones en tiempo real | Como estudiante, quiero recibir notificaciones en tiempo real sobre el estado de mi solicitud de viaje, para estar informado de cualquier cambio. |
+| US14 | Ruta de mi viaje | Como estudiante, quiero poder ver la ruta del viaje, para saber dónde se encuentra el conductor. |
+
+
+
 ### 4.2.3	Quality Attribute Scenarios
 
 1. Escenario de Disponibilidad
@@ -1020,46 +1061,6 @@ Los "constraints" se refieren a las limitaciones o restricciones que deben ser c
 | **CON-008** | **Tiempo de Respuesta**<br>• Las operaciones críticas (ej. reserva de asiento, aceptación de solicitud) deben ejecutarse en menos de **3 segundos** para asegurar una experiencia fluida. |
 | **CON-009** | **Compatibilidad Multiplataforma**<br>• La aplicación debe estar disponible tanto en **web** como en **dispositivos móviles (Android/iOS)**, asegurando accesibilidad para todos los estudiantes. |
 | **CON-010** | **Escalabilidad**<br>• La plataforma debe poder escalar horizontalmente para soportar al menos **10,000 usuarios concurrentes** sin afectar el rendimiento. |
-
-
-### 4.2.8 Design Purpose
-
-El diseño arquitectónico de ÑanGo tiene como propósito asegurar que la plataforma de movilidad estudiantil sea **segura, confiable y escalable**, ofreciendo una experiencia fluida a conductores y pasajeros dentro de la comunidad universitaria. La arquitectura basada en microservicios y desplegada en la nube permite que cada módulo —como autenticación, gestión de viajes, solicitudes, notificaciones y chat— evolucione de manera independiente, facilitando la incorporación de nuevas funcionalidades sin afectar al sistema completo.
-
-El uso de **sesiones para autenticación** refuerza la seguridad y la confianza de los usuarios, mientras que la verificación estudiantil con **Student Beans** garantiza que la comunidad se mantenga cerrada y validada. Además, la integración de **Firebase Cloud Messaging** y **Socket.IO** respalda la comunicación en tiempo real, un aspecto clave para notificaciones instantáneas y coordinación entre estudiantes.
-
-En conjunto, este diseño busca cumplir con los **atributos de calidad** más relevantes para el producto: seguridad, disponibilidad, escalabilidad, usabilidad y mantenibilidad. Al mismo tiempo, responde a los objetivos de negocio de la startup, centrados en ofrecer una solución tecnológica que aumente la seguridad en el transporte universitario y genere confianza en la comunidad académica.
-
-
-
-### 4.2.9 Primary Functionality (Primary User Stories)
-
-**Registro y Verificación de Identidad (Núcleo de Seguridad)**
-
-| User Story ID | Título | Descripción |
-| ------------- | ------ | ----------- |
-| US01 | Registro de nueva cuenta | Como usuario nuevo no registrado, deseo poder crear una cuenta en la aplicación, para acceder a las funcionalidades exclusivas de ÑanGo. |
-| US17 | Registro como conductor | Como estudiante con vehículo, quiero registrarme como conductor para poder ofrecer viajes a otros estudiantes. |
-| US08 | Verificación con correo institucional | Como estudiante, quiero verificar mi cuenta utilizando mi "DNI" y "Carnet Universitario", para tener acceso a las funcionalidades de la aplicación. |
-
-**Gestión del Ciclo de Vida de los Viajes (Funcionalidad Central)**
-
-| User Story ID | Título | Descripción |
-| ------------- | ------ | ----------- |
-| US19 | Publicación de viajes | Como conductor, quiero poder publicar mis viajes disponibles indicando la ruta, horarios, asientos disponibles y costo por pasajero, para que los estudiantes puedan unirse a ellos. |
-| US09 | Búsqueda de viajes disponibles | Como estudiante sin vehículo, quiero buscar viajes disponibles, para poder unirme a ellos. |
-| US10 | Solicitud de unirse a un viaje | Como estudiante, quiero solicitar unirme a un viaje disponible, para poder participar en el transporte compartido. |
-| US20 | Gestión de solicitudes | Como conductor, quiero poder aceptar o rechazar solicitudes de pasajeros con perfiles verificados, para asegurarme de que los pasajeros sean confiables. |
-
-**Comunicación y Seguimiento en Tiempo Real**
-
-| User Story ID | Título | Descripción |
-| ------------- | ------ | ----------- |
-| US06 | Chat de comunicación | Como usuario, quiero comunicarme con otros mediante chat, para coordinar viajes y resolver dudas. |
-| US13 | Chat interno con Grupo | Como estudiante, quiero poder comunicarme con el conductor a través del chat interno una vez que mi solicitud de viaje haya sido aceptada. |
-| US22 | Chat interno con pasajeros | Como conductor, quiero comunicarme con los pasajeros a través del chat, para coordinar puntos de encuentro y cambios de última hora. |
-| US11 | Notificaciones en tiempo real | Como estudiante, quiero recibir notificaciones en tiempo real sobre el estado de mi solicitud de viaje, para estar informado de cualquier cambio. |
-| US14 | Ruta de mi viaje | Como estudiante, quiero poder ver la ruta del viaje, para saber dónde se encuentra el conductor. |
 
 ## 4.3 ADD Iterarions
 ### 4.3.1 Iteration N: **Autenticación y Gestión de Usuario**
