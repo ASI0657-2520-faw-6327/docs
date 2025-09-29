@@ -1120,6 +1120,14 @@ En conjunto, este diseño busca cumplir con los **atributos de calidad** más re
 | Usabilidad | Modelo-Vista-Controlador (MVC) en el cliente | Separa presentación, interacción y datos en la interfaz. | US01, US03, US05, US06, US09, US13, US14 |
 
 
+## 4.3.1.5	Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
+
+| Elemento Arquitectónico | Responsabilidades | Interfaces |
+| ----------------------- | ----------------- | ---------- |
+| API Gateway | - Punto único de entrada para clientes <br> - Gestión de autenticación, autorización y balanceo <br> - Enrutamiento hacia microservicios | `POST /auth/login` <br> `POST /auth/register` <br> `GET /routes` <br> `POST /payments` |
+| Microservicio de Gestión de Usuarios | - Registro, autenticación y manejo de perfiles <br> - Validación de identidades con MFA | `GET /users/{id}` <br> `PUT /users/{id}` <br> `POST /users/verify` |
+| Front-End MVC | - Interfaz para estudiantes y conductores <br> - Visualización de rutas, pagos y perfiles <br> - Comunicación con API Gateway | Pantallas: Login/Register, Mis Rutas, Mis Viajes, Pagos, Perfil <br> Comunicación vía REST |
+
 # Conclusiones
 
 ## Conclusiones y Recomendaciones
