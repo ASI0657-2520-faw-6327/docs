@@ -1108,6 +1108,18 @@ En conjunto, este diseño busca cumplir con los **atributos de calidad** más re
 
   * Publicación/búsqueda de viajes, chat y notificaciones; se habilitan solo para cuentas con sesión válida y estado verificado.
 
+
+## 4.3.1.4: Choose One or More Design Concepts That Satisfy the Selected Drivers
+
+| Driver Seleccionado | Concepto de Diseño | Justificación | Historias Relacionadas | 
+| ------------------- | ------------------ | ------------- | ---------------------- |
+| Seguridad | Autenticación multifactor (MFA) | Refuerza la protección de cuentas de estudiantes y conductores, garantizando confianza y privacidad. | US02, US07, US08 |
+| Escalabilidad | Microservicios | Divide el sistema en servicios autónomos por funcionalidad. Permite escalar la solución por demanda. | US01, US06, US10, US11, US13, US19, US20, US23 |
+| Disponibilidad | API Gateway | Centraliza la gestión de accesos, autenticación y balanceo de carga. Mejora la disponibilidad y la seguridad del sistema. | US01, US03, US07, US10, US20 |
+| Seguridad | Validación en el dominio | Aplica reglas de negocio directamente en entidades y objetos de valor. | US01, US17, US18, US19, US10 |
+| Usabilidad | Modelo-Vista-Controlador (MVC) en el cliente | Separa presentación, interacción y datos en la interfaz. | US01, US03, US05, US06, US09, US13, US14 |
+
+
 # Conclusiones
 
 ## Conclusiones y Recomendaciones
