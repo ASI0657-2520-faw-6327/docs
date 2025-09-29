@@ -1132,6 +1132,14 @@ En conjunto, este diseño busca cumplir con los **atributos de calidad** más re
 | Microservicio de Gestión de Usuarios | - Registro, autenticación y manejo de perfiles <br> - Validación de identidades con MFA | `GET /users/{id}` <br> `PUT /users/{id}` <br> `POST /users/verify` |
 | Front-End MVC | - Interfaz para estudiantes y conductores <br> - Visualización de rutas, pagos y perfiles <br> - Comunicación con API Gateway | Pantallas: Login/Register, Mis Rutas, Mis Viajes, Pagos, Perfil <br> Comunicación vía REST |
 
+## 4.3.1.6	Sketch Views (C4 & UML) and Record Design Decisions
+
+**C4 Diagram**
+
+![C4](./imgs/c4-add-1.png)
+
+![UML](./imgs/add1-uml.png)
+
 #### 4.3.1.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
 En esta iteración se utilizó un tablero Kanban para organizar y dar seguimiento a las tareas asociadas al backlog de diseño de autenticación y gestión de usuarios. El tablero permitió visualizar el estado de cada issue en columnas de To Do, In Progress, In Review y Done, facilitando la coordinación del equipo y la trazabilidad del avance.
