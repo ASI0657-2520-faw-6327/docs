@@ -1062,6 +1062,18 @@ Los "constraints" se refieren a las limitaciones o restricciones que deben ser c
 | **CON-009** | **Compatibilidad Multiplataforma**<br>• La aplicación debe estar disponible tanto en **web** como en **dispositivos móviles (Android/iOS)**, asegurando accesibilidad para todos los estudiantes. |
 | **CON-010** | **Escalabilidad**<br>• La plataforma debe poder escalar horizontalmente para soportar al menos **10,000 usuarios concurrentes** sin afectar el rendimiento. |
 
+### 4.2.5 Architectural Concerns  
+
+| ID        | Architectural Concerns |
+|-----------|-------------------------|
+| **ARC-001** | **Disponibilidad del Sistema**<br>• Descripción: Existe la preocupación de que el sistema no cumpla con el requisito de disponibilidad mínima del **99.5%**, especialmente durante horarios pico (entrada y salida de clases), lo que podría afectar la confianza y la experiencia de los usuarios. |
+| **ARC-002** | **Dominio Tecnológico del Equipo de Desarrollo**<br>• Descripción: El equipo podría enfrentar una curva de aprendizaje o falta de experiencia con las tecnologías seleccionadas, lo que puede impactar en los tiempos de entrega y calidad del producto. |
+| **ARC-003** | **Adecuación del Modelo de Dominio**<br>• Descripción: Existe la preocupación de que el modelo de dominio no cubra completamente aspectos clave como la gestión de rutas, validación universitaria o solicitudes de viaje, limitando la escalabilidad futura. |
+| **ARC-004** | **Escalabilidad de la Arquitectura**<br>• Descripción: La arquitectura podría no soportar de manera eficiente un aumento rápido en la cantidad de usuarios concurrentes (ej. más de 10,000), comprometiendo la experiencia de uso. |
+| **ARC-005** | **Interoperabilidad con Servicios Externos**<br>• Descripción: La integración con servicios como **Student Beans** (autenticación universitaria) y **Firebase Cloud Messaging** (notificaciones) puede presentar riesgos de dependencia y fallos si no se gestiona correctamente. |
+| **ARC-006** | **Seguridad y Protección de Datos**<br>• Descripción: Es necesario garantizar que la arquitectura cumpla con altos estándares de seguridad, protegiendo datos sensibles de estudiantes mediante cifrado, autenticación robusta y control de accesos. |
+| **ARC-007** | **Procesamiento de Pagos**<br>• Descripción: La correcta integración con una pasarela de pagos segura es crítica; cualquier error en disponibilidad o validación podría afectar la confianza y generar pérdidas financieras. |
+
 ## 4.3 ADD Iterarions
 ### 4.3.1 Iteration N: **Autenticación y Gestión de Usuario**
 
