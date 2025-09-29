@@ -903,3 +903,24 @@ En conjunto, este diseño busca cumplir con los **atributos de calidad** más re
 | US11 | Notificaciones en tiempo real | Como estudiante, quiero recibir notificaciones en tiempo real sobre el estado de mi solicitud de viaje, para estar informado de cualquier cambio. |
 | US14 | Ruta de mi viaje | Como estudiante, quiero poder ver la ruta del viaje, para saber dónde se encuentra el conductor. |
 
+
+# Conclusiones
+
+## Conclusiones y Recomendaciones
+
+- Ñango es una solución tecnológica efectiva que ofrece servicio de movilidad compartido entre estudiantes universitarios que garantiza la seguridad de los pasajeros y conductores que buscan un medio de transporte eficiente y rápido. Así mismo, permite a los usuarios conocer a nuevas personas de su centro de estudios.
+
+- La colaboración efectiva entre los miembros del equipo fue clave para avanzar de manera organizada y cubrir todas las etapas del proyecto. Cada integrante asumió con claridad sus responsabilidades a través de issues en la plataforma Github, lo que permitió una documentación organizada.
+
+- La definición de User Stories y del Product Backlog permitió priorizar las funcionalidades esenciales, asegurando que la solución respete y cumpla con lo que requieren los usuarios y el mercado.
+
+
+## Referencias Bibliográficas
+
+## Anexos
+
+## Links
+
+Url de la organización: [https://github.com/ASI0657-2520-faw-6327](https://github.com/ASI0657-2520-faw-6327)
+
+Url del informe: [https://github.com/ASI0657-2520-faw-6327/docs](https://github.com/ASI0657-2520-faw-6327/docs) 
