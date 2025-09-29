@@ -791,6 +791,11 @@ El User Task Matrix identifica las tareas que cada arquetipo debe realizar para 
       - **Modelo-Vista-Controlador (MVC):** Se aplicará principalmente en la capa del cliente, separa la lógica de presentación (Vista), la lógica de interacción (Controlador) y el modelo de datos (Modelo). Esto mejora la organización del código, facilita el mantenimiento y permite una experiencia de usuario más coherente y dinámica.
       - **API Gateway:** Actúa como punto único de entrada de las solicitudes del cliente, gestionando el enrutamiento hacia los microservicios correspondientes, además de ofrecer beneficios en seguridad y monitoreo. Simplifica la interacción entre el cliente y el backend distribuido.
 
+
+### 4.1.3 Context Diagram
+
+![Context Diagram](/imgs/context-diagram.png)
+
 ### 4.1.5 Relational/Non Relational Database Diagram 
 
 ![diagram](/imgs/diagramasrelacionaldebasesdedatos.png)
