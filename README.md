@@ -1004,6 +1004,24 @@ El User Task Matrix identifica las tareas que cada arquetipo debe realizar para 
   </tr>
 </table>
 
+### 4.2.4 Constraints  
+
+Los "constraints" se refieren a las limitaciones o restricciones que deben ser consideradas durante la planificación, diseño y ejecución de un proyecto de software y arquitectura de sistemas.  
+
+| ID        | Constraint |
+|-----------|------------|
+| **CON-001** | **Arquitectura de Microservicios**<br>• La plataforma debe construirse bajo una arquitectura de microservicios, garantizando escalabilidad y flexibilidad en el despliegue y mantenimiento. |
+| **CON-002** | **Autenticación Universitaria Externa**<br>• El sistema debe integrarse obligatoriamente con **Student Beans** para validar la pertenencia universitaria de los usuarios antes de permitir el acceso completo a la plataforma. |
+| **CON-003** | **Notificaciones en Tiempo Real**<br>• Las notificaciones deben gestionarse a través de **Firebase Cloud Messaging (FCM)** para asegurar alertas inmediatas sobre viajes, solicitudes y actualizaciones. |
+| **CON-004** | **Procesamiento de Pagos Seguro**<br>• Todas las transacciones deben realizarse mediante un gateway de pagos certificado (PCI DSS), asegurando la protección de datos financieros de los estudiantes. |
+| **CON-005** | **Autenticación y Autorización Segura**<br>• Se debe implementar un esquema de autenticación basado en estándares modernos como **OAuth 2.0** y **JWT**, protegiendo los accesos y la comunicación con los servicios internos y externos. |
+| **CON-006** | **Disponibilidad del Sistema**<br>• El sistema debe garantizar un **uptime mínimo del 99.5%**, asegurando accesibilidad incluso en horas pico (inicio y fin de clases). |
+| **CON-007** | **Cifrado de Datos**<br>• Los datos sensibles de los usuarios deben estar cifrados **en tránsito (TLS 1.3)** y **en reposo (AES-256)** para garantizar la confidencialidad y seguridad de la información. |
+| **CON-008** | **Tiempo de Respuesta**<br>• Las operaciones críticas (ej. reserva de asiento, aceptación de solicitud) deben ejecutarse en menos de **3 segundos** para asegurar una experiencia fluida. |
+| **CON-009** | **Compatibilidad Multiplataforma**<br>• La aplicación debe estar disponible tanto en **web** como en **dispositivos móviles (Android/iOS)**, asegurando accesibilidad para todos los estudiantes. |
+| **CON-010** | **Escalabilidad**<br>• La plataforma debe poder escalar horizontalmente para soportar al menos **10,000 usuarios concurrentes** sin afectar el rendimiento. |
+
+
 ### 4.2.8 Design Purpose
 
 El diseño arquitectónico de ÑanGo tiene como propósito asegurar que la plataforma de movilidad estudiantil sea **segura, confiable y escalable**, ofreciendo una experiencia fluida a conductores y pasajeros dentro de la comunidad universitaria. La arquitectura basada en microservicios y desplegada en la nube permite que cada módulo —como autenticación, gestión de viajes, solicitudes, notificaciones y chat— evolucione de manera independiente, facilitando la incorporación de nuevas funcionalidades sin afectar al sistema completo.
