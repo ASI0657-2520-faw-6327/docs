@@ -866,6 +866,137 @@ El User Task Matrix identifica las tareas que cada arquetipo debe realizar para 
 
 
 ## 4.2 Architectural Drivers
+
+### 4.2.3	Quality Attribute Scenarios
+
+1. Escenario de Disponibilidad
+
+<table border="1">
+  <tr>
+    <td rowspan="2"><strong>ENTRADAS</strong></td>
+    <td><strong>Fuente de Estímulo</strong></td>
+    <td>Un gran número de usuarios (estudiantes pasajeros y conductores).</td>
+  </tr>
+  <tr>
+    <td><strong>Estímulo</strong></td>
+    <td>Múltiples intentos simultáneos de publicar, buscar y coordinar viajes.</td>
+  </tr>
+  <tr>
+    <td rowspan="2"><strong>CONDICIONES</strong></td>
+    <td><strong>Entorno</strong></td>
+    <td>El sistema está operando en condiciones normales durante una hora punta (ej. 7-9 AM y 5-7 PM en un día laborable), que es cuando la demanda es más alta.</td>
+  </tr>
+  <tr>
+    <td><strong>Artefacto</strong></td>
+    <td>Servicios de Gestión de Viajes y Búsqueda.</td>
+  </tr>
+  <tr>
+    <td rowspan="2"><strong>RESULTADOS ESPERADOS</strong></td>
+    <td><strong>Respuesta</strong></td>
+    <td>El sistema procesa todas las solicitudes sin fallos, permitiendo a los usuarios completar sus operaciones de búsqueda y coordinación de manera exitosa.</td>
+  </tr>
+  <tr>
+    <td><strong>Medida de Respuesta</strong></td>
+    <td>El sistema mantiene una disponibilidad del 99.9% durante las horas punta. La tasa de éxito de las solicitudes críticas (buscar, publicar, solicitar) es superior al 99.5%.</td>
+  </tr>
+</table>
+
+2. Escenario de Seguridad
+
+<table border="1">
+  <tr>
+    <td rowspan="2"><strong>ENTRADAS</strong></td>
+    <td><strong>Fuente de Estímulo</strong></td>
+    <td>Un actor externo malintencionado.</td>
+  </tr>
+  <tr>
+    <td><strong>Estímulo</strong></td>
+    <td>Un intento de acceso no autorizado para ver el historial de viajes o la información personal de un usuario.</td>
+  </tr>
+  <tr>
+    <td rowspan="2"><strong>CONDICIONES</strong></td>
+    <td><strong>Entorno</strong></td>
+    <td>El sistema está en operación normal.</td>
+  </tr>
+  <tr>
+    <td><strong>Artefacto</strong></td>
+    <td>La base de datos de usuarios y los endpoints de la API que gestionan la información del perfil y el historial de viajes.</td>
+  </tr>
+  <tr>
+    <td rowspan="2"><strong>RESULTADOS ESPERADOS</strong></td>
+    <td><strong>Respuesta</strong></td>
+    <td>El sistema, a través de sus tácticas de seguridad como la autenticación basada en sesiones y la encriptación, detecta y bloquea el intento de acceso. No se expone ninguna información sensible y el intento es registrado para auditoría.</td>
+  </tr>
+  <tr>
+    <td><strong>Medida de Respuesta</strong></td>
+    <td>El intento de acceso no autorizado es rechazado en el 100% de los casos. Se genera una alerta de seguridad para el equipo de operaciones en menos de 1 segundo tras el intento fallido.</td>
+  </tr>
+</table>
+
+3. Escenario de Usabilidad
+
+<table border="1">
+  <tr>
+    <td rowspan="2"><strong>ENTRADAS</strong></td>
+    <td><strong>Fuente de Estímulo</strong></td>
+    <td>Un nuevo usuario (estudiante pasajero) que utiliza la aplicación por primera vez.</td>
+  </tr>
+  <tr>
+    <td><strong>Estímulo</strong></td>
+    <td>El usuario intenta realizar la tarea completa de buscar un viaje disponible para mañana, seleccionar uno y enviar una solicitud para unirse.</td>
+  </tr>
+  <tr>
+    <td rowspan="2"><strong>CONDICIONES</strong></td>
+    <td><strong>Entorno</strong></td>
+    <td>El usuario está utilizando la aplicación web en un dispositivo móvil con una conexión a internet estándar.</td>
+  </tr>
+  <tr>
+    <td><strong>Artefacto</strong></td>
+    <td>La interfaz de usuario (UI) de la aplicación Nango.</td>
+  </tr>
+  <tr>
+    <td rowspan="2"><strong>RESULTADOS ESPERADOS</strong></td>
+    <td><strong>Respuesta</strong></td>
+    <td>El usuario completa la tarea de buscar y solicitar un viaje de forma exitosa y sin frustración, siguiendo un flujo intuitivo como se espera de una interfaz "amigable y confiable".</td>
+  </tr>
+  <tr>
+    <td><strong>Medida de Respuesta</strong></td>
+    <td>Al menos el 95% de los nuevos usuarios en un entorno de prueba pueden completar esta tarea en menos de 90 segundos sin necesidad de consultar un manual de ayuda o soporte técnico.</td>
+  </tr>
+</table>
+
+4. Escenario de Rendimiento
+
+<table border="1">
+  <tr>
+    <td rowspan="2"><strong>ENTRADAS</strong></td>
+    <td><strong>Fuente de Estímulo</strong></td>
+    <td>Un usuario (estudiante pasajero).</td>
+  </tr>
+  <tr>
+    <td><strong>Estímulo</strong></td>
+    <td>El usuario realiza una búsqueda de viajes disponibles aplicando filtros de fecha, origen y destino.</td>
+  </tr>
+  <tr>
+    <td rowspan="2"><strong>CONDICIONES</strong></td>
+    <td><strong>Entorno</strong></td>
+    <td>El sistema se encuentra bajo una carga de 100 usuarios concurrentes realizando operaciones de lectura (búsquedas, visualización de perfiles) y escritura (publicación de viajes, envío de mensajes).</td>
+  </tr>
+  <tr>
+    <td><strong>Artefacto</strong></td>
+    <td>Servicio de Búsqueda y la base de datos de viajes.</td>
+  </tr>
+  <tr>
+    <td rowspan="2"><strong>RESULTADOS ESPERADOS</strong></td>
+    <td><strong>Respuesta</strong></td>
+    <td>El sistema procesa la consulta, aplica los filtros correspondientes y devuelve una lista de resultados relevantes al usuario.</td>
+  </tr>
+  <tr>
+    <td><strong>Medida de Respuesta</strong></td>
+    <td>Los resultados de la búsqueda se muestran en la interfaz del usuario en menos de 2 segundos para el 99% de las solicitudes.</td>
+  </tr>
+</table>
+
 ### 4.2.8 Design Purpose
 
 El diseño arquitectónico de ÑanGo tiene como propósito asegurar que la plataforma de movilidad estudiantil sea **segura, confiable y escalable**, ofreciendo una experiencia fluida a conductores y pasajeros dentro de la comunidad universitaria. La arquitectura basada en microservicios y desplegada en la nube permite que cada módulo —como autenticación, gestión de viajes, solicitudes, notificaciones y chat— evolucione de manera independiente, facilitando la incorporación de nuevas funcionalidades sin afectar al sistema completo.
@@ -873,6 +1004,8 @@ El diseño arquitectónico de ÑanGo tiene como propósito asegurar que la plata
 El uso de **sesiones para autenticación** refuerza la seguridad y la confianza de los usuarios, mientras que la verificación estudiantil con **Student Beans** garantiza que la comunidad se mantenga cerrada y validada. Además, la integración de **Firebase Cloud Messaging** y **Socket.IO** respalda la comunicación en tiempo real, un aspecto clave para notificaciones instantáneas y coordinación entre estudiantes.
 
 En conjunto, este diseño busca cumplir con los **atributos de calidad** más relevantes para el producto: seguridad, disponibilidad, escalabilidad, usabilidad y mantenibilidad. Al mismo tiempo, responde a los objetivos de negocio de la startup, centrados en ofrecer una solución tecnológica que aumente la seguridad en el transporte universitario y genere confianza en la comunidad académica.
+
+
 
 ### 4.2.9 Primary Functionality (Primary User Stories)
 
