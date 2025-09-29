@@ -30,6 +30,7 @@
 | Versión | Fecha | Autor | Descripción de Modificación |
 | ------- | ----- | ----- | --------------------------- |
 | TB1 | 06/09/2025 | TinkuyTech | Redación de los capítulos: <br> Capítulo I: Introducción <br> Capítulo II: Requirements  & Analysis <br> Capítulo III: Requirements Specification |
+| TB2 | 24/09/2025 | TinkuyTech | Redación de los capítulos: <br> Capítulo IV: Product Architecture Design |
 
 # Student Outcomes
 
