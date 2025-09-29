@@ -1004,6 +1004,23 @@ El User Task Matrix identifica las tareas que cada arquetipo debe realizar para 
   </tr>
 </table>
 
+
+
+
+
+### 4.2.5 Architectural Concerns  
+
+| ID        | Architectural Concerns |
+|-----------|-------------------------|
+| **ARC-001** | **Disponibilidad del Sistema**<br>• Descripción: Existe la preocupación de que el sistema no cumpla con el requisito de disponibilidad mínima del **99.5%**, especialmente durante horarios pico (entrada y salida de clases), lo que podría afectar la confianza y la experiencia de los usuarios. |
+| **ARC-002** | **Dominio Tecnológico del Equipo de Desarrollo**<br>• Descripción: El equipo podría enfrentar una curva de aprendizaje o falta de experiencia con las tecnologías seleccionadas, lo que puede impactar en los tiempos de entrega y calidad del producto. |
+| **ARC-003** | **Adecuación del Modelo de Dominio**<br>• Descripción: Existe la preocupación de que el modelo de dominio no cubra completamente aspectos clave como la gestión de rutas, validación universitaria o solicitudes de viaje, limitando la escalabilidad futura. |
+| **ARC-004** | **Escalabilidad de la Arquitectura**<br>• Descripción: La arquitectura podría no soportar de manera eficiente un aumento rápido en la cantidad de usuarios concurrentes (ej. más de 10,000), comprometiendo la experiencia de uso. |
+| **ARC-005** | **Interoperabilidad con Servicios Externos**<br>• Descripción: La integración con servicios como **Student Beans** (autenticación universitaria) y **Firebase Cloud Messaging** (notificaciones) puede presentar riesgos de dependencia y fallos si no se gestiona correctamente. |
+| **ARC-006** | **Seguridad y Protección de Datos**<br>• Descripción: Es necesario garantizar que la arquitectura cumpla con altos estándares de seguridad, protegiendo datos sensibles de estudiantes mediante cifrado, autenticación robusta y control de accesos. |
+| **ARC-007** | **Procesamiento de Pagos**<br>• Descripción: La correcta integración con una pasarela de pagos segura es crítica; cualquier error en disponibilidad o validación podría afectar la confianza y generar pérdidas financieras. |
+
+
 ### 4.2.8 Design Purpose
 
 El diseño arquitectónico de ÑanGo tiene como propósito asegurar que la plataforma de movilidad estudiantil sea **segura, confiable y escalable**, ofreciendo una experiencia fluida a conductores y pasajeros dentro de la comunidad universitaria. La arquitectura basada en microservicios y desplegada en la nube permite que cada módulo —como autenticación, gestión de viajes, solicitudes, notificaciones y chat— evolucione de manera independiente, facilitando la incorporación de nuevas funcionalidades sin afectar al sistema completo.
