@@ -1221,6 +1221,49 @@ A continuación, se muestra una captura del Kanban en GitHub Projects, donde se 
 
     - **Swagger:** Documentación de APIs RESTful de microservicios. [https://swagger.io/](https://swagger.io/)
 
+
+### 5.2.2. Source Code Management
+
+Para el control de versiones y seguimiento de modificaciones en los productos de software se utilizará GitHub como plataforma principal. Cada microservicio y componente de la solución ÑanGo cuenta con su propio repositorio, incluyendo tanto el código fuente como los archivos de prueba (.feature).
+
+1. **Repositorios:**
+
+  - **Repositorio IAM Service:** [https://github.com/ASI0657-2520-faw-6327/iam-service](https://github.com/ASI0657-2520-faw-6327/iam-service)
+  - **Repositorio Profile Service:** [https://github.com/ASI0657-2520-faw-6327/profile-service](https://github.com/ASI0657-2520-faw-6327/profile-service)
+  - **Repositorio Ride Service:** [https://github.com/ASI0657-2520-faw-6327/ride-service](https://github.com/ASI0657-2520-faw-6327/ride-service)
+
+<br>
+
+2. **GitFlow Workflow:**
+
+Para el desarrollo del Web Services se implementa el modelo GitFlow propuesto por Vincent Driessen, adaptado a un entorno de microservicios y despliegue continuo. Las ramas son:
+
+  - **main:** Rama principal para producción
+  - **develop:** Rama de desarrollo
+  - **feature:** Rama para desarrollo de nuevas funcionalidades
+  - **fix:** Rama para corrección de errores
+  - **release:** Rama para despliegue de versiones estables
+
+<br>
+
+3. **Conventional Commits:**
+  Se utilizarán **Conventional Commits** para facilitar el versionado semántico.
+  - `feat:` Nueva funcionalidad
+  - `fix:` Corrección de errores
+  - `test:` Pruebas agregadas o modificadas
+  - `docs:` Documentación
+
+<br>
+
+4. **Source Code Style Guide & Coding Conventions:**
+Para mantener la coherencia y legibilidad del código, el equipo adopta las siguientes guías y convenciones:
+
+- **Nomenclatura:**
+
+  - Todos los nombres de variables, funciones, clases y archivos se escriben en inglés.
+  - Se aplica camelCase para variables y funciones, PascalCase para clases, y snake_case para nombres de archivos.
+
+
 # Conclusiones
 
 ## Conclusiones y Recomendaciones
