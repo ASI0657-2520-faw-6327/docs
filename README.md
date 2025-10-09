@@ -1288,6 +1288,13 @@ Para mantener la coherencia y legibilidad del código, el equipo adopta las sigu
 | —             | —                          | SB1-15       | Pruebas de integración con Docker Compose         | Validar persistencia y comunicación entre servicios en entorno local.                     | 6                  | Equipo Backend                      | Done                                           |
 | —             | —                          | SB1-16       | Actualizar README técnico                         | Documentar resultados, endpoints y configuración del sprint.                              | 4                  | Vicente Quijandria                  | Done                                           |
 
+## 5.2.1.8 Kanban Board
+
+El Kanban Board del Sprint 1 muestra la organización y seguimiento de las tareas del equipo durante la primera iteración del proyecto. Este tablero permite visualizar el flujo de trabajo dividido en columnas que representan los diferentes estados de las tareas: por hacer, en progreso y completadas.
+
+![Kanban Board](./imgs/kanbanboardsprint1.png)
+
+**Link de Trello:** https://trello.com/invite/b/68d9fec4a886565a738c5578/ATTI5fe0d222c5142993d845a183ced85bc8475F9959/sprint-1
 
 # Conclusiones
 
