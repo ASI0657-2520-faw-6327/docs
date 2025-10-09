@@ -1179,6 +1179,48 @@ A continuación, se muestra una captura del Kanban en GitHub Projects, donde se 
 
 ![iteration-1-kanban](./imgs/add-iteration-1-kanban.png)
 
+
+# CAPÍTULO V: Product Implementation, Validation & Deployment
+
+## 5.2. Software Configuration Management
+
+### 5.2.1.	Software Development Environment Configuration
+
+1. **Project Management:**
+
+    - **Trello:** Gestión visual de tareas por Sprint, seguimiento de backlog y prioridades. [https://trello.com/home](https://trello.com/home)
+
+2. **Requirements Management:**
+
+    - **Structurizr:** Diagramas de arquitectura de software C4. [https://structurizr.com/](https://structurizr.com/)
+    - **Lucidchart:** Diagrama de clases. [https://www.lucidchart.com/pages/es](https://www.lucidchart.com/pages/es)
+
+3. **Product Design:**
+
+    - **Figma:** Diseño de interfaces y prototipos interactivos [https://www.figma.com/](https://www.figma.com/)
+
+4. **Software Development:**
+
+    - **Visual Studio Code:** Editor de código para el desarrollo del informe. [https://code.visualstudio.com/](https://code.visualstudio.com/)
+    - **IntelliJ IDEA:** Entorno de desarrollo del backend. [https://www.jetbrains.com/es-es/idea/download/?section=windows](https://www.jetbrains.com/es-es/idea/download/?section=windows)
+    - **Java + Maven:** Lenguaje de programación para el desarrollo del backend con gestión de dependencias [https://maven.apache.org/](https://maven.apache.org/)
+    - **Docker:** Contenerización de servicios. [https://www.docker.com/](https://www.docker.com/)
+    - **MySQL:** Base de datos. [https://www.mysql.com/](https://www.mysql.com/)
+
+5. **Software Testing:**
+
+    - **Spring Boot Test:** Framework de pruebas integrado en Spring Boot para pruebas unitarias, de integración y de contexto. Utilizado en microservicios desarrollados en Java. [https://spring.io/projects/spring-boot](https://spring.io/projects/spring-boot)
+
+6. **Software Deployment:**
+
+    - **GitHub Actions:** Automatización de CI/CD: build, test, deploy. [https://github.com/features/actions](https://github.com/features/actions)
+    - **Terraform:** Infraestructura como código para despliegue en AWS (ECS/EKS). [https://developer.hashicorp.com/terraform](https://developer.hashicorp.com/terraform)
+    - **Dokploy:** Plataforma de despliegue basada en Docker Compose, con soporte para múltiples servidores y monitoreo en tiempo real. [https://dokploy.com/es](https://dokploy.com/es)
+
+7. **Software Documentation:**
+
+    - **Swagger:** Documentación de APIs RESTful de microservicios. [https://swagger.io/](https://swagger.io/)
+
 # Conclusiones
 
 ## Conclusiones y Recomendaciones
