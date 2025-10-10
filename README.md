@@ -35,10 +35,9 @@
 
 # Student Outcomes
 
-| Criterio específico | Acciones realizadas | Conclusiones |
-|---------------------|---------------------|--------------|
-| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **Gamarra Vega, Anderson José**<br> TB1 <br> - Redacté el Lean UX Canvas, relacionando hipótesis y supuestos con los objetivos del producto, lo que me permitió afianzar mis conocimientos en metodologías ágiles de diseño.<br>- Contribuí en la construcción del Product Backlog, aplicando técnicas de priorización que me ayudaron a fortalecer mis competencias en gestión de requisitos y planificación de software. <br> TB2 <br> - Apliqué tácticas de arquitectura y definí Architectural Drivers para el Capítulo IV, fortaleciendo mis conocimientos en diseño escalable y mantenible.<br><br>**Nanfuñay Liza, Pedro Jesús**<br> TB1 <br> - Redacté puntos esenciales para el desarrollo del presente proyecto como el Lean UX Assumptions, Empathy Maps y User Stories, aplicando conocimientos adquiridos de manera eficiente y clara, y buenas prácticas que me permitieron actualizar mis conocimientos y fortalecer mis competencias en el desarrollo de software.<br> TB2 <br> - Redacté principios y enfoques arquitectónicos, seleccionando estilos y patrones que mejor se alinean con las necesidades del proyecto.<br><br>**Quijandria Araneda, Vicente**<br> TB1 <br> - Desarrollé la sección de antecedentes y problemática, aplicando herramientas de análisis para contextualizar el proyecto.<br>- Participé en la redacción de User Stories, lo que me permitió reforzar mi capacidad de transformar hallazgos en especificaciones claras y accionables.<br> TB2 <br> - Elaboré el Context Diagram y los ViewPoints Diagram para representar la arquitectura del sistema.<br><br>**Hallasi Saravia, Miguel Ángel**<br> TB1 <br> - Redacté la sección de segmentos objetivo, lo cual me permitió aplicar conceptos de segmentación y análisis de usuarios.<br>- Participé activamente en entrevistas y en la construcción del Impact Map, afianzando mis conocimientos en la identificación de métricas de valor y validación de usuarios.<br> TB2 <br> - Documenté funcionalidades principales y Quality Attribute Scenarios, relacionando requisitos con la arquitectura.<br><br>**Valera Garcés, Samuel Ignacio**<br> TB1 <br> - Redacté la descripción de la startup y documenté escenarios As-Is y To-Be, lo que me ayudó a profundizar en el análisis de procesos y a fortalecer mis competencias en modelado de escenarios.<br> TB2 <br> - Diseñé el diagrama de base de datos relacional/no relacional, definí Design Patterns y dirigí las ADD Iterations del Capítulo IV. | TB1 <br> Cada integrante actualizó y aplicó conceptos fundamentales en Lean UX, análisis de usuarios, especificación de requisitos y principios de arquitectura de software. El equipo en conjunto demostró que la aplicación práctica de estos conocimientos fortaleció sus competencias profesionales y mejoró la calidad del proyecto. <br> <br> TB2 <br> Como equipo, reconocemos que el proceso de diseño arquitectónico y la aplicación de ADD nos ha permitido actualizar y reforzar conceptos clave de la ingeniería de software, tales como Domain-Driven Design, Attribute-Driven Design, microservicios y patrones arquitectónicos. Con ello garantizamos que nuestra plataforma responda adecuadamente a requisitos funcionales y no funcionales. |
-| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.** | **Gamarra Vega, Anderson José**<br> TB1 <br> - Al elaborar el Lean UX Canvas y priorizar el backlog, comprendí la importancia de actualizar de manera constante mis conocimientos en análisis de producto y planificación, reconociendo que el aprendizaje continuo es clave para mejorar mi desempeño profesional.<br> TB2 <br> - Al definir tácticas y drivers de arquitectura en el Capítulo IV, reforcé la importancia de seguir aprendiendo para tomar mejores decisiones de diseño.<br><br>**Nanfuñay Liza, Pedro Jesús**<br> TB1 <br> - Al redactar este informe comprendí la importancia de actualizar constantemente los conocimientos que adquiero, ya que es un aspecto fundamental para mejorar mis capacidades, desempeño profesional y en el desarrollo de proyectos de soluciones de software.<br> TB2 <br> - Al seleccionar estilos y patrones arquitectónicos, confirmé la necesidad de aprendizaje continuo para identificar buenas prácticas de arquitectura.<br><br>**Quijandria Araneda, Vicente**<br> TB1 <br> - Al redactar los antecedentes y problemática y participar en la definición de historias de usuario, entendí que debo mantenerme actualizado en técnicas de análisis y documentación de requisitos para elevar mi desempeño en futuros proyectos.<br> TB2 <br> - Al elaborar diagramas de contexto y vistas arquitectónicas, reconocí que el aprendizaje permanente es esencial para mejorar mis capacidades de diseño.<br><br>**Hallasi Saravia, Miguel Ángel**<br> TB1 <br> - Al elaborar los segmentos objetivo, realizar entrevistas y desarrollar el Impact Map, comprendí que el aprendizaje permanente es esencial para perfeccionar mis competencias en validación de usuarios y métricas de impacto.<br> TB2 <br> - Al documentar escenarios de atributos de calidad y diagramas de arquitectura, confirmé la necesidad de seguir aprendiendo para abordar sistemas complejos.<br><br>**Valera Garcés, Samuel Ignacio**<br> TB1 <br> - Al redactar la descripción de la startup y los escenarios As-Is/To-Be, entendí la necesidad de fortalecer constantemente mis conocimientos en mapeo de procesos y comunicación de resultados, reconociendo que el aprendizaje continuo es esencial para mi desarrollo profesional.<br> TB2 <br> - Al diseñar la base de datos y dirigir las ADD Iterations, reafirmé la importancia del aprendizaje constante para optimizar la arquitectura de software. | TB1 <br> El equipo reconoció que el aprendizaje permanente es un pilar para el crecimiento profesional y para la mejora continua en el desarrollo de proyectos de software. La experiencia les permitió reafirmar la importancia de seguir investigando, aplicando nuevas técnicas y adaptando buenas prácticas a futuros retos. <br> <br> TB2 <br> Reconocemos que las arquitecturas de software están en constante evolución , por lo que es esencial mantener un aprendizaje continuo para asegurar la calidad de soluciones de software, así como en nuestro crecimiento profesional. |
+| Criterio específico | Acciones realizadas | Conclusiones | 
+|---------------------|---------------------|--------------| 
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **Gamarra Vega, Anderson José**<br> TB1 <br> - Redacté el Lean UX Canvas, relacionando hipótesis y supuestos con los objetivos del producto, lo que me permitió afianzar mis conocimientos en metodologías ágiles de diseño.<br>- Contribuí en la construcción del Product Backlog, aplicando técnicas de priorización que me ayudaron a fortalecer mis competencias en gestión de requisitos y planificación de software.<br> TB2 <br> - Apliqué tácticas de arquitectura y definí Architectural Drivers para el Capítulo IV, fortaleciendo mis conocimientos en diseño escalable y mantenible.<br> **TP** <br> - Realicé el *deploy* y *dockerización* de los tres microservicios del backend.<br>- Desarrollé la *landing page* del proyecto y gestioné su *deploy* en el entorno productivo.<br><br> **Nanfuñay Liza, Pedro Jesús**<br> TB1 <br> - Redacté puntos esenciales para el desarrollo del presente proyecto como el Lean UX Assumptions, Empathy Maps y User Stories, aplicando conocimientos adquiridos de manera eficiente y clara, y buenas prácticas que me permitieron actualizar mis conocimientos y fortalecer mis competencias en el desarrollo de software.<br> TB2 <br> - Redacté principios y enfoques arquitectónicos, seleccionando estilos y patrones que mejor se alinean con las necesidades del proyecto.<br> **TP** <br> - Desarrollé y ejecuté *testing funcional* y *pruebas unitarias* para los microservicios y el frontend.<br>- Participé en la gestión y supervisión de las *code guidelines*, asegurando consistencia en la base de código.<br><br> **Quijandria Araneda, Vicente**<br> TB1 <br> - Desarrollé la sección de antecedentes y problemática, aplicando herramientas de análisis para contextualizar el proyecto.<br>- Participé en la redacción de User Stories, lo que me permitió reforzar mi capacidad de transformar hallazgos en especificaciones claras y accionables.<br> TB2 <br> - Elaboré el Context Diagram y los ViewPoints Diagram para representar la arquitectura del sistema.<br> **TP** <br> - Desarrollé y ejecuté *testing funcional* y *pruebas unitarias* para los microservicios y el frontend.<br><br> **Hallasi Saravia, Miguel Ángel**<br> TB1 <br> - Redacté la sección de segmentos objetivo, lo cual me permitió aplicar conceptos de segmentación y análisis de usuarios.<br>- Participé activamente en entrevistas y en la construcción del Impact Map, afianzando mis conocimientos en la identificación de métricas de valor y validación de usuarios.<br> TB2 <br> - Documenté funcionalidades principales y Quality Attribute Scenarios, relacionando requisitos con la arquitectura.<br> **TP** <br> - Ejecuté *pruebas unitarias y de integración* para garantizar la calidad del código.<br>- Colaboré en el *code guidelines management*, reforzando la estandarización de buenas prácticas dentro del equipo.<br><br> **Valera Garcés, Samuel Ignacio**<br> TB1 <br> - Redacté la descripción de la startup y documenté escenarios As-Is y To-Be, lo que me ayudó a profundizar en el análisis de procesos y a fortalecer mis competencias en modelado de escenarios.<br> TB2 <br> - Diseñé el diagrama de base de datos relacional/no relacional, definí Design Patterns y dirigí las ADD Iterations del Capítulo IV.<br> **TP** <br> - Desarrollé la *aplicación web completa*, incluyendo su *deploy* y la implementación de los *tres microservicios del backend*. | TB1 <br> Cada integrante actualizó y aplicó conceptos fundamentales en Lean UX, análisis de usuarios, especificación de requisitos y principios de arquitectura de software. El equipo en conjunto demostró que la aplicación práctica de estos conocimientos fortaleció sus competencias profesionales y mejoró la calidad del proyecto. <br><br> TB2 <br> Como equipo, reconocemos que el proceso de diseño arquitectónico y la aplicación de ADD nos ha permitido actualizar y reforzar conceptos clave de la ingeniería de software, tales como Domain-Driven Design, Attribute-Driven Design, microservicios y patrones arquitectónicos. Con ello garantizamos que nuestra plataforma responda adecuadamente a requisitos funcionales y no funcionales. <br><br> **TP** <br> El equipo consolidó las etapas finales del proyecto mediante la implementación, despliegue y aseguramiento de la calidad del producto. Samuel y Anderson lideraron los procesos de desarrollo y despliegue, mientras que Pedro y Miguel fortalecieron la calidad técnica mediante pruebas y lineamientos de código. Esto evidenció una comprensión integral del ciclo de vida del software, desde el desarrollo hasta la puesta en producción. | | **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.** | **Gamarra Vega, Anderson José**<br> TB1 <br> - Al elaborar el Lean UX Canvas y priorizar el backlog, comprendí la importancia de actualizar de manera constante mis conocimientos en análisis de producto y planificación, reconociendo que el aprendizaje continuo es clave para mejorar mi desempeño profesional.<br> TB2 <br> - Al definir tácticas y drivers de arquitectura en el Capítulo IV, reforcé la importancia de seguir aprendiendo para tomar mejores decisiones de diseño.<br> **TP** <br> - Al realizar el *deploy*, *dockerización* y la *landing page*, comprendí que el aprendizaje continuo es esencial para mantenerme actualizado en tecnologías de despliegue y entornos productivos.<br><br> **Nanfuñay Liza, Pedro Jesús**<br> TB1 <br> - Al redactar este informe comprendí la importancia de actualizar constantemente los conocimientos que adquiero, ya que es un aspecto fundamental para mejorar mis capacidades, desempeño profesional y en el desarrollo de proyectos de soluciones de software.<br> TB2 <br> - Al seleccionar estilos y patrones arquitectónicos, confirmé la necesidad de aprendizaje continuo para identificar buenas prácticas de arquitectura.<br> **TP** <br> - Durante la ejecución de *testing* y *pruebas unitarias*, reafirmé la importancia del aprendizaje constante en técnicas de aseguramiento de la calidad de software.<br><br> **Quijandria Araneda, Vicente**<br> TB1 <br> - Al redactar los antecedentes y problemática y participar en la definición de historias de usuario, entendí que debo mantenerme actualizado en técnicas de análisis y documentación de requisitos para elevar mi desempeño en futuros proyectos.<br> TB2 <br> - Al elaborar diagramas de contexto y vistas arquitectónicas, reconocí que el aprendizaje permanente es esencial para mejorar mis capacidades de diseño.<br><br> **TP** <br> - Al ejecutar *testing*, *pruebas unitarias* y participar en la gestión de *code guidelines*, comprendí la importancia de la actualización constante en herramientas de QA y control de calidad.<br><br> **Hallasi Saravia, Miguel Ángel**<br> TB1 <br> - Al elaborar los segmentos objetivo, realizar entrevistas y desarrollar el Impact Map, comprendí que el aprendizaje permanente es esencial para perfeccionar mis competencias en validación de usuarios y métricas de impacto.<br> TB2 <br> - Al documentar escenarios de atributos de calidad y diagramas de arquitectura, confirmé la necesidad de seguir aprendiendo para abordar sistemas complejos.<br> **TP** <br> - Al ejecutar *testing*, *pruebas unitarias* y participar en la gestión de *code guidelines*, comprendí la importancia de la actualización constante en herramientas de QA y control de calidad.<br><br> **Valera Garcés, Samuel Ignacio**<br> TB1 <br> - Al redactar la descripción de la startup y los escenarios As-Is/To-Be, entendí la necesidad de fortalecer constantemente mis conocimientos en mapeo de procesos y comunicación de resultados, reconociendo que el aprendizaje continuo es esencial para mi desarrollo profesional.<br> TB2 <br> - Al diseñar la base de datos y dirigir las ADD Iterations, reafirmé la importancia del aprendizaje constante para optimizar la arquitectura de software.<br> **TP** <br> - Al desarrollar la *aplicación web* y los *microservicios backend* con su *deploy*, reforcé mis conocimientos en despliegue y orquestación de servicios, reconociendo la necesidad de mantener un aprendizaje continuo en tecnologías modernas de desarrollo web. | TB1 <br> El equipo reconoció que el aprendizaje permanente es un pilar para el crecimiento profesional y para la mejora continua en el desarrollo de proyectos de software. La experiencia les permitió reafirmar la importancia de seguir investigando, aplicando nuevas técnicas y adaptando buenas prácticas a futuros retos. <br><br> TB2 <br> Reconocemos que las arquitecturas de software están en constante evolución , por lo que es esencial mantener un aprendizaje continuo para asegurar la calidad de soluciones de software, así como en nuestro crecimiento profesional. <br><br> **TP** <br> En esta fase final, el equipo reafirmó la importancia de continuar aprendiendo sobre herramientas de despliegue, pruebas, automatización y buenas prácticas de desarrollo. El aprendizaje permanente permitió al grupo culminar el proyecto con una solución funcional, escalable y técnicamente sólida. |
 
 
 # Index
@@ -75,6 +74,58 @@
 - [3.2. User Stories](#32-user-stories)
 - [3.3. Impact Mapping](#33-impact-mapping)
 - [3.4. Product Backlog](#34-product-backlog)
+
+### [Capítulo IV: Product Architecture Design](#capítulo-iv-product-architecture-design)
+
+- [4.1. Design Concepts, ViewPoints & ER Diagrams](#41-design-concepts-viewpoints--er-diagrams)
+  - [4.1.1. Principles Statements](#411-principles-statements)
+  - [4.1.2. Approaches Statements, Architectural Styles & Patterns](#412-approaches-statements-architectural-styles--patterns)
+  - [4.1.3. Context Diagram](#413-context-diagram)
+  - [4.1.4. Approach-Driven ViewPoints Diagrams](#414-approach-driven-viewpoints-diagrams)
+  - [4.1.5. Relational/Non-Relational Database Diagram](#415-relationalnon-relational-database-diagram)
+  - [4.1.6. Design Patterns](#416-design-patterns)
+  - [4.1.7. Tactics](#417-tactics)
+  - [4.1.8. Design Purpose](#418-design-purpose)
+  - [4.1.9. Primary Functionality (Primary User Stories)](#419-primary-functionality-primary-user-stories)
+  - [4.1.10. Quality Attribute Scenarios](#4110-quality-attribute-scenarios)
+  - [4.1.11. Constraints](#4111-constraints)
+  - [4.1.12. Architectural Concerns](#4112-architectural-concerns)
+- [4.2. Architectural Drivers](#42-architectural-drivers)
+- [4.3. ADD Iterations (Attribute-Driven Design)](#43-add-iterations-attribute-driven-design)
+  - [4.3.1. Iteration N: <Iteration Name>](#431-iteration-n-iteration-name)
+    - [4.3.1.1. Architectural Design Backlog N](#4311-architectural-design-backlog-n)
+    - [4.3.1.2. Establish Iteration Goal by Selecting Drivers](#4312-establish-iteration-goal-by-selecting-drivers)
+    - [4.3.1.3. Choose System Elements to Refine](#4313-choose-system-elements-to-refine)
+    - [4.3.1.4. Choose Design Concepts to Satisfy Drivers](#4314-choose-design-concepts-to-satisfy-drivers)
+    - [4.3.1.5. Instantiate Architectural Elements, Allocate Responsibilities & Define Interfaces](#4315-instantiate-architectural-elements-allocate-responsibilities--define-interfaces)
+    - [4.3.1.6. Sketch Views (C4 & UML) and Record Design Decisions](#4316-sketch-views-c4--uml-and-record-design-decisions)
+    - [4.3.1.7. Analyze Current Design and Review Iteration Goal (Kanban Board)](#4317-analyze-current-design-and-review-iteration-goal-kanban-board)
+
+---
+
+### [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
+
+- [5.1. Testing Suites & General Patterns](#51-testing-suites--general-patterns)
+  - [5.1.1. Backend Application Core Testing Suite](#511-backend-application-core-testing-suite)
+  - [5.1.2. Pattern-Based Backend Applications](#512-pattern-based-backend-applications)
+  - [5.1.3. Pattern-Based Custom Software Library](#513-pattern-based-custom-software-library)
+  - [5.1.4. Framework Pattern-Driven Refactoring Report](#514-framework-pattern-driven-refactoring-report)
+- [5.2. Software Configuration Management](#52-software-configuration-management)
+  - [5.2.1. Software Development Environment Configuration](#521-software-development-environment-configuration)
+  - [5.2.2. Source Code Management](#522-source-code-management)
+  - [5.2.3. Source Code Style Guide & Conventions](#523-source-code-style-guide--conventions)
+  - [5.2.4. Software Deployment Configuration](#524-software-deployment-configuration)
+- [5.3. Microservices Implementation](#53-microservices-implementation)
+  - [5.3.1. Sprint 1](#531-sprint-1)
+    - [5.3.1.1. Sprint Backlog 1](#5311-sprint-backlog-1)
+    - [5.3.1.2. Development Evidence for Sprint Review](#5312-development-evidence-for-sprint-review)
+    - [5.3.1.3. Testing Suite Evidence for Sprint Review](#5313-testing-suite-evidence-for-sprint-review)
+    - [5.3.1.4. Execution Evidence for Sprint Review](#5314-execution-evidence-for-sprint-review)
+    - [5.3.1.5. Microservices Documentation Evidence for Sprint Review](#5315-microservices-documentation-evidence-for-sprint-review)
+    - [5.3.1.6. Software Deployment Evidence for Sprint Review](#5316-software-deployment-evidence-for-sprint-review)
+    - [5.3.1.7. Team Collaboration Insights during Sprint](#5317-team-collaboration-insights-during-sprint)
+    - [5.3.1.8. Kanban Board](#5318-kanban-board)
+
 
 # Capítulo I: Introducción
 
@@ -797,11 +848,11 @@ El User Task Matrix identifica las tareas que cada arquetipo debe realizar para 
 
 ### 4.1.3 Context Diagram
 
-![Context Diagram](/imgs/context-diagram.jpg)
+![Context Diagram](./imgs/c4/context-diagram.png)
 
 ### 4.1.5 Relational/Non Relational Database Diagram 
 
-![diagram](/imgs/diagramasrelacionaldebasesdedatos.jpg)
+![diagram](./imgs/diagramasrelacionaldebasesdedatos.png)
 
 ### 4.1.6 Design Patterns
 
@@ -1075,7 +1126,7 @@ Los "constraints" se refieren a las limitaciones o restricciones que deben ser c
 | **ARC-007** | **Procesamiento de Pagos**<br>• Descripción: La correcta integración con una pasarela de pagos segura es crítica; cualquier error en disponibilidad o validación podría afectar la confianza y generar pérdidas financieras. |
 
 ## 4.3 ADD Iterarions
-### 4.3.1 Iteration N: **Autenticación y Gestión de Usuario**
+### 4.3.1 Iteration N: **Autenticación, Gestión de Usuario y Ride**
 
 #### 4.3.1.1 Architectural Design Backlog – Iteración: **Autenticación y Gestión de Usuario**
 
@@ -1167,7 +1218,33 @@ Los "constraints" se refieren a las limitaciones o restricciones que deben ser c
 
 **C4 Diagram**
 
-![C4](./imgs/c4-add-1.png)
+### Context Diagram
+
+
+![context-diagram](./imgs/c4/context-diagram.png)
+
+### Container Diagram
+
+
+![container-diagram](./imgs/c4/container-diagram.png)
+
+### Component Diagram
+
+#### Iam Service
+
+
+![iam-component-diagram](./imgs/c4/iam-component-diagram.png)
+
+#### Profile Service
+
+![profile-component-diagram](./imgs/c4/profile-componet-diagram.png)
+
+#### Ride Service
+
+
+![ride-component-diagram](./imgs/c4/ride-component-diagram.png)
+
+### Uml diagram
 
 ![UML](./imgs/add1-uml.png)
 
@@ -1181,6 +1258,118 @@ A continuación, se muestra una captura del Kanban en GitHub Projects, donde se 
 
 
 # CAPÍTULO V: Product Implementation, Validation & Deployment
+
+## 5.1 Testing Suites & General Patterns
+
+El éxito de cualquier aplicación compleja, particularmente aquellas desarrolladas bajo una arquitectura de microservicios, depende en gran medida de la correcta implementación de pruebas y patrones. En este capítulo se detallan los conjuntos de pruebas y patrones implementados en el backend para garantizar la calidad, seguridad y rendimiento del sistema. El enfoque principal ha sido asegurar que la plataforma cumpla con los altos estándares de escalabilidad, seguridad, disponibilidad y experiencia de usuario definidos.
+
+### 5.1.1 Backend Application Core Testing Suite
+
+
+
+### 5.1.2 Pattern Based Backend Application(s)
+
+#### Uso del Patrón Observer en el Microservicio de Seguimiento de Viajes
+
+En Ñango, el patrón **Observer** se aplica en el microservicio de **seguimiento de viajes** (Ride Tracking). Su función es notificar automáticamente a otros servicios y a la interfaz cuando se produce un cambio en el estado de un viaje, por ejemplo, cuando un viaje pasa de “pendiente” a “en curso” o “finalizado”.
+
+El sistema publica eventos internos que son escuchados por otros microservicios, como el de **reservas**, que debe actualizar la disponibilidad de asientos, o el de **mensajería**, que envía notificaciones en tiempo real a los usuarios.
+
+**Ventajas principales del patrón Observer en Ñango:**
+
+- **Descentralización de la lógica:** cada servicio reacciona de forma independiente ante los cambios, sin depender directamente del servicio emisor.
+    
+- **Escalabilidad y modularidad:** nuevos servicios pueden suscribirse a los eventos sin modificar el código existente.
+    
+- **Experiencia en tiempo real:** los cambios en el estado de los viajes se reflejan instantáneamente en la aplicación web.
+    
+#### Uso del Patrón Singleton en el Microservicio de Autenticación (IAM)
+
+El patrón **Singleton** se utiliza en el microservicio de **autenticación y autorización** (IAM Service), encargado de gestionar los tokens de seguridad y validación de identidad de los usuarios. Este patrón garantiza que exista una única instancia responsable de generar, validar y renovar los **JSON Web Tokens (JWT)**, asegurando así la consistencia y eficiencia del sistema.
+
+Este enfoque centraliza la administración de credenciales, evitando duplicaciones en los demás microservicios y reduciendo el riesgo de errores en la validación. Además, permite controlar el ciclo de vida de los tokens y facilita la auditoría de accesos en la plataforma.
+
+**Ventajas principales del patrón Singleton en Ñango:**
+
+- **Control centralizado de la seguridad:** un único componente gestiona todos los tokens JWT.
+    
+- **Mayor seguridad:** el acceso a los recursos se regula desde un solo punto de control.
+    
+- **Mantenimiento simplificado:** la lógica de autenticación no se replica en otros servicios.
+
+#### Uso del Patrón Factory Method en la Creación de Recursos Dinámicos
+
+En la plataforma Ñango, el patrón **Factory Method** se aplica en los microservicios que gestionan la creación de recursos dinámicos, como **viajes**, **reservas**, **usuarios** o **pagos**. Este patrón permite instanciar diferentes tipos de objetos en función de las solicitudes del usuario sin depender de clases concretas.
+
+Por ejemplo, el sistema puede crear distintos tipos de viajes (inmediatos, programados o recurrentes) a partir de las necesidades del estudiante o conductor. La lógica de creación se encuentra encapsulada, lo que facilita la extensión del sistema sin alterar el código ya existente.
+
+**Ventajas principales del patrón Factory Method en Ñango:**
+
+- **Flexibilidad en la creación de objetos:** se generan instancias dinámicamente según las reglas de negocio.
+    
+- **Facilidad de mantenimiento:** la lógica de creación está centralizada y aislada.
+    
+- **Extensibilidad:** permite agregar nuevos tipos de viajes o usuarios sin modificar la estructura actual.
+
+
+### 5.1.3 Pattern Based Custom Software Library
+
+En esta etapa del proyecto Ñango aún no se ha implementado una librería de software compartida entre microservicios. Sin embargo, se ha definido el diseño para su futura incorporación, con el objetivo de estandarizar la comunicación, reducir la duplicación de código y favorecer la reutilización de componentes comunes en toda la arquitectura.
+
+### 5.1.4 Framework Pattern Driven Refactoring Report
+
+#### Identificación de oportunidades de refactorización
+
+Durante el proceso de mejora continua del sistema Ñango, se identificaron varias áreas con oportunidades de refactorización, especialmente relacionadas con la duplicación de lógica y la gestión del estado de los recursos. Para optimizar el rendimiento y la mantenibilidad, se introdujeron diversos patrones de diseño que mejoraron la modularidad, la escalabilidad y la cohesión del sistema.
+
+Las principales áreas detectadas fueron:
+
+- **Código redundante** en la lógica de cálculo de precios y validaciones.
+    
+- **Gestión de estados** de los viajes y reservas con estructuras condicionales complejas.
+    
+- **Altos tiempos de respuesta** en momentos de alta concurrencia.
+    
+
+---
+
+#### Aplicación de patrones de refactorización
+
+##### Patrón Strategy
+
+Se utilizó el patrón **Strategy** para aislar la lógica variable, por ejemplo en el cálculo de tarifas dentro del servicio de pagos o en la búsqueda y coincidencia de viajes dentro del servicio de transporte.  
+Gracias a este patrón, se pueden cambiar o añadir estrategias de negocio sin modificar el flujo principal de la aplicación.
+
+**Beneficio:** modularización de reglas de negocio, reducción de código duplicado y mayor facilidad para añadir nuevas estrategias de precios o asignación.
+
+---
+
+##### Patrón State
+
+Se implementó el patrón **State** en la gestión del ciclo de vida de los viajes y las reservas.  
+Cada estado (creado, confirmado, en curso, completado o cancelado) tiene su propio comportamiento y transiciones válidas, lo que evita condicionales extensos y mejora la claridad del código.
+
+**Beneficio:** mayor control sobre las transiciones, reducción de errores y un flujo más predecible en los procesos de reserva y seguimiento de viajes.
+
+---
+
+##### Patrón Proxy
+
+El patrón **Proxy** se incorporó en el **API Gateway** y en los microservicios de lectura intensiva, como el de viajes o perfiles, para gestionar el balanceo de carga y la comunicación entre servicios.  
+Gracias a este patrón, se añadió soporte de caché y tolerancia a fallos, lo que permite servir datos desde cachés locales cuando un servicio no está disponible o se encuentra saturado.
+
+**Beneficio:** reducción del tiempo de respuesta y mejora en la resiliencia de la plataforma, incluso con más de 10,000 usuarios simultáneos.
+
+---
+
+#### Resultados de la refactorización
+
+- **Reducción del tiempo de respuesta:** la combinación del patrón Proxy y el uso de cachés locales disminuyó los tiempos de respuesta de las consultas más utilizadas, cumpliendo con el objetivo de mantener respuestas críticas por debajo de los 3 segundos.
+    
+- **Mayor mantenibilidad:** los patrones Strategy y State simplificaron el código, permitiendo modificaciones sin afectar el comportamiento global.
+    
+- **Escalabilidad mejorada:** la modularización de los servicios y la introducción de eventos (Observer) permitieron que Ñango manejara grandes volúmenes de solicitudes con un consumo de recursos optimizado.
+
 
 ## 5.2. Software Configuration Management
 
@@ -1214,7 +1403,6 @@ A continuación, se muestra una captura del Kanban en GitHub Projects, donde se 
 6. **Software Deployment:**
 
     - **GitHub Actions:** Automatización de CI/CD: build, test, deploy. [https://github.com/features/actions](https://github.com/features/actions)
-    - **Terraform:** Infraestructura como código para despliegue en AWS (ECS/EKS). [https://developer.hashicorp.com/terraform](https://developer.hashicorp.com/terraform)
     - **Dokploy:** Plataforma de despliegue basada en Docker Compose, con soporte para múltiples servidores y monitoreo en tiempo real. [https://dokploy.com/es](https://dokploy.com/es)
 
 7. **Software Documentation:**
@@ -1288,7 +1476,80 @@ Para mantener la coherencia y legibilidad del código, el equipo adopta las sigu
 | —             | —                          | SB1-15       | Pruebas de integración con Docker Compose         | Validar persistencia y comunicación entre servicios en entorno local.                     | 6                  | Equipo Backend                      | Done                                           |
 | —             | —                          | SB1-16       | Actualizar README técnico                         | Documentar resultados, endpoints y configuración del sprint.                              | 4                  | Vicente Quijandria                  | Done                                           |
 
-## 5.2.1.8 Kanban Board
+#### 5.2.1.2 Development Evidence for Sprint Review
+
+| **Repository / Service** | **Branch** | **Commit ID** | **Type / Message**                                    | **Commit Body (Descripción resumida)**                                             | **Date (dd/mm/yyyy)** |
+| ------------------------ | ---------- | ------------- | ----------------------------------------------------- | ---------------------------------------------------------------------------------- | --------------------- |
+| **Landing-page**         | `prod`     | `46bbe04`     | **chore:** initialize project structure               | Creación inicial del repositorio y estructura base del proyecto.                   | 07/10/2025            |
+| **Landing-page**         | `prod`     | `a4a7b55`     | **fix:** Nginx production configuration               | Corrección en la configuración de Nginx para entorno productivo.                   | 07/10/2025            |
+| **Landing-page**         | `prod`     | `4703af8`     | **chore:** update production container name           | Actualización del nombre del contenedor para despliegue en producción.             | 07/10/2025            |
+| **Landing-page**         | `prod`     | `f288caf`     | **ci:** add deploy job to pipeline                    | Incorporación de un job de despliegue en el pipeline CI/CD.                        | 07/10/2025            |
+| **Landing-page**         | `prod`     | `6b7a542`     | **fix:** update Docker image tags                     | Actualización de etiquetas de imágenes Docker para versión y `latest`.             | 07/10/2025            |
+| **Landing-page**         | `prod`     | `9a079e8`     | **chore:** add Docker Compose configuration           | Se añadió archivo `docker-compose.yml` para orquestar servicios.                   | 07/10/2025            |
+| **Landing-page**         | `prod`     | `e96572f`     | **ci:** add verify and build pipeline steps           | Configuración de verificación y build automáticos en el pipeline.                  | 07/10/2025            |
+| **Profile Service**      | `profile`  | `b62a41e`     | **feat(app):** setup FastAPI project                  | Se configuró la aplicación base con FastAPI y dependencias principales.            | 08/10/2025            |
+| **Profile Service**      | `profile`  | `ca84b23`     | **feat(domain):** add user and profile entities (DDD) | Se implementó la capa de dominio con entidades `User` y `Profile` bajo patrón DDD. | 08/10/2025            |
+| **Profile Service**      | `profile`  | `2c9db45`     | **feat(api):** add profile CRUD endpoints             | Se añadieron endpoints REST para crear, leer, actualizar y eliminar perfiles.      | 09/10/2025            |
+| **Profile Service**      | `profile`  | `dc1a8e7`     | **test:** add unit tests for profile use cases        | Se implementaron pruebas unitarias para los casos de uso del perfil.               | 09/10/2025            |
+| **Ride Service**         | `ride`     | `03db29b`     | **feat(api):** add POST endpoint for ride creation    | Implementación inicial del endpoint POST `/rides` para crear viajes.               | 08/10/2025            |
+| **Ride Service**         | `ride`     | `7bccd94`     | **feat(api):** extend CRUD endpoints                  | Se añadieron endpoints DELETE y GETALL para operaciones completas de viajes.       | 09/10/2025            |
+| **Ride Service**         | `ride`     | `5754776`     | **chore:** update .gitignore                          | Se actualizó archivo `.gitignore` para exclusión de archivos locales.              | 09/10/2025            |
+| **IAM Service**          | `main`     | `ae2494f`     | **chore:** initialize IAM service                     | Configuración inicial del servicio de autenticación.                               | 08/10/2025            |
+| **IAM Service**          | `main`     | `75835b5`     | **chore:** add FastAPI dependency                     | Adición de dependencia principal de FastAPI.                                       | 08/10/2025            |
+| **IAM Service**          | `main`     | `0e9a584`     | **chore:** setup project structure                    | Creación de estructura base: `app/`, `routes/`, `core/`, etc.                      | 08/10/2025            |
+| **IAM Service**          | `main`     | `49ab2f9`     | **chore:** update dev start steps                     | Ajuste en pasos de ejecución para entorno de desarrollo.                           | 08/10/2025            |
+| **IAM Service**          | `main`     | `73c526b`     | **feat:** release v0.1 of IAM service                 | Versión funcional inicial con endpoints básicos de autenticación.                  | 09/10/2025            |
+| **IAM Service**          | `main`     | `643a047`     | **ci:** add deploy webhook for Dokploy                | Configuración de webhook de despliegue automático a Dokploy.                       | 09/10/2025            |
+
+
+#### 5.2.1.3 Testing Suite Evidence for Sprint Review
+
+##### Ride Service
+
+![ride-service-test](./imgs/ride-service-test.jpg)
+
+##### Profile Service
+
+
+![profile-service-test](./imgs/profile-service-test.jpg)
+
+#### 5.2.1.4 Execution Evidence for Sprint Review
+
+##### Landing Page
+
+##### Web App
+
+#### 5.2.1.5 Microservices Documentation Evidence for Sprint Review
+
+##### Ride Service Documentation
+
+![ride-service-documentation](./imgs/ride-service-documentation.png)
+
+
+##### Iam Service Documentation
+
+![iam-service-documentation](./imgs/iam-service-documentation.png)
+
+##### Profile Service Documentation
+
+![profiles-service-documentation](./imgs/profiles-service-documentation.png)
+
+
+#### 5.2.1.6 Software Deployment Evidence for Sprint Review
+
+##### Landing Page
+
+![landing-page-deploy](./imgs/landing-page-deploy.png)
+
+##### App Web
+
+![web-app-deploy](./imgs/web-app-deploy.png)
+
+#### 5.2.1.7 Team Collaboration Insights during Sprint
+
+![github-insa](./imgs/github-insa.png)
+
+#### 5.2.1.8 Kanban Board
 
 El Kanban Board del Sprint 1 muestra la organización y seguimiento de las tareas del equipo durante la primera iteración del proyecto. Este tablero permite visualizar el flujo de trabajo dividido en columnas que representan los diferentes estados de las tareas: por hacer, en progreso y completadas.
 
@@ -1311,8 +1572,20 @@ El Kanban Board del Sprint 1 muestra la organización y seguimiento de las tarea
 
 ## Anexos
 
-## Links
+### Links
 
 Url de la organización: [https://github.com/ASI0657-2520-faw-6327](https://github.com/ASI0657-2520-faw-6327)
 
 Url del informe: [https://github.com/ASI0657-2520-faw-6327/docs](https://github.com/ASI0657-2520-faw-6327/docs) 
+
+Url del Landing Page: [link](https://nango-dam.homeservergv.com/) 
+
+Url del Web App: [link](https://nango-web-app.netlify.app/) 
+
+#### Microservicios
+
+Url Ride Service: [link](https://ride-service-nango-fas.homeservergv.com/swagger-ui/index.html#/)
+
+Url Profile Service: [link](https://profile-service-nango-fas.homeservergv.com/swagger-ui/index.html#/)
+
+Url Iam Service: [link](https://iam-service-nango-fas.homeservergv.com/swagger-ui/index.html#/) 
