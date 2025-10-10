@@ -1264,6 +1264,38 @@ Para mantener la coherencia y legibilidad del código, el equipo adopta las sigu
   - Se aplica camelCase para variables y funciones, PascalCase para clases, y snake_case para nombres de archivos.
 
 
+
+## 5.3 Microservices Implementation
+### 5.2.1 Sprint 1
+#### 5.2.1.1 Sprint Backlog 1
+
+| User Story ID | User Story Title           | Work-Item ID | Work-Item Title                                   | Description                                                                               | Estimation (Hours) | Assigned To                         | Status (To-do / In-Process / To-Review / Done) |
+| ------------- | -------------------------- | ------------ | ------------------------------------------------- | ----------------------------------------------------------------------------------------- | ------------------ | ----------------------------------- | ---------------------------------------------- |
+| US01          | Registro de nueva cuenta   | SB1-01       | Crear estructura base del proyecto                | Configurar arquitectura DDD y dependencias iniciales (Spring Web, JPA, Security).         | 6                  | Anderson Gamarra                    | Done                                           |
+| US01          | Registro de nueva cuenta   | SB1-02       | Implementar endpoints de registro y autenticación | Desarrollar controladores, servicios y repositorios con JWT y validación de credenciales. | 8                  | Vicente Quijandria                  | Done                                           |
+| US03          | Inicio de sesión           | SB1-03       | Configurar seguridad con Spring Security          | Proteger endpoints y manejar roles de usuario.                                            | 6                  | Anderson Gamarra                    | Done                                           |
+| US05          | Edición de perfil          | SB1-04       | CRUD de perfiles                                  | Implementar endpoints REST para crear, editar y consultar perfiles.                       | 7                  | Pedro Nanfuñay                      | Done                                           |
+| US08          | Verificación universitaria | SB1-05       | Mock API Student Beans                            | Simular validación universitaria mediante API externa (mock).                             | 5                  | Miguel Hallasi                      | Done                                           |
+| US19          | Publicación de viajes      | SB1-06       | Endpoint publicar viajes                          | Crear endpoint para registrar viajes (origen, destino, horario, cupos).                   | 7                  | Samuel Valera                       | Done                                           |
+| US09          | Búsqueda de viajes         | SB1-07       | Endpoint búsqueda de viajes                       | Implementar búsqueda filtrada por fecha, origen y destino.                                | 6                  | Samuel Valera                       | Done                                           |
+| US20          | Gestión de solicitudes     | SB1-08       | Endpoint solicitudes de viaje                     | Permitir al conductor aceptar o rechazar solicitudes de pasajeros.                        | 8                  | Samuel Valera                       | In-Process                                     |
+| —             | —                          | SB1-09       | Configurar bases de datos MySQL                   | Crear esquemas `iam_db`, `profile_db`, `ride_db` y entidades con relaciones.              | 5                  | Equipo Backend                      | Done                                           |
+| —             | —                          | SB1-10       | Crear archivo docker-compose.yml                  | Orquestar microservicios y bases de datos en contenedores.                                | 6                  | Anderson Gamarra                    | Done                                           |
+| —             | —                          | SB1-11       | Implementar pruebas unitarias con JUnit y Mockito | Validar casos de uso y lógica de negocio.                                                 | 8                  | Vicente Quijandria / Pedro Nanfuñay | Done                                           |
+| —             | —                          | SB1-12       | Configurar comunicación REST entre servicios      | Conectar IAM, Profile y Ride.                    | 7                  | Anderson Gamarra                    | In-Process                                     |
+| —             | —                          | SB1-13       | Documentar endpoints con Swagger                  | Generar documentación automática de las APIs.                                             | 5                  | Miguel Hallasi                      | To-Review                                      |
+| —             | —                          | SB1-14       | Crear imágenes Docker individuales                | Crear `Dockerfile` para cada microservicio.                                               | 6                  | Samuel Valera                       | Done                                           |
+| —             | —                          | SB1-15       | Pruebas de integración con Docker Compose         | Validar persistencia y comunicación entre servicios en entorno local.                     | 6                  | Equipo Backend                      | Done                                           |
+| —             | —                          | SB1-16       | Actualizar README técnico                         | Documentar resultados, endpoints y configuración del sprint.                              | 4                  | Vicente Quijandria                  | Done                                           |
+
+## 5.2.1.8 Kanban Board
+
+El Kanban Board del Sprint 1 muestra la organización y seguimiento de las tareas del equipo durante la primera iteración del proyecto. Este tablero permite visualizar el flujo de trabajo dividido en columnas que representan los diferentes estados de las tareas: por hacer, en progreso y completadas.
+
+![Kanban Board](./imgs/kanbanboardsprint1.png)
+
+**Link de Trello:** https://trello.com/invite/b/68d9fec4a886565a738c5578/ATTI5fe0d222c5142993d845a183ced85bc8475F9959/sprint-1
+
 # Conclusiones
 
 ## Conclusiones y Recomendaciones
