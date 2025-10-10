@@ -797,7 +797,7 @@ El User Task Matrix identifica las tareas que cada arquetipo debe realizar para 
 
 ### 4.1.3 Context Diagram
 
-![Context Diagram](/imgs/context-diagram.png)
+![Context Diagram](/imgs/context-diagram.jpg)
 
 ### 4.1.5 Relational/Non Relational Database Diagram 
 
