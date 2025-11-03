@@ -1580,6 +1580,10 @@ El Kanban Board del Sprint 1 muestra la organización y seguimiento de las tarea
 | `report-service` | `main` | `f0b5935` | `feat: implemented ReportServiceTest` | `vquijandria committed 2 days ago` | `31/10/2025` |
 | `report-service` | `main` | `bbfc126` | `feat: added mockito dependencies to pom` | `vquijandria committed 2 days ago` | `31/10/2025` |
 | `report-service` | `main` | `0a2bc00` | `.` | `vquijandria committed 2 days ago` | `31/10/2025` |
+| `web-app` | `main` | `ba11a68` | `chore: add dockerfile for deploy` | `AndersonGamarraJW committed 5 minutes ago` | `02/11/2025` |
+| `web-app` | `main` | `3b5d168` | `feat: add iam and rides` | `mhallasi authored and AndersonGamarraV committed 3 hours ago` | `02/11/2025` |
+| `web-app` | `main` | `fb1573f` | `rebuild` | `mhallasi authored and AndersonGamarraV committed 3 hours ago` | `02/11/2025` |
+| `web-app` | `main` | `78a855c` | `feat: add web-app` | `SamuelValeraGarces authored 3 weeks ago` | `09/10/2025` |
 
 #### 5.2.2.3 Testing Suite Evidence for Sprint Review
 #### 5.2.2.4 Execution Evidence for Sprint Review
