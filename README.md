@@ -1599,7 +1599,7 @@ El Kanban Board del Sprint 1 muestra la organización y seguimiento de las tarea
 
 #### 5.2.2.4 Execution Evidence for Sprint Review
 
-![test-message-service](./imgs/test/message-service.jpg)
+![test-message-service](./imgs/test/frontend-deploy.png)
 
 #### 5.2.2.5 Microservices Documentation Evidence for Sprint Review
 
