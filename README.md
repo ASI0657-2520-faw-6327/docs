@@ -1557,6 +1557,33 @@ El Kanban Board del Sprint 1 muestra la organización y seguimiento de las tarea
 
 **Link de Trello:** https://trello.com/invite/b/68d9fec4a886565a738c5578/ATTI5fe0d222c5142993d845a183ced85bc8475F9959/sprint-1
 
+
+#### 5.2.2.7 Team Collaboration Insights during Sprint
+
+## <p align="center">Ride Service</p>
+
+<div align="center">
+  <img src="./imgs/ride-service-sprint-2-insights.png" alt="Ride Service Insights Sprint 2" />
+</div>
+
+## <p align="center">Report Service</p>
+
+<div align="center">
+  <img src="./imgs/report-service-sprint2-insights.png" alt="Report Service Insights Sprint 2" />
+</div>
+
+## <p align="center">Message Service</p>
+
+<div align="center">
+  <img src="./imgs/message-service-sprint2-insights.png" alt="Message Service Insights Sprint 2" />
+</div>
+
+## <p align="center">Iam Service</p>
+
+<div align="center">
+  <img src="./imgs/iam-service-sprint2-insights.png" alt="Iam Service Insights Sprint 2" />
+</div>
+
 # Conclusiones
 
 ## Conclusiones y Recomendaciones
