@@ -1591,7 +1591,7 @@ El Kanban Board del Sprint 1 muestra la organización y seguimiento de las tarea
 #### 5.2.2.6 Software Deployment Evidence for Sprint Review
 #### 5.2.2.7 Team Collaboration Insights during Sprint
 #### 5.2.2.8 Kanban Board
-
+![github-insa](./imgs/sp2kanban.png)
 
 
 # Conclusiones
