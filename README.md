@@ -1572,6 +1572,15 @@ El Kanban Board del Sprint 1 muestra la organización y seguimiento de las tarea
 | --- | --- | SB2-10 | Dockerizar los nuevos servicios | Crear Dockerfiles para los servicios de reportes y mensajería. | 6 | Anderson Gamarra | To-do |
 | --- | --- | SB2-11 | Actualizar configuración de despliegue | Actualizar el `docker-compose.yml` para incluir los nuevos servicios y configurar el despliegue continuo. | 6 | Anderson Gamarra | To-do |
 #### 5.2.2.2 Development Evidence for Sprint Review
+
+| **Repository / Service** | **Branch** | **Commit ID** | **Type / Message** | **Commit Body (Descripción resumida)** | **Date (dd/mm/yyyy)** |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `message-service` | `main` | `544f1c7` | `feat: add message service` | `PedroJ18 committed yesterday` | `01/11/2025` |
+| `report-service` | `main` | `c014e39` | `feat: implemented ReportTest` | `vquijandria committed 2 days ago` | `31/10/2025` |
+| `report-service` | `main` | `f0b5935` | `feat: implemented ReportServiceTest` | `vquijandria committed 2 days ago` | `31/10/2025` |
+| `report-service` | `main` | `bbfc126` | `feat: added mockito dependencies to pom` | `vquijandria committed 2 days ago` | `31/10/2025` |
+| `report-service` | `main` | `0a2bc00` | `.` | `vquijandria committed 2 days ago` | `31/10/2025` |
+
 #### 5.2.2.3 Testing Suite Evidence for Sprint Review
 #### 5.2.2.4 Execution Evidence for Sprint Review
 #### 5.2.2.5 Microservices Documentation Evidence for Sprint Review
