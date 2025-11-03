@@ -1600,6 +1600,33 @@ El Kanban Board del Sprint 1 muestra la organización y seguimiento de las tarea
 ![messages-service-documentation](./imgs/MessageServiceDocumentation.png)
 
 #### 5.2.2.6 Software Deployment Evidence for Sprint Review
+
+##### App Web
+
+###### Login
+
+![login-web-app](./imgs/LoginFront.jpg)
+
+###### Register
+
+![register-web-app](./imgs/RegisterFront.jpg)
+
+###### Search Trips
+
+![trip-web-app](./imgs/TripsFront.jpg)
+
+###### Found Trips
+
+![trips-found-web-app](./imgs/FoundTripsFront.jpg)
+
+###### Trip Details
+
+![trip-details-web-app](./imgs/TripDetailsFront.jpg)
+
+###### Driver Trip
+
+![driver-trip-web-app](./imgs/DriverTripFront.jpg)
+
 #### 5.2.2.7 Team Collaboration Insights during Sprint
 #### 5.2.2.8 Kanban Board
 ![github-insa](./imgs/sp2kanban.png)
