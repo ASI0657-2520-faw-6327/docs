@@ -1559,6 +1559,20 @@ El Kanban Board del Sprint 1 muestra la organización y seguimiento de las tarea
 
 ### 5.2.2 Sprint 2
 #### 5.2.2.1 Sprint Backlog 2
+
+| User Story ID | User Story Title | Work-Item ID | Work-Item Title | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+|---|---|---|---|---|---|---|---|
+| US17 | Reporte de problemas o incidentes | SB2-01 | Implementar servicio de reportes | Crear endpoints para que los usuarios puedan reportar problemas o incidentes durante un viaje. | 8 | Vicente Quijandria | Done |
+| --- | --- | SB2-02 | Pruebas unitarias para servicio de reportes | Implementar pruebas unitarias con JUnit y Mockito para el servicio de reportes. | 6 | Vicente Quijandria | Done |
+| US16 | Sistema de mensajería | SB2-03 | Implementar servicio de mensajería | Desarrollar un sistema de mensajería para la comunicación entre conductor y pasajeros. | 8 | Pedro Nanfuñay | Done |
+| --- | --- | SB2-04 | Pruebas unitarias para servicio de mensajería | Implementar pruebas unitarias con JUnit y Mockito para el servicio de mensajería. | 6 | Pedro Nanfuñay | Done |
+| US01, US03, US05 | Gestión de Cuentas y Perfiles | SB2-05 | Desarrollar UI para autenticación (Iam) | Crear los componentes de frontend para registro, login y gestión de perfil. | 10 | Miguel Hallasi | Done |
+| US09, US10, US19 | Gestión de Viajes | SB2-06 | Desarrollar UI para gestión de viajes (rides) | Crear los componentes de frontend para buscar, ver y publicar viajes. | 12 | Miguel Hallasi | Done |
+| --- | --- | SB2-07 | Pruebas unitarias para frontend | Implementar pruebas unitarias con Vitest para los componentes de Iam y Rides. | 8 | Miguel Hallasi | Done |
+| TS01, TS02 | Endpoints de Autenticación | SB2-08 | Modificar servicio de autenticación (Iam) | Realizar ajustes y mejoras en el microservicio de autenticación. | 8 | Samuel Valera | In-Process |
+| TS03, TS04 | Endpoints de Gestión de Viajes | SB2-09 | Modificar servicio de viajes (ride) | Realizar ajustes y mejoras en el microservicio de gestión de viajes. | 8 | Samuel Valera | In-Process |
+| --- | --- | SB2-10 | Dockerizar los nuevos servicios | Crear Dockerfiles para los servicios de reportes y mensajería. | 6 | Anderson Gamarra | To-do |
+| --- | --- | SB2-11 | Actualizar configuración de despliegue | Actualizar el `docker-compose.yml` para incluir los nuevos servicios y configurar el despliegue continuo. | 6 | Anderson Gamarra | To-do |
 #### 5.2.2.2 Development Evidence for Sprint Review
 #### 5.2.2.3 Testing Suite Evidence for Sprint Review
 #### 5.2.2.4 Execution Evidence for Sprint Review
@@ -1599,4 +1613,4 @@ Url Ride Service: [link](https://ride-service-nango-fas.homeservergv.com/swagger
 
 Url Profile Service: [link](https://profile-service-nango-fas.homeservergv.com/swagger-ui/index.html#/)
 
-Url Iam Service: [link](https://iam-service-nango-fas.homeservergv.com/swagger-ui/index.html#/) 
+Url Iam Service: [link](https://iam-service-nango-fas.homeservergv.com/swagger-ui/index.html#/)
