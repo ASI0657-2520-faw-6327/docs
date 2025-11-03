@@ -1603,6 +1603,32 @@ El Kanban Board del Sprint 1 muestra la organización y seguimiento de las tarea
 
 #### 5.2.2.6 Software Deployment Evidence for Sprint Review
 
+#### 5.2.2.7 Team Collaboration Insights during Sprint
+
+## <p align="center">Ride Service</p>
+
+<div align="center">
+  <img src="./imgs/ride-service-sprint-2-insights.png" alt="Ride Service Insights Sprint 2" />
+</div>
+
+## <p align="center">Report Service</p>
+
+<div align="center">
+  <img src="./imgs/report-service-sprint2-insights.png" alt="Report Service Insights Sprint 2" />
+</div>
+
+## <p align="center">Message Service</p>
+
+<div align="center">
+  <img src="./imgs/message-service-sprint2-insights.png" alt="Message Service Insights Sprint 2" />
+</div>
+
+## <p align="center">Iam Service</p>
+
+<div align="center">
+  <img src="./imgs/iam-service-sprint2-insights.png" alt="Iam Service Insights Sprint 2" />
+</div>
+
 ##### App Web
 
 ###### Login
