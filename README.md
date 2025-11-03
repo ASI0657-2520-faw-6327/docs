@@ -1557,6 +1557,18 @@ El Kanban Board del Sprint 1 muestra la organización y seguimiento de las tarea
 
 **Link de Trello:** https://trello.com/invite/b/68d9fec4a886565a738c5578/ATTI5fe0d222c5142993d845a183ced85bc8475F9959/sprint-1
 
+### 5.2.2 Sprint 2
+#### 5.2.2.1 Sprint Backlog 2
+#### 5.2.2.2 Development Evidence for Sprint Review
+#### 5.2.2.3 Testing Suite Evidence for Sprint Review
+#### 5.2.2.4 Execution Evidence for Sprint Review
+#### 5.2.2.5 Microservices Documentation Evidence for Sprint Review
+#### 5.2.2.6 Software Deployment Evidence for Sprint Review
+#### 5.2.2.7 Team Collaboration Insights during Sprint
+#### 5.2.2.8 Kanban Board
+
+
+
 # Conclusiones
 
 ## Conclusiones y Recomendaciones
@@ -1566,7 +1578,6 @@ El Kanban Board del Sprint 1 muestra la organización y seguimiento de las tarea
 - La colaboración efectiva entre los miembros del equipo fue clave para avanzar de manera organizada y cubrir todas las etapas del proyecto. Cada integrante asumió con claridad sus responsabilidades a través de issues en la plataforma Github, lo que permitió una documentación organizada.
 
 - La definición de User Stories y del Product Backlog permitió priorizar las funcionalidades esenciales, asegurando que la solución respete y cumpla con lo que requieren los usuarios y el mercado.
-
 
 ## Referencias Bibliográficas
 
