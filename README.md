@@ -513,8 +513,6 @@ Recoger informacion sobre las necesidades , expectativas y posibles preocupacion
 
 ### 2.2.3. Análisis de entrevistas
 
-## 2.2.3. Análisis de entrevistas
-
 ### Segmento objetivo: estudiante con vehículo
 
 Los estudiantes con auto propio consideraron que una plataforma para compartir su vehículo con otros compañeros sería beneficiosa tanto para **reducir costos de transporte** como para **aprovechar mejor el tiempo** y conocer nuevas personas.  
