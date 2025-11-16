@@ -1675,6 +1675,16 @@ El Kanban Board del Sprint 1 muestra la organización y seguimiento de las tarea
 
 #### 5.2.3.1 Sprint Backlog 3
 
+| User Story ID | User Story Title | Work-Item ID | Work-Item Title | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+|---|---|---|---|---|---|---|---|
+| TS05, TS06 | Endpoints de Reporte | SB3-02 | Modificar servicio de reportes | Realizar ajustes y mejoras en el microservicio de reportes. | 6 | Vicente Quijandria | Done |
+| US020 | Gestión de Cuentas y Perfiles | SB2-05 | Desarrollar UI para configuración de Perfiles | Crear los componentes de frontend para registro, login y gestión de perfil. | 10 | Miguel Hallasi | Done |
+| --- | --- | SB3-04 | Actualizar configuración de despliegue | Actualizar el `docker-compose.yml` para incluir los nuevos servicios y configurar el despliegue continuo. | 6 | Anderson Gamarra | Done |
+| TS03, TS04 | Endpoints de Reportes | SB3-04 | Modificar servicio de viajes (ride) | Realizar ajustes y mejoras en el microservicio de gestión de viajes. | 8 | Samuel Valera | In-Process |
+| US08 | Verificación con correo institucional | SB3-05 | Implementar servicio de verificación | Implementar servicio de verificación mediante correo institucional | 8 | Vicente Quijandria | To-do |
+| US13 | Chat interno con Grupo | SB3-06 | Añadir chat interno durante viaje | Implementar servicio de mensajería grupal durante planificación de viaje | 8 | Pedro Nanfuñay | To-do |
+| US24 | Notificaciones de demanda | SB3-07 | Enviar notificaciones por alta demanda | Implementar servicio de notificaciones por alta demanda de transporte | 6 | Miguel Hallasi | To-do |
+
 #### 5.2.3.2 Development Evidence for Sprint Review
 
 #### 5.2.3.3 Testing Suite Evidence for Sprint Review
