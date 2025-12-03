@@ -1677,6 +1677,17 @@ El Kanban Board del Sprint 1 muestra la organización y seguimiento de las tarea
 
 #### 5.2.3.2 Development Evidence for Sprint Review
 
+| **Repository / Service** | **Branch** | **Commit ID** | **Type / Message** | **Commit Body (Descripción resumida)** | **Date (dd/mm/yyyy)** |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `report-service` | `main` | `4efe4d7` | `refactor: fixed the report model` | `Se modificó el aggregate Report` | `15/11/2025` |
+| `report-service` | `main` | `e36ee0c` | `refactor: fixed the report dtos` | `Se modificaron los dtos de Report` | `15/11/2025` |
+| `report-service` | `main` | `c745bcc` | `refactor: fixed the report service logic` | `Se modificó la lógica del servicio de Report` | `15/11/2025` |
+| `report-service` | `main` | `3560525` | `refactor: fixed the report service test` | `Se modificó los tests de para Report` | `15/11/2025` |
+| `web-app` | `main` | `f53e993` | `feat(profile): add profile feature with pages, components and services` | `Se añadió el bounded context Profile` | `15/11/2025` |
+| `web-app` | `main` | `1c42557` | `refactor(profile): improve layout structure` | `Se mejoró la estructura del layout` | `15/11/2025` |
+| `web-app` | `main` | `a648cbc` | `refactor(profile): simplify layout structure in settings page` | `Se simplificó la estructura del layout en la página de configuración.` | `16/11/2025` |
+| `web-app` | `main` | `031787a` | `Merge branch 'main' into main` | `Se realizó merge a la rama Main` | `16/11/2025` |
+
 #### 5.2.3.3 Testing Suite Evidence for Sprint Review
 
 #### 5.2.3.4 Execution Evidence for Sprint Review
