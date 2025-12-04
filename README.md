@@ -30,6 +30,10 @@
 | ------- | ----- | ----- | --------------------------- |
 | TB1 | 06/09/2025 | TinkuyTech | Redación de los capítulos: <br> Capítulo I: Introducción <br> Capítulo II: Requirements  & Analysis <br> Capítulo III: Requirements Specification |
 | TB2 | 24/09/2025 | TinkuyTech | Redación de los capítulos: <br> Capítulo IV: Product Architecture Design |
+| TP1 | 01/10/2025 | TinkuyTech | Redación de los capítulos: <br> Capítulo V: Sprint 1 |
+| TB3 | 26/10/2025 | TinkuyTech | Redación de los capítulos: <br> Capítulo V: Sprint 2 |
+| TB4 | 10/11/2025 | TinkuyTech | Redación de los capítulos: <br> Capítulo V: Sprint 3 |
+| TF1 | 27/11/2025 | TinkuyTech | Redación de los capítulos: <br> Capítulo V: Sprint 4 & Microservices Deployment |
 
 
 # Student Outcomes
@@ -1711,6 +1715,32 @@ El Kanban Board del Sprint 1 muestra la organización y seguimiento de las tarea
 ![github-insa](./imgs/kanbansprint3.png)
 
 **Link de Trello:** https://trello.com/invite/b/68d9fec4a886565a738c5578/ATTI5fe0d222c5142993d845a183ced85bc8475F9959/sprint-1
+
+
+### 5.2.4 Sprint 4
+
+#### 5.2.4.1 Sprint Backlog 4
+
+#### 5.2.4.2 Development Evidence for Sprint Review
+
+#### 5.2.4.3 Testing Suite Evidence for Sprint Review
+
+#### 5.2.4.4 Execution Evidence for Sprint Review
+
+#### 5.2.4.5 Microservices Documentation Evidence for Sprint Review
+
+#### 5.2.4.6 Software Deployment Evidence for Sprint Review
+
+#### 5.2.4.7 Team Collaboration Insights during Sprint
+
+#### 5.2.4.8 Kanban Board
+
+
+#### 5.3 Microservices Deployment
+
+#### 5.3.1 Cloud Architecture Diagram
+
+#### 5.3.2 Cloud Architecture Deployment
 
 # Conclusiones
 
