@@ -7,22 +7,21 @@
 </div>
 
 <p align="center">Ingeniería de Software</p>
-<p align="center">Fundamentos de Arquitectura de software - 6327</p>
+<p align="center">1ASI0657 Fundamentos de Arquitectura de Software</p>
+<p align="center">202520</p>
 <p align="center"><strong>Docente:</strong> Jorge Luis Delgado Vite</p>
 <p align="center"><strong>Startup:</strong> TinkuyTech</p>
 <p align="center"><strong>Producto:</strong> Ñango</p>
 
 <p align="center"><strong>Team members:</strong></p>
 
-| Nombre                            | Código     |
+| Member                            | Código     |
 | --------------------------------- | ---------- |
 | Gamarra Vega, Anderson Jose       | u202016154 |
 | Nanfuñay Liza, Pedro Jesús        | u202215462 |
 | Quijandria Araneda Vicente        | U201822697 |
 | Hallasi Saravia, Miguel Angel     | U202312391 |
 | Valera Garcés, Samuel Ignacio     | U202111952 |
-
-<p align="center"><strong>Ciclo 2025-02</strong></p>
 
 
 # Registro de versiones del informe
@@ -1739,13 +1738,13 @@ Url del Web App: [https://frontend-nango.homeservergv.com/](https://frontend-nan
 
 #### Microservicios
 
-Url Ride Service: [link](https://ride-service-nango-fas.homeservergv.com/swagger-ui/index.html#/)
+Url Ride Service: [https://ride-service-nango-fas.homeservergv.com/swagger-ui/index.html#/](https://ride-service-nango-fas.homeservergv.com/swagger-ui/index.html#/)
 
-Url Profile Service: [link](https://profile-service-nango-fas.homeservergv.com/swagger-ui/index.html#/)
+Url Profile Service: [https://profile-service-nango-fas.homeservergv.com/swagger-ui/index.html#/](https://profile-service-nango-fas.homeservergv.com/swagger-ui/index.html#/)
 
-Url Iam Service: [link](https://iam-service-nango-fas.homeservergv.com/swagger-ui/index.html#/)
+Url Iam Service: [https://iam-service-nango-fas.homeservergv.com/swagger-ui/index.html#/](https://iam-service-nango-fas.homeservergv.com/swagger-ui/index.html#/)
 
-Url Message Service: [link](https://nango-message-service.homeservergv.com/)
+Url Message Service: [https://nango-message-service.homeservergv.com/](https://nango-message-service.homeservergv.com/)
 
-Url Report Service: [link](https://nango-report-service.homeservergv.com/)
+Url Report Service: [https://nango-report-service.homeservergv.com/](https://nango-report-service.homeservergv.com/)
 
