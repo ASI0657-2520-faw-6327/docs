@@ -1576,6 +1576,7 @@ El Kanban Board del Sprint 1 muestra la organización y seguimiento de las tarea
 | TS03, TS04 | Endpoints de Gestión de Viajes | SB2-09 | Modificar servicio de viajes (ride) | Realizar ajustes y mejoras en el microservicio de gestión de viajes. | 8 | Samuel Valera | In-Process |
 | --- | --- | SB2-10 | Dockerizar los nuevos servicios | Crear Dockerfiles para los servicios de reportes y mensajería. | 6 | Anderson Gamarra | To-do |
 | --- | --- | SB2-11 | Actualizar configuración de despliegue | Actualizar el `docker-compose.yml` para incluir los nuevos servicios y configurar el despliegue continuo. | 6 | Anderson Gamarra | To-do |
+
 #### 5.2.2.2 Development Evidence for Sprint Review
 
 | **Repository / Service** | **Branch** | **Commit ID** | **Type / Message** | **Commit Body (Descripción resumida)** | **Date (dd/mm/yyyy)** |
@@ -1678,38 +1679,71 @@ El Kanban Board del Sprint 1 muestra la organización y seguimiento de las tarea
 
 #### 5.2.3.1 Sprint Backlog 3
 
-| User Story ID | User Story Title | Work-Item ID | Work-Item Title | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+| User Story ID | User Story Title | Work-Item ID | Work-Item Title | Description | Estimation (Hours) | Assigned To | Status |
 |---|---|---|---|---|---|---|---|
-| TS05, TS06 | Endpoints de Reporte | SB3-02 | Modificar servicio de reportes | Realizar ajustes y mejoras en el microservicio de reportes. | 6 | Vicente Quijandria | Done |
-| US020 | Gestión de Cuentas y Perfiles | SB2-05 | Desarrollar UI para configuración de Perfiles | Crear los componentes de frontend para registro, login y gestión de perfil. | 10 | Miguel Hallasi | Done |
-| --- | --- | SB3-04 | Actualizar configuración de despliegue | Actualizar el `docker-compose.yml` para incluir los nuevos servicios y configurar el despliegue continuo. | 6 | Anderson Gamarra | Done |
-| TS03, TS04 | Endpoints de Reportes | SB3-04 | Modificar servicio de viajes (ride) | Realizar ajustes y mejoras en el microservicio de gestión de viajes. | 8 | Samuel Valera | In-Process |
-| US08 | Verificación con correo institucional | SB3-05 | Implementar servicio de verificación | Implementar servicio de verificación mediante correo institucional | 8 | Vicente Quijandria | To-do |
-| US13 | Chat interno con Grupo | SB3-06 | Añadir chat interno durante viaje | Implementar servicio de mensajería grupal durante planificación de viaje | 8 | Pedro Nanfuñay | To-do |
-| US24 | Notificaciones de demanda | SB3-07 | Enviar notificaciones por alta demanda | Implementar servicio de notificaciones por alta demanda de transporte | 6 | Miguel Hallasi | To-do |
+| TS05 | Dockerización de servicios | SB3-01 | Dockerizar Ride Service | Crear Dockerfile y configurar entorno para el Ride Service. | 6 | Samuel Valera | Done |
+| TS05 | Dockerización de servicios | SB3-02 | Dockerizar Profile Service | Crear Dockerfile y configurar entorno para el Profile Service. | 6 | Samuel Valera | Done |
+| TS05 | Dockerización de servicios | SB3-03 | Dockerizar IAM Service | Crear Dockerfile y configurar entorno para el Iam Service. | 6 | Samuel Valera | Done |
+| TS05 | Dockerización de servicios | SB3-04 | Dockerizar Message Service | Crear Dockerfile y configurar entorno para el Message Service. | 6 | Pedro Nanfuñay | Done |
+| TS05 | Dockerización de servicios | SB3-05 | Dockerizar Report Service | Crear Dockerfile y configurar entorno para el Report Service. | 6 | Vicente Quijandria | Done |
+| TS06 | Actualización del entorno de despliegue | SB3-06 | Actualizar docker-compose con todos los servicios | Integrar todos los servicios dockerizados en el `docker-compose.yml`, definir redes, volúmenes y dependencias. | 8 | Anderson Gamarra | Done |
+| TS07 | Validación de contenedores | SB3-07 | Probar ejecución conjunta de servicios | Verificar que todos los servicios funcionen correctamente de forma orquestada con Docker. | 6 | Miguel Hallasi | Done |
+
 
 #### 5.2.3.2 Development Evidence for Sprint Review
 
-| **Repository / Service** | **Branch** | **Commit ID** | **Type / Message** | **Commit Body (Descripción resumida)** | **Date (dd/mm/yyyy)** |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| `report-service` | `main` | `4efe4d7` | `refactor: fixed the report model` | `Se modificó el aggregate Report` | `15/11/2025` |
-| `report-service` | `main` | `e36ee0c` | `refactor: fixed the report dtos` | `Se modificaron los dtos de Report` | `15/11/2025` |
-| `report-service` | `main` | `c745bcc` | `refactor: fixed the report service logic` | `Se modificó la lógica del servicio de Report` | `15/11/2025` |
-| `report-service` | `main` | `3560525` | `refactor: fixed the report service test` | `Se modificó los tests de para Report` | `15/11/2025` |
-| `web-app` | `main` | `f53e993` | `feat(profile): add profile feature with pages, components and services` | `Se añadió el bounded context Profile` | `15/11/2025` |
-| `web-app` | `main` | `1c42557` | `refactor(profile): improve layout structure` | `Se mejoró la estructura del layout` | `15/11/2025` |
-| `web-app` | `main` | `a648cbc` | `refactor(profile): simplify layout structure in settings page` | `Se simplificó la estructura del layout en la página de configuración.` | `16/11/2025` |
-| `web-app` | `main` | `031787a` | `Merge branch 'main' into main` | `Se realizó merge a la rama Main` | `16/11/2025` |
+| **Date (dd/mm/yyyy)** | **Commit Message** | **Commit Body (Descripción resumida)** | **Type** | **Commit ID** | **Branch** | **Repository / Service** |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `14/11/2025` | `chore: add dockerfile for deploy` | `AndersonGamarraJW committed 5 minutes ago` | `chore` | `ba11a68` | `main` | `web-app` |
+| `14/11/2025` | `feat: add iam and rides` | `mhallasi authored and AndersonGamarraV committed 3 hours ago` | `feat` | `3b5d168` | `main` | `web-app` |
+| `14/11/2025` | `rebuild` | `mhallasi authored and AndersonGamarraV committed 3 hours ago` | `other` | `fb1573f` | `main` | `web-app` |
+| `12/11/2025` | `feat: add message service` | `PedroJ18 committed yesterday` | `feat` | `544f1c7` | `main` | `message-service` |
+| `10/11/2025` | `feat: implemented ReportTest` | `vquijandria committed recently` | `feat` | `c014e39` | `main` | `report-service` |
+| `10/11/2025` | `feat: implemented ReportServiceTest` | `vquijandria committed recently` | `feat` | `f0b5935` | `main` | `report-service` |
+| `10/11/2025` | `feat: added mockito dependencies to pom` | `vquijandria committed recently` | `feat` | `bbfc126` | `main` | `report-service` |
+| `10/11/2025` | `.` | `vquijandria committed recently` | `other` | `0a2bc00` | `main` | `report-service` |
+| `01/11/2025` | `feat: add web-app` | `SamuelValeraGarces authored weeks ago` | `feat` | `78a855c` | `main` | `web-app` |
+
 
 #### 5.2.3.3 Testing Suite Evidence for Sprint Review
 
+**Message Service**
+
+![test-message-service](./imgs/test/message-service.jpg)
+
+**Report Service**
+
+![test-message-service](./imgs/test/report-service.jpg)
+
 #### 5.2.3.4 Execution Evidence for Sprint Review
+
+![test-message-service](./imgs/test/frontend-deploy.png)
+
+![](./imgs/landing-page-deploy.png)
 
 #### 5.2.3.5 Microservices Documentation Evidence for Sprint Review
 
+**Profile Service**
+
+![](./imgs/profile-service-docs.png)
+
+**Iam Service**
+
+![](./imgs/iam-service-docs.png)
+
+**Profile Service**
+
+![](./imgs/profile-service-docs.png)
+
 #### 5.2.3.6 Software Deployment Evidence for Sprint Review
 
+![](./imgs/dokploy-evidence.png)
+
 #### 5.2.3.7 Team Collaboration Insights during Sprint
+
+![](./imgs/report-service-insi.png)
+
+![](./imgs/docs-insi.png)
 
 #### 5.2.3.8 Kanban Board
 ![github-insa](./imgs/kanbansprint3.png)
