@@ -1849,6 +1849,41 @@ El Kanban Board del Sprint 1 muestra la organización y seguimiento de las tarea
 
 #### 5.3.1 Cloud Architecture Diagram
 
+La arquitectura en la nube de ÑanGo se implementa siguiendo un enfoque **basado en contenedores**, **microservicios** y **automatización CI/CD**, utilizando un servidor cloud gestionado a través de **Docker** y **Dokploy**, con despliegues realizados mediante **GitHub Actions**.
+
+En el diagrama de arquitectura cloud (Figura X) se identifican los siguientes componentes principales:
+
+- **Capa de Cliente**
+  - **Web App ÑanGo**: plataforma web utilizada por estudiantes conductores y pasajeros.
+  - **Landing Page**: sitio informativo principal accesible públicamente.
+
+- **Capa de Acceso y Seguridad**
+  - **Reverse Proxy / Ingress (Nginx o Traefik)**  
+    Encargado de enrutar el tráfico externo hacia los contenedores internos, manejar HTTPS y exponer dominios públicos.
+  - **API Gateway Lógico**  
+    Punto unificado para exponer los endpoints de los microservicios, aplicando políticas de seguridad, manejo de errores y control básico de acceso.
+
+- **Capa de Microservicios Backend (FastAPI + Docker)**
+  Cada servicio está aislado en un contenedor independiente dentro de la red privada orquestada por Docker:
+  - **IAM Service**: autenticación, autorización, registro y gestión de cuentas.
+  - **Profile Service**: perfiles, información de conductor y pasajero.
+  - **Ride Service**: publicación de viajes, búsqueda, solicitudes y gestión del ciclo de viaje.
+  - **Message Service**: chat interno para comunicación entre conductor y pasajero.
+  - **Report Service**: creación y consulta de reportes e incidentes.
+
+- **Capa de Datos**
+  - **Base de Datos MySQL (contenedorizada)**  
+    Gestiona los datos de usuarios, perfiles, viajes, mensajes y reportes.  
+    Utiliza volúmenes persistentes para asegurar durabilidad.
+
+- **Capa de Gestión, CI/CD y Observabilidad**
+  - **Dokploy + Docker Compose**  
+    Define la infraestructura, redes, puertos, dependencias y ejecución de todos los servicios.
+  - **GitHub Actions**  
+    Automatiza build, test y despliegue para frontend y microservicios.
+  - **Logging básico**  
+    Logs recolectados por Docker/Dokploy para diagnóstico y monitoreo general del sistema.
+
 ![container-diagram](./imgs/c4/container-diagram.png)
 
 
