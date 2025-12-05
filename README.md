@@ -1755,6 +1755,30 @@ El Kanban Board del Sprint 1 muestra la organización y seguimiento de las tarea
 
 #### 5.2.4.1 Sprint Backlog 4
 
+| User Story ID | User Story Title | Work-Item ID | Work-Item Title | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+|---|---|---|---|---|---|---|---|
+| TS20 | Migración tecnológica | SB4-01 | Migrar microservicios de Java a Python | Reescribir todos los microservicios del backend utilizando Python (FastAPI), manteniendo la misma lógica de negocio. | 16 | Anderson Gamarra | Done |
+| --- | --- | SB4-02 | Ajustes post-migración | Corrección de endpoints, adaptación de modelos y manejo de errores tras la migración. | 6 | Anderson Gamarra | Done |
+| TS21 | Redeploy | SB4-03 | Redeploy de microservicios migrados | Actualizar contenedores, pipelines y despliegues para servicios Python. | 8 | Anderson Gamarra | Done |
+| US30 | Integración Backend–Frontend | SB4-04 | Conectar el frontend con servicios Python | Actualizar llamadas API, rutas, esquemas y validación para que el front funcione con el backend migrado. | 10 | Samuel Valera | Done |
+| US31 | Ajustes de interfaz | SB4-05 | Modificar frontend por cambios en backend | Ajuste de componentes, manejo de estados, validaciones y vistas para compatibilidad con backend Python. | 12 | Miguel Hallasi | Done |
+| US32 | Finalización del aplicativo web | SB4-06 | Finalizar el desarrollo del aplicativo web | Mejoras finales, optimización, organización del proyecto y corrección de bugs. | 14 | Samuel Valera | In-Process |
+| TS22 | Infraestructura | SB4-07 | Actualizar Dockerfiles y docker-compose | Actualizar imágenes Docker y configuración de despliegue para los servicios Python. | 6 | Pedro Nanfuñay | To-Review |
+| TS23 | CI/CD | SB4-08 | Actualizar pipeline de despliegue continuo | Ajustar CI/CD para soportar servicios Python y ejecutar pruebas. | 6 | Vicente Quijandria | To-do |
+
+#### 5.2.4.2 Development Evidence for Sprint Review
+
+| **Repository / Service** | **Branch** | **Commit ID** | **Type / Message** | **Commit Body (Descripción resumida)** | **Date (dd/mm/yyyy)** |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `auth-service-python` | `main` | `8ac91fe` | `feat: migrate auth service to python` | Migración completa del servicio de autenticación a Python (FastAPI). | `1/12/2025` |
+| `ride-service-python` | `main` | `42bb1dd` | `feat: migrate ride service` | Reescritura del servicio de viajes con rutas equivalentes. | `1/12/2025` |
+| `report-service-python` | `main` | `c912ef3` | `feat: migrate report service` | Adaptación del servicio de reportes y DTOs. | `1/12/2025` |
+| `infra-deploy` | `main` | `d11aa29` | `chore: redeploy python backend` | Redeploy completo de los servicios migrados. | `1/12/2025` |
+| `web-app` | `main` | `7fb1c02` | `feat: update api connections` | Conexión del frontend con los nuevos endpoints Python. | `2/12/2025` |
+| `web-app` | `main` | `bb1ec44` | `refactor: update components for python backend` | Ajustes visuales y funcionales tras la migración. | `2/12/2025` |
+| `infra-deploy` | `main` | `9de44a1` | `chore: update docker and compose for python` | Nuevos Dockerfiles y ajustes del docker-compose. | `3/12/2025` |
+
+
 #### 5.2.4.2 Development Evidence for Sprint Review
 
 #### 5.2.4.3 Testing Suite Evidence for Sprint Review
