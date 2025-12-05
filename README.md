@@ -1793,6 +1793,10 @@ El Kanban Board del Sprint 1 muestra la organización y seguimiento de las tarea
 
 #### 5.2.4.8 Kanban Board
 
+![github-insa](./imgs/KanbanBoardSprint4.png)
+
+**Link de Trello:** https://trello.com/invite/b/68d9fec4a886565a738c5578/ATTI5fe0d222c5142993d845a183ced85bc8475F9959/sprint-1
+
 
 #### 5.3 Microservices Deployment
 
